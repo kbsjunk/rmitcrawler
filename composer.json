@@ -1,0 +1,7 @@
+{
+	"name": "kitbs/rmitcrawler",
+	"description": "RMIT Website Crawler",
+	"require": {
+		"fabpot/goutte": "1.0.*@dev"
+	}
+}
