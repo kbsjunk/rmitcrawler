@@ -1,1144 +1,3032 @@
 Environment	Role	Entity	Function	Permission
-wiltrn	(Discipline Setup)	Attribute	ADD	Y
-wiltrn	(Discipline Setup)	Attribute	DETAIL	Y
-wiltrn	(Discipline Setup)	Attribute	LIST	Y
-wiltrn	(Discipline Setup)	Attribute	LISTALL	Y
-wiltrn	(Discipline Setup)	Attribute	PRINT	Y
-wiltrn	(Discipline Setup)	Attribute	SEARCH	Y
-wiltrn	(Discipline Setup)	EntityAttribute	ADD	Y
-wiltrn	(Discipline Setup)	EntityAttribute	DETAIL	Y
-wiltrn	(Discipline Setup)	EntityAttribute	EDIT	Y
-wiltrn	(Discipline Setup)	EntityAttribute	LIST	Y
-wiltrn	(Discipline Setup)	EntityAttribute	LISTALL	Y
-wiltrn	(Discipline Setup)	EntityAttribute	PRINT	Y
-wiltrn	(Discipline Setup)	EntityAttribute	SEARCH	Y
-wiltrn	(Discipline Setup)	Staff	DETAIL	Y
-wiltrn	(Discipline Setup)	Staff	LIST	Y
-wiltrn	(Discipline Setup)	Staff	LISTALL	Y
-wiltrn	(Discipline Setup)	Staff	PRINT	Y
-wiltrn	(Discipline Setup)	Staff	SEARCH	Y
-wiltrn	(Discipline Setup)	StaffUnit Offering	ADD	Y
-wiltrn	(Discipline Setup)	StaffUnit Offering	DELETE	Y
-wiltrn	(Discipline Setup)	StaffUnit Offering	DETAIL	Y
-wiltrn	(Discipline Setup)	StaffUnit Offering	EDIT	Y
-wiltrn	(Discipline Setup)	StaffUnit Offering	LIST	Y
-wiltrn	(Discipline Setup)	StaffUnit Offering	PRINT	Y
-wiltrn	(Discipline Setup)	StaffUnit Offering	SEARCH	Y
-wiltrn	(Discipline Setup)	Unit	PRINT	Y
-wiltrn	(Discipline Setup)	Unit	SEARCH	Y
-wiltrn	(Discipline Setup)	Unit Offering	PRINT	Y
-wiltrn	(Discipline Setup)	Unit Offering	SEARCH	Y
-wiltrn	(Discipline Setup)	Unit Offering Group	ADD	Y
-wiltrn	(Discipline Setup)	Unit Offering Group	DETAIL	Y
-wiltrn	(Discipline Setup)	Unit Offering Group	EDIT	Y
-wiltrn	(Discipline Setup)	Unit Offering Group	LIST	Y
-wiltrn	(Discipline Setup)	Unit Offering Group	PRINT	Y
-wiltrn	(Discipline Setup)	Unit Offering Group	SEARCH	Y
-wiltrn	(Discipline Setup)	Unit Offering Group Unit Offering	ADD	Y
-wiltrn	(Discipline Setup)	Unit Offering Group Unit Offering	DETAIL	Y
-wiltrn	(Discipline Setup)	Unit Offering Group Unit Offering	EDIT	Y
-wiltrn	(Discipline Setup)	Unit Offering Group Unit Offering	LIST	Y
-wiltrn	(Discipline Setup)	Unit Offering Group Unit Offering	PRINT	Y
-wiltrn	(Discipline Setup)	Unit Offering Group Unit Offering	SEARCH	Y
-wiltrn	+ Agency	Address	ADD	Y
-wiltrn	+ Agency	Address	DELETE	Y
-wiltrn	+ Agency	Address	EDIT	Y
-wiltrn	+ Agency	Agency	ADD	Y
-wiltrn	+ Agency	Agency	DELETE	Y
-wiltrn	+ Agency	Agency	EDIT	Y
-wiltrn	+ Agency	Agency	LISTALL	Y
-wiltrn	+ Agency	Agency Category	ADD	Y
-wiltrn	+ Agency	Agency Category	DELETE	Y
-wiltrn	+ Agency	Agency Category	EDIT	Y
-wiltrn	+ Agency	AgencyAddress	ADD	Y
-wiltrn	+ Agency	AgencyAddress	DELETE	Y
-wiltrn	+ Agency	AgencyAddress	EDIT	Y
-wiltrn	+ Agency	AgencyDiscipline	ADD	Y
-wiltrn	+ Agency	AgencyDiscipline	DETAIL	Y
-wiltrn	+ Agency	AgencyDiscipline	EDIT	Y
-wiltrn	+ Agency	AgencyPersonnel	ADD	Y
-wiltrn	+ Agency	AgencyPersonnel	DELETE	Y
-wiltrn	+ Agency	AgencyPersonnel	EDIT	Y
-wiltrn	+ Agency	Category	ADD	Y
-wiltrn	+ Agency	Category	DELETE	Y
-wiltrn	+ Agency	Category	DETAIL	Y
-wiltrn	+ Agency	Category	EDIT	Y
-wiltrn	+ Agency	Category	LIST	Y
-wiltrn	+ Agency	Category	SEARCH	Y
-wiltrn	+ HWA Reporting	Cost Manager	SEARCH	Y
-wiltrn	+ HWA Reporting	CourseVersion	SEARCH	Y
-wiltrn	+ HWA Reporting	HWA Reports	ADD	Y
-wiltrn	+ HWA Reporting	HWA Reports	DELETE	Y
-wiltrn	+ HWA Reporting	HWA Reports	DETAIL	Y
-wiltrn	+ HWA Reporting	HWA Reports	EDIT	Y
-wiltrn	+ HWA Reporting	HWA Reports	LIST	Y
-wiltrn	+ HWA Reporting	HWA Reports	LISTALL	Y
-wiltrn	+ HWA Reporting	HWA Reports	PRINT	Y
-wiltrn	+ HWA Reporting	HWA Reports	SEARCH	Y
-wiltrn	+ InSight	Campaign	ADD	Y
-wiltrn	+ InSight	Campaign	DELETE	Y
-wiltrn	+ InSight	Campaign	DETAIL	Y
-wiltrn	+ InSight	Campaign	EDIT	Y
-wiltrn	+ InSight	Campaign	LIST	Y
-wiltrn	+ InSight	Campaign	PRINT	Y
-wiltrn	+ InSight	Campaign	SEARCH	Y
-wiltrn	+ InSight	Question	ADD	Y
-wiltrn	+ InSight	Question	DELETE	Y
-wiltrn	+ InSight	Question	DETAIL	Y
-wiltrn	+ InSight	Question	EDIT	Y
-wiltrn	+ InSight	Question	LIST	Y
-wiltrn	+ InSight	Question	LISTALL	Y
-wiltrn	+ InSight	Question	PRINT	Y
-wiltrn	+ InSight	Question	SEARCH	Y
-wiltrn	+ InSight	Survey	ADD	Y
-wiltrn	+ InSight	Survey	DELETE	Y
-wiltrn	+ InSight	Survey	DETAIL	Y
-wiltrn	+ InSight	Survey	EDIT	Y
-wiltrn	+ InSight	Survey	LIST	Y
-wiltrn	+ InSight	Survey	PRINT	Y
-wiltrn	+ InSight	Survey	SEARCH	Y
-wiltrn	+ Placement	Placement	EDIT	Y
-wiltrn	+ Query Tool	Query	ADD	Y
-wiltrn	+ Rules and Rulesets	Rule	ADD	Y
-wiltrn	+ Rules and Rulesets	Rule	EDIT	Y
-wiltrn	+ Rules and Rulesets	Ruleset	ADD	Y
-wiltrn	+ Rules and Rulesets	Ruleset	EDIT	Y
-wiltrn	+ Student Bulk Operations	Student	EDIT	Y
-wiltrn	+ Student Bulk Operations	Student Bulk Update	ADD	Y
-wiltrn	+ Student Bulk Operations	Student Bulk Update	DELETE	Y
-wiltrn	+ Student Bulk Operations	Student Bulk Update	DETAIL	Y
-wiltrn	+ Student Bulk Operations	Student Bulk Update	EDIT	Y
-wiltrn	+ Student Bulk Operations	Student Bulk Update	LIST	Y
-wiltrn	+ Student Bulk Operations	Student Bulk Update	LISTALL	Y
-wiltrn	+ Student Bulk Operations	Student Bulk Update	PRINT	Y
-wiltrn	+ Student Bulk Operations	Student Bulk Update	SEARCH	Y
-wiltrn	+ Student Bulk Operations	StudentUnit Offering	ADD	Y
-wiltrn	+ Student Bulk Operations	StudentUnit Offering	EDIT	Y
-wiltrn	Operational Support	AppSetting	ADD	Y
-wiltrn	Operational Support	AppSetting	DELETE	Y
-wiltrn	Operational Support	AppSetting	DETAIL	Y
-wiltrn	Operational Support	AppSetting	EDIT	Y
-wiltrn	Operational Support	AppSetting	LIST	Y
-wiltrn	Operational Support	AppSetting	LISTALL	Y
-wiltrn	Operational Support	AppSetting	PRINT	Y
-wiltrn	Operational Support	AppSetting	SEARCH	Y
-wiltrn	Operational Support	AuditLog	ADD	Y
-wiltrn	Operational Support	AuditLog	DELETE	Y
-wiltrn	Operational Support	AuditLog	DETAIL	Y
-wiltrn	Operational Support	AuditLog	EDIT	Y
-wiltrn	Operational Support	AuditLog	LIST	Y
-wiltrn	Operational Support	AuditLog	LISTALL	Y
-wiltrn	Operational Support	AuditLog	PRINT	Y
-wiltrn	Operational Support	AuditLog	SEARCH	Y
-wiltrn	Operational Support	Configuration	ADD	Y
-wiltrn	Operational Support	Configuration	DELETE	Y
-wiltrn	Operational Support	Configuration	DETAIL	Y
-wiltrn	Operational Support	Configuration	EDIT	Y
-wiltrn	Operational Support	Configuration	LIST	Y
-wiltrn	Operational Support	Configuration	LISTALL	Y
-wiltrn	Operational Support	Configuration	PRINT	Y
-wiltrn	Operational Support	Configuration	SEARCH	Y
-wiltrn	Operational Support	Detail Audit	ADD	Y
-wiltrn	Operational Support	Detail Audit	DELETE	Y
-wiltrn	Operational Support	Detail Audit	DETAIL	Y
-wiltrn	Operational Support	Detail Audit	EDIT	Y
-wiltrn	Operational Support	Detail Audit	LIST	Y
-wiltrn	Operational Support	Detail Audit	LISTALL	Y
-wiltrn	Operational Support	Detail Audit	PRINT	Y
-wiltrn	Operational Support	Detail Audit	SEARCH	Y
-wiltrn	Operational Support	Foreign Domestic Status	ADD	Y
-wiltrn	Operational Support	Foreign Domestic Status	DELETE	Y
-wiltrn	Operational Support	Foreign Domestic Status	DETAIL	Y
-wiltrn	Operational Support	Foreign Domestic Status	EDIT	Y
-wiltrn	Operational Support	Foreign Domestic Status	LIST	Y
-wiltrn	Operational Support	Foreign Domestic Status	LISTALL	Y
-wiltrn	Operational Support	Foreign Domestic Status	PRINT	Y
-wiltrn	Operational Support	Foreign Domestic Status	SEARCH	Y
-wiltrn	Operational Support	Job Scheduling	ADD	Y
-wiltrn	Operational Support	Job Scheduling	DELETE	Y
-wiltrn	Operational Support	Job Scheduling	DETAIL	Y
-wiltrn	Operational Support	Job Scheduling	EDIT	Y
-wiltrn	Operational Support	Job Scheduling	LIST	Y
-wiltrn	Operational Support	Job Scheduling	LISTALL	Y
-wiltrn	Operational Support	Job Scheduling	PRINT	Y
-wiltrn	Operational Support	Job Scheduling	SEARCH	Y
-wiltrn	Operational Support	Licence	ADD	Y
-wiltrn	Operational Support	Licence	DELETE	Y
-wiltrn	Operational Support	Licence	DETAIL	Y
-wiltrn	Operational Support	Licence	EDIT	Y
-wiltrn	Operational Support	Licence	LIST	Y
-wiltrn	Operational Support	Licence	LISTALL	Y
-wiltrn	Operational Support	Licence	PRINT	Y
-wiltrn	Operational Support	Licence	SEARCH	Y
-wiltrn	Operational Support	SIS Ownership	ADD	Y
-wiltrn	Operational Support	SIS Ownership	DELETE	Y
-wiltrn	Operational Support	SIS Ownership	DETAIL	Y
-wiltrn	Operational Support	SIS Ownership	EDIT	Y
-wiltrn	Operational Support	SIS Ownership	LIST	Y
-wiltrn	Operational Support	SIS Ownership	LISTALL	Y
-wiltrn	Operational Support	SIS Ownership	PRINT	Y
-wiltrn	Operational Support	SIS Ownership	SEARCH	Y
-wiltrn	Operational Support	System Import Log	ADD	Y
-wiltrn	Operational Support	System Import Log	DELETE	Y
-wiltrn	Operational Support	System Import Log	DETAIL	Y
-wiltrn	Operational Support	System Import Log	EDIT	Y
-wiltrn	Operational Support	System Import Log	LIST	Y
-wiltrn	Operational Support	System Import Log	LISTALL	Y
-wiltrn	Operational Support	System Import Log	PRINT	Y
-wiltrn	Operational Support	System Import Log	SEARCH	Y
-wiltrn	Operational Support	System Setting	ADD	Y
-wiltrn	Operational Support	System Setting	DELETE	Y
-wiltrn	Operational Support	System Setting	DETAIL	Y
-wiltrn	Operational Support	System Setting	EDIT	Y
-wiltrn	Operational Support	System Setting	LIST	Y
-wiltrn	Operational Support	System Setting	LISTALL	Y
-wiltrn	Operational Support	System Setting	PRINT	Y
-wiltrn	Operational Support	System Setting	SEARCH	Y
-wiltrn	Student	Address	DETAIL	Y
-wiltrn	Student	Address	LIST	Y
-wiltrn	Student	Address	PRINT	Y
-wiltrn	Student	Address	SEARCH	Y
-wiltrn	Student	AddressType	DETAIL	Y
-wiltrn	Student	AddressType	LIST	Y
-wiltrn	Student	AddressType	PRINT	Y
-wiltrn	Student	AddressType	SEARCH	Y
-wiltrn	Student	Agency	DETAIL	Y
-wiltrn	Student	AgencyAddress	DETAIL	Y
-wiltrn	Student	AgencyAddress	LIST	Y
-wiltrn	Student	AgencyAddress	PRINT	Y
-wiltrn	Student	AgencyAddress	SEARCH	Y
-wiltrn	Student	AgencyLevel	DETAIL	Y
-wiltrn	Student	AgencyType	DETAIL	Y
-wiltrn	Student	Document	ADD	Y
-wiltrn	Student	Document	DETAIL	Y
-wiltrn	Student	Document	LIST	Y
-wiltrn	Student	Document	PRINT	Y
-wiltrn	Student	Document	SEARCH	Y
-wiltrn	Student	Enrolment	DETAIL	Y
-wiltrn	Student	Enrolment	LIST	Y
-wiltrn	Student	Enrolment	PRINT	Y
-wiltrn	Student	Enrolment	SEARCH	Y
-wiltrn	Student	Opportunities	LIST	Y
-wiltrn	Student	Opportunity Application	ADD	Y
-wiltrn	Student	Opportunity Application	DETAIL	Y
-wiltrn	Student	Opportunity Application	EDIT	Y
-wiltrn	Student	Opportunity Application	LIST	Y
-wiltrn	Student	Opportunity Application	SEARCH	Y
-wiltrn	Student	Placement	DETAIL	Y
-wiltrn	Student	Placement	LIST	Y
-wiltrn	Student	Placement	PRINT	Y
-wiltrn	Student	Placement	SEARCH	Y
-wiltrn	Student	Placement Docs	ADD	Y
-wiltrn	Student	Placement Docs	DETAIL	Y
-wiltrn	Student	Placement Docs	LIST	Y
-wiltrn	Student	Placement Docs	PRINT	Y
-wiltrn	Student	PlacementSupervisor	DETAIL	Y
-wiltrn	Student	PlacementSupervisor	LIST	Y
-wiltrn	Student	PlacementSupervisor	PRINT	Y
-wiltrn	Student	PlacementSupervisor	SEARCH	Y
-wiltrn	Student	Schedule	DETAIL	Y
-wiltrn	Student	Schedule	LIST	Y
-wiltrn	Student	Schedule	PRINT	Y
-wiltrn	Student	Schedule	SEARCH	Y
-wiltrn	Student	ScheduleType	DETAIL	Y
-wiltrn	Student	ScheduleType	LIST	Y
-wiltrn	Student	ScheduleType	PRINT	Y
-wiltrn	Student	ScheduleType	SEARCH	Y
-wiltrn	Student	SelfPlacement	ADD	Y
-wiltrn	Student	SelfPlacement	DETAIL	Y
-wiltrn	Student	SelfPlacement	EDIT	Y
-wiltrn	Student	SelfPlacement	LIST	Y
-wiltrn	Student	SelfPlacement	PRINT	Y
-wiltrn	Student	SelfPlacement	SEARCH	Y
-wiltrn	Student	Self-Selectable Placement	DETAIL	Y
-wiltrn	Student	Self-Selectable Placement	LIST	Y
-wiltrn	Student	Self-Selectable Placement	PRINT	Y
-wiltrn	Student	Self-Selectable Placement	SEARCH	Y
-wiltrn	Student	Student	DETAIL	Y
-wiltrn	Student	Student	PRINT	Y
-wiltrn	Student	Student	SEARCH	Y
-wiltrn	Student	Student Agency Preferences	ADD	Y
-wiltrn	Student	Student Agency Preferences	DELETE	Y
-wiltrn	Student	Student Agency Preferences	DETAIL	Y
-wiltrn	Student	Student Agency Preferences	EDIT	Y
-wiltrn	Student	Student Agency Preferences	LIST	Y
-wiltrn	Student	Student Agency Preferences	LISTALL	Y
-wiltrn	Student	Student Agency Preferences	PRINT	Y
-wiltrn	Student	Student Agency Preferences	SEARCH	Y
-wiltrn	Student	StudentAddress	DETAIL	Y
-wiltrn	Student	StudentAddress	LIST	Y
-wiltrn	Student	StudentAddress	PRINT	Y
-wiltrn	Student	StudentAddress	SEARCH	Y
-wiltrn	Student	StudentCourseOffering	DETAIL	Y
-wiltrn	Student	StudentCourseOffering	LIST	Y
-wiltrn	Student	StudentCourseOffering	PRINT	Y
-wiltrn	Student	StudentCourseOffering	SEARCH	Y
-wiltrn	Student	StudentUnit Offering	DETAIL	Y
-wiltrn	Student	StudentUnit Offering	LIST	Y
-wiltrn	Student	StudentUnit Offering	PRINT	Y
-wiltrn	Student	StudentUnit Offering	SEARCH	Y
-wiltrn	Student	Timesheet	DETAIL	Y
-wiltrn	Student	Timesheet	EDIT	Y
-wiltrn	Student	Timesheet	LIST	Y
-wiltrn	Student	Timesheet	PRINT	Y
-wiltrn	Student	Timesheet Placement 	ADD	Y
-wiltrn	Student	Timesheet Placement 	DETAIL	Y
-wiltrn	Student	Timesheet Placement 	EDIT	Y
-wiltrn	Student	Timesheet Placement 	LIST	Y
-wiltrn	Student	Timesheet Placement 	PRINT	Y
-wiltrn	Student	Timesheet Placement Confirm	ADD	Y
-wiltrn	Student	Timesheet Placement Confirm	DETAIL	Y
-wiltrn	Student	Timesheet Placement Confirm	EDIT	Y
-wiltrn	Student	Timesheet Placement Confirm	LIST	Y
-wiltrn	Student	Timesheet Placement Confirm	PRINT	Y
-wiltrn	Student	Unit Offering	SEARCH	Y
-wiltrn	WIL Business Support	Address	DETAIL	Y
-wiltrn	WIL Business Support	Address	LIST	Y
-wiltrn	WIL Business Support	Address	LISTALL	Y
-wiltrn	WIL Business Support	Address	SEARCH	Y
-wiltrn	WIL Business Support	Agency	DETAIL	Y
-wiltrn	WIL Business Support	Agency	LIST	Y
-wiltrn	WIL Business Support	Agency	LISTALL	Y
-wiltrn	WIL Business Support	Agency	SEARCH	Y
-wiltrn	WIL Business Support	Agency Category	DETAIL	Y
-wiltrn	WIL Business Support	Agency Category	LIST	Y
-wiltrn	WIL Business Support	Agency Category	LISTALL	Y
-wiltrn	WIL Business Support	Agency Category	SEARCH	Y
-wiltrn	WIL Business Support	Agency Level Template	ADD	Y
-wiltrn	WIL Business Support	Agency Level Template	DELETE	Y
-wiltrn	WIL Business Support	Agency Level Template	DETAIL	Y
-wiltrn	WIL Business Support	Agency Level Template	EDIT	Y
-wiltrn	WIL Business Support	Agency Level Template	LIST	Y
-wiltrn	WIL Business Support	Agency Level Template	LISTALL	Y
-wiltrn	WIL Business Support	Agency Level Template	PRINT	Y
-wiltrn	WIL Business Support	Agency Level Template	SEARCH	Y
-wiltrn	WIL Business Support	AgencyAddress	DETAIL	Y
-wiltrn	WIL Business Support	AgencyAddress	LIST	Y
-wiltrn	WIL Business Support	AgencyAddress	LISTALL	Y
-wiltrn	WIL Business Support	AgencyAddress	SEARCH	Y
-wiltrn	WIL Business Support	AgencyDiscipline	ADD	Y
-wiltrn	WIL Business Support	AgencyDiscipline	DELETE	Y
-wiltrn	WIL Business Support	AgencyDiscipline	DETAIL	Y
-wiltrn	WIL Business Support	AgencyDiscipline	EDIT	Y
-wiltrn	WIL Business Support	AgencyDiscipline	LIST	Y
-wiltrn	WIL Business Support	AgencyDiscipline	LISTALL	Y
-wiltrn	WIL Business Support	AgencyDiscipline	SEARCH	Y
-wiltrn	WIL Business Support	AgencyLevel	ADD	Y
-wiltrn	WIL Business Support	AgencyLevel	DELETE	Y
-wiltrn	WIL Business Support	AgencyLevel	DETAIL	Y
-wiltrn	WIL Business Support	AgencyLevel	EDIT	Y
-wiltrn	WIL Business Support	AgencyLevel	LIST	Y
-wiltrn	WIL Business Support	AgencyLevel	LISTALL	Y
-wiltrn	WIL Business Support	AgencyLevel	PRINT	Y
-wiltrn	WIL Business Support	AgencyLevel	SEARCH	Y
-wiltrn	WIL Business Support	AgencyPersonnel	DETAIL	Y
-wiltrn	WIL Business Support	AgencyPersonnel	LIST	Y
-wiltrn	WIL Business Support	AgencyPersonnel	LISTALL	Y
-wiltrn	WIL Business Support	AgencyPersonnel	SEARCH	Y
-wiltrn	WIL Business Support	AgencyPersonnelDiscipline	DETAIL	Y
-wiltrn	WIL Business Support	AgencyPersonnelDiscipline	LIST	Y
-wiltrn	WIL Business Support	AgencyPersonnelDiscipline	LISTALL	Y
-wiltrn	WIL Business Support	AgencyPersonnelDiscipline	SEARCH	Y
-wiltrn	WIL Business Support	AgencyType	ADD	Y
-wiltrn	WIL Business Support	AgencyType	DELETE	Y
-wiltrn	WIL Business Support	AgencyType	DETAIL	Y
-wiltrn	WIL Business Support	AgencyType	EDIT	Y
-wiltrn	WIL Business Support	AgencyType	LIST	Y
-wiltrn	WIL Business Support	AgencyType	LISTALL	Y
-wiltrn	WIL Business Support	AgencyType	PRINT	Y
-wiltrn	WIL Business Support	AgencyType	SEARCH	Y
-wiltrn	WIL Business Support	AppDocument	ADD	Y
-wiltrn	WIL Business Support	AppDocument	DELETE	Y
-wiltrn	WIL Business Support	AppDocument	DETAIL	Y
-wiltrn	WIL Business Support	AppDocument	EDIT	Y
-wiltrn	WIL Business Support	AppDocument	LIST	Y
-wiltrn	WIL Business Support	AppDocument	LISTALL	Y
-wiltrn	WIL Business Support	AppDocument	PRINT	Y
-wiltrn	WIL Business Support	AppDocument	SEARCH	Y
-wiltrn	WIL Business Support	aspnet_Roles	DETAIL	Y
-wiltrn	WIL Business Support	aspnet_Roles	LIST	Y
-wiltrn	WIL Business Support	aspnet_Roles	LISTALL	Y
-wiltrn	WIL Business Support	aspnet_Roles	SEARCH	Y
-wiltrn	WIL Business Support	aspnet_Users	DETAIL	Y
-wiltrn	WIL Business Support	aspnet_Users	EDIT	Y
-wiltrn	WIL Business Support	aspnet_Users	LIST	Y
-wiltrn	WIL Business Support	aspnet_Users	LISTALL	Y
-wiltrn	WIL Business Support	aspnet_Users	SEARCH	Y
-wiltrn	WIL Business Support	aspnet_UsersInRoles	ADD	Y
-wiltrn	WIL Business Support	aspnet_UsersInRoles	DELETE	Y
-wiltrn	WIL Business Support	aspnet_UsersInRoles	DETAIL	Y
-wiltrn	WIL Business Support	aspnet_UsersInRoles	EDIT	Y
-wiltrn	WIL Business Support	aspnet_UsersInRoles	LIST	Y
-wiltrn	WIL Business Support	aspnet_UsersInRoles	LISTALL	Y
-wiltrn	WIL Business Support	aspnet_UsersInRoles	SEARCH	Y
-wiltrn	WIL Business Support	Attribute	ADD	Y
-wiltrn	WIL Business Support	Attribute	DELETE	Y
-wiltrn	WIL Business Support	Attribute	DETAIL	Y
-wiltrn	WIL Business Support	Attribute	EDIT	Y
-wiltrn	WIL Business Support	Attribute	LIST	Y
-wiltrn	WIL Business Support	Attribute	LISTALL	Y
-wiltrn	WIL Business Support	Attribute	PRINT	Y
-wiltrn	WIL Business Support	Attribute	SEARCH	Y
-wiltrn	WIL Business Support	AttributeList	ADD	Y
-wiltrn	WIL Business Support	AttributeList	DELETE	Y
-wiltrn	WIL Business Support	AttributeList	DETAIL	Y
-wiltrn	WIL Business Support	AttributeList	EDIT	Y
-wiltrn	WIL Business Support	AttributeList	LIST	Y
-wiltrn	WIL Business Support	AttributeList	LISTALL	Y
-wiltrn	WIL Business Support	AttributeList	PRINT	Y
-wiltrn	WIL Business Support	AttributeList	SEARCH	Y
-wiltrn	WIL Business Support	AttributeListItem	ADD	Y
-wiltrn	WIL Business Support	AttributeListItem	DELETE	Y
-wiltrn	WIL Business Support	AttributeListItem	DETAIL	Y
-wiltrn	WIL Business Support	AttributeListItem	EDIT	Y
-wiltrn	WIL Business Support	AttributeListItem	LIST	Y
-wiltrn	WIL Business Support	AttributeListItem	LISTALL	Y
-wiltrn	WIL Business Support	AttributeListItem	PRINT	Y
-wiltrn	WIL Business Support	AttributeListItem	SEARCH	Y
-wiltrn	WIL Business Support	Calendar	ADD	Y
-wiltrn	WIL Business Support	Calendar	DETAIL	Y
-wiltrn	WIL Business Support	Calendar	EDIT	Y
-wiltrn	WIL Business Support	Calendar	LIST	Y
-wiltrn	WIL Business Support	Calendar	LISTALL	Y
-wiltrn	WIL Business Support	Calendar	SEARCH	Y
-wiltrn	WIL Business Support	Campus	DETAIL	Y
-wiltrn	WIL Business Support	Campus	LIST	Y
-wiltrn	WIL Business Support	Campus	LISTALL	Y
-wiltrn	WIL Business Support	Campus	SEARCH	Y
-wiltrn	WIL Business Support	Category	ADD	Y
-wiltrn	WIL Business Support	Category	DELETE	Y
-wiltrn	WIL Business Support	Category	DETAIL	Y
-wiltrn	WIL Business Support	Category	EDIT	Y
-wiltrn	WIL Business Support	Category	LIST	Y
-wiltrn	WIL Business Support	Category	LISTALL	Y
-wiltrn	WIL Business Support	Category	PRINT	Y
-wiltrn	WIL Business Support	Category	SEARCH	Y
-wiltrn	WIL Business Support	Course	DETAIL	Y
-wiltrn	WIL Business Support	Course	EDIT	Y
-wiltrn	WIL Business Support	Course	LIST	Y
-wiltrn	WIL Business Support	Course	LISTALL	Y
-wiltrn	WIL Business Support	Course	SEARCH	Y
-wiltrn	WIL Business Support	CourseOffering	DETAIL	Y
-wiltrn	WIL Business Support	CourseOffering	EDIT	Y
-wiltrn	WIL Business Support	CourseOffering	LIST	Y
-wiltrn	WIL Business Support	CourseOffering	LISTALL	Y
-wiltrn	WIL Business Support	CourseOffering	SEARCH	Y
-wiltrn	WIL Business Support	CourseVersion	DETAIL	Y
-wiltrn	WIL Business Support	CourseVersion	EDIT	Y
-wiltrn	WIL Business Support	CourseVersion	LIST	Y
-wiltrn	WIL Business Support	CourseVersion	LISTALL	Y
-wiltrn	WIL Business Support	CourseVersion	SEARCH	Y
-wiltrn	WIL Business Support	Discipline	ADD	Y
-wiltrn	WIL Business Support	Discipline	DELETE	Y
-wiltrn	WIL Business Support	Discipline	DETAIL	Y
-wiltrn	WIL Business Support	Discipline	EDIT	Y
-wiltrn	WIL Business Support	Discipline	LIST	Y
-wiltrn	WIL Business Support	Discipline	LISTALL	Y
-wiltrn	WIL Business Support	Discipline	PRINT	Y
-wiltrn	WIL Business Support	Discipline	SEARCH	Y
-wiltrn	WIL Business Support	Document	ADD	Y
-wiltrn	WIL Business Support	Document	DELETE	Y
-wiltrn	WIL Business Support	Document	DETAIL	Y
-wiltrn	WIL Business Support	Document	EDIT	Y
-wiltrn	WIL Business Support	Document	LIST	Y
-wiltrn	WIL Business Support	Document	LISTALL	Y
-wiltrn	WIL Business Support	Document	PRINT	Y
-wiltrn	WIL Business Support	Document	SEARCH	Y
-wiltrn	WIL Business Support	DocumentTemplate	ADD	Y
-wiltrn	WIL Business Support	DocumentTemplate	DELETE	Y
-wiltrn	WIL Business Support	DocumentTemplate	DETAIL	Y
-wiltrn	WIL Business Support	DocumentTemplate	EDIT	Y
-wiltrn	WIL Business Support	DocumentTemplate	LIST	Y
-wiltrn	WIL Business Support	DocumentTemplate	LISTALL	Y
-wiltrn	WIL Business Support	DocumentTemplate	PRINT	Y
-wiltrn	WIL Business Support	DocumentTemplate	SEARCH	Y
-wiltrn	WIL Business Support	Email Templates	ADD	Y
-wiltrn	WIL Business Support	Email Templates	DELETE	Y
-wiltrn	WIL Business Support	Email Templates	DETAIL	Y
-wiltrn	WIL Business Support	Email Templates	EDIT	Y
-wiltrn	WIL Business Support	Email Templates	LIST	Y
-wiltrn	WIL Business Support	Email Templates	LISTALL	Y
-wiltrn	WIL Business Support	Email Templates	PRINT	Y
-wiltrn	WIL Business Support	Email Templates	SEARCH	Y
-wiltrn	WIL Business Support	Enrolment	DETAIL	Y
-wiltrn	WIL Business Support	Enrolment	LIST	Y
-wiltrn	WIL Business Support	Enrolment	LISTALL	Y
-wiltrn	WIL Business Support	Enrolment	SEARCH	Y
-wiltrn	WIL Business Support	EntityAttribute	ADD	Y
-wiltrn	WIL Business Support	EntityAttribute	DELETE	Y
-wiltrn	WIL Business Support	EntityAttribute	DETAIL	Y
-wiltrn	WIL Business Support	EntityAttribute	EDIT	Y
-wiltrn	WIL Business Support	EntityAttribute	LIST	Y
-wiltrn	WIL Business Support	EntityAttribute	LISTALL	Y
-wiltrn	WIL Business Support	EntityAttribute	PRINT	Y
-wiltrn	WIL Business Support	EntityAttribute	SEARCH	Y
-wiltrn	WIL Business Support	EntityFunction	LISTALL	Y
-wiltrn	WIL Business Support	EntityRelationship	ADD	Y
-wiltrn	WIL Business Support	EntityRelationship	DELETE	Y
-wiltrn	WIL Business Support	EntityRelationship	DETAIL	Y
-wiltrn	WIL Business Support	EntityRelationship	EDIT	Y
-wiltrn	WIL Business Support	EntityRelationship	LIST	Y
-wiltrn	WIL Business Support	EntityRelationship	LISTALL	Y
-wiltrn	WIL Business Support	EntityRelationship	PRINT	Y
-wiltrn	WIL Business Support	EntityRelationship	SEARCH	Y
-wiltrn	WIL Business Support	EntityRelationshipEntity	ADD	Y
-wiltrn	WIL Business Support	EntityRelationshipEntity	DELETE	Y
-wiltrn	WIL Business Support	EntityRelationshipEntity	DETAIL	Y
-wiltrn	WIL Business Support	EntityRelationshipEntity	EDIT	Y
-wiltrn	WIL Business Support	EntityRelationshipEntity	LIST	Y
-wiltrn	WIL Business Support	EntityRelationshipEntity	LISTALL	Y
-wiltrn	WIL Business Support	EntityRelationshipEntity	PRINT	Y
-wiltrn	WIL Business Support	EntityRelationshipEntity	SEARCH	Y
-wiltrn	WIL Business Support	EntityType	DETAIL	Y
-wiltrn	WIL Business Support	EntityType	LIST	Y
-wiltrn	WIL Business Support	EntityType	LISTALL	Y
-wiltrn	WIL Business Support	EntityType	SEARCH	Y
-wiltrn	WIL Business Support	EntityTypeFunction	DETAIL	Y
-wiltrn	WIL Business Support	EntityTypeFunction	LIST	Y
-wiltrn	WIL Business Support	EntityTypeFunction	LISTALL	Y
-wiltrn	WIL Business Support	EntityTypeFunction	SEARCH	Y
-wiltrn	WIL Business Support	EntityTypeFunctionRole	DETAIL	Y
-wiltrn	WIL Business Support	EntityTypeFunctionRole	LIST	Y
-wiltrn	WIL Business Support	EntityTypeFunctionRole	LISTALL	Y
-wiltrn	WIL Business Support	EntityTypeFunctionRole	SEARCH	Y
-wiltrn	WIL Business Support	Faculty	DETAIL	Y
-wiltrn	WIL Business Support	Faculty	LIST	Y
-wiltrn	WIL Business Support	Faculty	LISTALL	Y
-wiltrn	WIL Business Support	Faculty	SEARCH	Y
-wiltrn	WIL Business Support	HelpObject	DETAIL	Y
-wiltrn	WIL Business Support	HelpObject	EDIT	Y
-wiltrn	WIL Business Support	HelpObject	LIST	Y
-wiltrn	WIL Business Support	HelpObject	LISTALL	Y
-wiltrn	WIL Business Support	HelpObject	PRINT	Y
-wiltrn	WIL Business Support	HelpObject	SEARCH	Y
-wiltrn	WIL Business Support	HelpObjectControl	DETAIL	Y
-wiltrn	WIL Business Support	HelpObjectControl	EDIT	Y
-wiltrn	WIL Business Support	HelpObjectControl	LIST	Y
-wiltrn	WIL Business Support	HelpObjectControl	LISTALL	Y
-wiltrn	WIL Business Support	HelpObjectControl	PRINT	Y
-wiltrn	WIL Business Support	HelpObjectControl	SEARCH	Y
-wiltrn	WIL Business Support	ImporterRule	ADD	Y
-wiltrn	WIL Business Support	ImporterRule	DELETE	Y
-wiltrn	WIL Business Support	ImporterRule	DETAIL	Y
-wiltrn	WIL Business Support	ImporterRule	EDIT	Y
-wiltrn	WIL Business Support	ImporterRule	LIST	Y
-wiltrn	WIL Business Support	ImporterRule	LISTALL	Y
-wiltrn	WIL Business Support	ImporterRule	PRINT	Y
-wiltrn	WIL Business Support	ImporterRule	SEARCH	Y
-wiltrn	WIL Business Support	MessageBoard	ADD	Y
-wiltrn	WIL Business Support	MessageBoard	DELETE	Y
-wiltrn	WIL Business Support	MessageBoard	DETAIL	Y
-wiltrn	WIL Business Support	MessageBoard	EDIT	Y
-wiltrn	WIL Business Support	MessageBoard	LIST	Y
-wiltrn	WIL Business Support	MessageBoard	LISTALL	Y
-wiltrn	WIL Business Support	MessageBoard	PRINT	Y
-wiltrn	WIL Business Support	MessageBoard	SEARCH	Y
-wiltrn	WIL Business Support	Note	PRINT	Y
-wiltrn	WIL Business Support	Opportunities	DETAIL	Y
-wiltrn	WIL Business Support	Opportunities	LIST	Y
-wiltrn	WIL Business Support	Opportunities	LISTALL	Y
-wiltrn	WIL Business Support	Opportunities	PRINT	Y
-wiltrn	WIL Business Support	Opportunities	SEARCH	Y
-wiltrn	WIL Business Support	Opportunity Type	ADD	Y
-wiltrn	WIL Business Support	Opportunity Type	DELETE	Y
-wiltrn	WIL Business Support	Opportunity Type	DETAIL	Y
-wiltrn	WIL Business Support	Opportunity Type	EDIT	Y
-wiltrn	WIL Business Support	Opportunity Type	LIST	Y
-wiltrn	WIL Business Support	Opportunity Type	LISTALL	Y
-wiltrn	WIL Business Support	Opportunity Type	PRINT	Y
-wiltrn	WIL Business Support	Opportunity Type	SEARCH	Y
-wiltrn	WIL Business Support	Personnel	DETAIL	Y
-wiltrn	WIL Business Support	Personnel	LIST	Y
-wiltrn	WIL Business Support	Personnel	LISTALL	Y
-wiltrn	WIL Business Support	Personnel	PRINT	Y
-wiltrn	WIL Business Support	Personnel	SEARCH	Y
-wiltrn	WIL Business Support	PersonnelType	ADD	Y
-wiltrn	WIL Business Support	PersonnelType	DELETE	Y
-wiltrn	WIL Business Support	PersonnelType	DETAIL	Y
-wiltrn	WIL Business Support	PersonnelType	EDIT	Y
-wiltrn	WIL Business Support	PersonnelType	LIST	Y
-wiltrn	WIL Business Support	PersonnelType	LISTALL	Y
-wiltrn	WIL Business Support	PersonnelType	PRINT	Y
-wiltrn	WIL Business Support	PersonnelType	SEARCH	Y
-wiltrn	WIL Business Support	Placement	DETAIL	Y
-wiltrn	WIL Business Support	Placement	LIST	Y
-wiltrn	WIL Business Support	Placement	LISTALL	Y
-wiltrn	WIL Business Support	Placement	PRINT	Y
-wiltrn	WIL Business Support	Placement	SEARCH	Y
-wiltrn	WIL Business Support	PlacementHistory	DETAIL	Y
-wiltrn	WIL Business Support	PlacementHistory	LIST	Y
-wiltrn	WIL Business Support	PlacementHistory	LISTALL	Y
-wiltrn	WIL Business Support	PlacementHistory	SEARCH	Y
-wiltrn	WIL Business Support	PlacementSupervisor	DETAIL	Y
-wiltrn	WIL Business Support	PlacementSupervisor	LIST	Y
-wiltrn	WIL Business Support	PlacementSupervisor	LISTALL	Y
-wiltrn	WIL Business Support	PlacementSupervisor	SEARCH	Y
-wiltrn	WIL Business Support	Query	ADD	Y
-wiltrn	WIL Business Support	Query	DELETE	Y
-wiltrn	WIL Business Support	Query	DETAIL	Y
-wiltrn	WIL Business Support	Query	EDIT	Y
-wiltrn	WIL Business Support	Query	LIST	Y
-wiltrn	WIL Business Support	Query	LISTALL	Y
-wiltrn	WIL Business Support	Query	PRINT	Y
-wiltrn	WIL Business Support	Query	SEARCH	Y
-wiltrn	WIL Business Support	Request	DETAIL	Y
-wiltrn	WIL Business Support	Request	LIST	Y
-wiltrn	WIL Business Support	Request	LISTALL	Y
-wiltrn	WIL Business Support	Request	PRINT	Y
-wiltrn	WIL Business Support	Request	SEARCH	Y
-wiltrn	WIL Business Support	Rule	ADD	Y
-wiltrn	WIL Business Support	Rule	DELETE	Y
-wiltrn	WIL Business Support	Rule	DETAIL	Y
-wiltrn	WIL Business Support	Rule	EDIT	Y
-wiltrn	WIL Business Support	Rule	LIST	Y
-wiltrn	WIL Business Support	Rule	LISTALL	Y
-wiltrn	WIL Business Support	Rule	PRINT	Y
-wiltrn	WIL Business Support	Rule	SEARCH	Y
-wiltrn	WIL Business Support	Ruleset	ADD	Y
-wiltrn	WIL Business Support	Ruleset	DELETE	Y
-wiltrn	WIL Business Support	Ruleset	DETAIL	Y
-wiltrn	WIL Business Support	Ruleset	EDIT	Y
-wiltrn	WIL Business Support	Ruleset	LIST	Y
-wiltrn	WIL Business Support	Ruleset	LISTALL	Y
-wiltrn	WIL Business Support	Ruleset	PRINT	Y
-wiltrn	WIL Business Support	Ruleset	SEARCH	Y
-wiltrn	WIL Business Support	Specialism	ADD	Y
-wiltrn	WIL Business Support	Specialism	DELETE	Y
-wiltrn	WIL Business Support	Specialism	DETAIL	Y
-wiltrn	WIL Business Support	Specialism	EDIT	Y
-wiltrn	WIL Business Support	Specialism	LIST	Y
-wiltrn	WIL Business Support	Specialism	LISTALL	Y
-wiltrn	WIL Business Support	Specialism	PRINT	Y
-wiltrn	WIL Business Support	Specialism	SEARCH	Y
-wiltrn	WIL Business Support	Staff	DETAIL	Y
-wiltrn	WIL Business Support	Staff	EDIT	Y
-wiltrn	WIL Business Support	Staff	LIST	Y
-wiltrn	WIL Business Support	Staff	LISTALL	Y
-wiltrn	WIL Business Support	Staff	PRINT	Y
-wiltrn	WIL Business Support	Staff	SEARCH	Y
-wiltrn	WIL Business Support	StaffDisciplineCampus	ADD	Y
-wiltrn	WIL Business Support	StaffDisciplineCampus	DELETE	Y
-wiltrn	WIL Business Support	StaffDisciplineCampus	DETAIL	Y
-wiltrn	WIL Business Support	StaffDisciplineCampus	EDIT	Y
-wiltrn	WIL Business Support	StaffDisciplineCampus	LIST	Y
-wiltrn	WIL Business Support	StaffDisciplineCampus	LISTALL	Y
-wiltrn	WIL Business Support	StaffDisciplineCampus	PRINT	Y
-wiltrn	WIL Business Support	StaffDisciplineCampus	SEARCH	Y
-wiltrn	WIL Business Support	StaffRule	DETAIL	Y
-wiltrn	WIL Business Support	StaffRule	LIST	Y
-wiltrn	WIL Business Support	StaffRule	LISTALL	Y
-wiltrn	WIL Business Support	StaffRule	SEARCH	Y
-wiltrn	WIL Business Support	StaffRuleset	DETAIL	Y
-wiltrn	WIL Business Support	StaffRuleset	LIST	Y
-wiltrn	WIL Business Support	StaffRuleset	LISTALL	Y
-wiltrn	WIL Business Support	StaffRuleset	SEARCH	Y
-wiltrn	WIL Business Support	StaffUnit Offering	ADD	Y
-wiltrn	WIL Business Support	StaffUnit Offering	DELETE	Y
-wiltrn	WIL Business Support	StaffUnit Offering	DETAIL	Y
-wiltrn	WIL Business Support	StaffUnit Offering	EDIT	Y
-wiltrn	WIL Business Support	StaffUnit Offering	LIST	Y
-wiltrn	WIL Business Support	StaffUnit Offering	LISTALL	Y
-wiltrn	WIL Business Support	StaffUnit Offering	PRINT	Y
-wiltrn	WIL Business Support	StaffUnit Offering	SEARCH	Y
-wiltrn	WIL Business Support	Student	DETAIL	Y
-wiltrn	WIL Business Support	Student	LIST	Y
-wiltrn	WIL Business Support	Student	LISTALL	Y
-wiltrn	WIL Business Support	Student	PRINT	Y
-wiltrn	WIL Business Support	Student	SEARCH	Y
-wiltrn	WIL Business Support	StudentAddress	DETAIL	Y
-wiltrn	WIL Business Support	StudentAddress	LIST	Y
-wiltrn	WIL Business Support	StudentAddress	LISTALL	Y
-wiltrn	WIL Business Support	StudentAddress	SEARCH	Y
-wiltrn	WIL Business Support	StudentCourseOffering	DETAIL	Y
-wiltrn	WIL Business Support	StudentCourseOffering	LIST	Y
-wiltrn	WIL Business Support	StudentCourseOffering	LISTALL	Y
-wiltrn	WIL Business Support	StudentCourseOffering	SEARCH	Y
-wiltrn	WIL Business Support	StudentUnit Offering	DETAIL	Y
-wiltrn	WIL Business Support	StudentUnit Offering	LIST	Y
-wiltrn	WIL Business Support	StudentUnit Offering	LISTALL	Y
-wiltrn	WIL Business Support	StudentUnit Offering	SEARCH	Y
-wiltrn	WIL Business Support	Unit	DETAIL	Y
-wiltrn	WIL Business Support	Unit	EDIT	Y
-wiltrn	WIL Business Support	Unit	LIST	Y
-wiltrn	WIL Business Support	Unit	LISTALL	Y
-wiltrn	WIL Business Support	Unit	PRINT	Y
-wiltrn	WIL Business Support	Unit	SEARCH	Y
-wiltrn	WIL Business Support	Unit Offering	DETAIL	Y
-wiltrn	WIL Business Support	Unit Offering	EDIT	Y
-wiltrn	WIL Business Support	Unit Offering	LIST	Y
-wiltrn	WIL Business Support	Unit Offering	LISTALL	Y
-wiltrn	WIL Business Support	Unit Offering	PRINT	Y
-wiltrn	WIL Business Support	Unit Offering	SEARCH	Y
-wiltrn	WIL Business Support	Unit Offering Group	DETAIL	Y
-wiltrn	WIL Business Support	Unit Offering Group	LIST	Y
-wiltrn	WIL Business Support	Unit Offering Group	LISTALL	Y
-wiltrn	WIL Business Support	Unit Offering Group	PRINT	Y
-wiltrn	WIL Business Support	Unit Offering Group	SEARCH	Y
-wiltrn	WIL Business Support	Unit Offering Group Unit Offering	DETAIL	Y
-wiltrn	WIL Business Support	Unit Offering Group Unit Offering	LIST	Y
-wiltrn	WIL Business Support	Unit Offering Group Unit Offering	LISTALL	Y
-wiltrn	WIL Business Support	Unit Offering Group Unit Offering	PRINT	Y
-wiltrn	WIL Business Support	Unit Offering Group Unit Offering	SEARCH	Y
-wiltrn	WIL Business Support	Unit Version Discipline	ADD	Y
-wiltrn	WIL Business Support	Unit Version Discipline	DELETE	Y
-wiltrn	WIL Business Support	Unit Version Discipline	DETAIL	Y
-wiltrn	WIL Business Support	Unit Version Discipline	EDIT	Y
-wiltrn	WIL Business Support	Unit Version Discipline	LIST	Y
-wiltrn	WIL Business Support	Unit Version Discipline	LISTALL	Y
-wiltrn	WIL Business Support	Unit Version Discipline	PRINT	Y
-wiltrn	WIL Business Support	Unit Version Discipline	SEARCH	Y
-wiltrn	WIL Business Support	UnitDiscipline	ADD	Y
-wiltrn	WIL Business Support	UnitDiscipline	DELETE	Y
-wiltrn	WIL Business Support	UnitDiscipline	DETAIL	Y
-wiltrn	WIL Business Support	UnitDiscipline	EDIT	Y
-wiltrn	WIL Business Support	UnitDiscipline	LIST	Y
-wiltrn	WIL Business Support	UnitDiscipline	LISTALL	Y
-wiltrn	WIL Business Support	UnitDiscipline	PRINT	Y
-wiltrn	WIL Business Support	UnitDiscipline	SEARCH	Y
-wiltrn	WIL Business Support	UnitVersion	DETAIL	Y
-wiltrn	WIL Business Support	UnitVersion	EDIT	Y
-wiltrn	WIL Business Support	UnitVersion	LIST	Y
-wiltrn	WIL Business Support	UnitVersion	LISTALL	Y
-wiltrn	WIL Business Support	UnitVersion	PRINT	Y
-wiltrn	WIL Business Support	UnitVersion	SEARCH	Y
-wiltrn	WIL Champion	Address	ADD	Y
-wiltrn	WIL Champion	Address	DELETE	Y
-wiltrn	WIL Champion	Address	EDIT	Y
-wiltrn	WIL Champion	Agency	ADD	Y
-wiltrn	WIL Champion	Agency	DELETE	Y
-wiltrn	WIL Champion	Agency	EDIT	Y
-wiltrn	WIL Champion	Agency	LISTALL	Y
-wiltrn	WIL Champion	Agency Category	ADD	Y
-wiltrn	WIL Champion	Agency Category	DELETE	Y
-wiltrn	WIL Champion	Agency Category	EDIT	Y
-wiltrn	WIL Champion	AgencyAddress	ADD	Y
-wiltrn	WIL Champion	AgencyAddress	DELETE	Y
-wiltrn	WIL Champion	AgencyAddress	EDIT	Y
-wiltrn	WIL Champion	AgencyDiscipline	ADD	Y
-wiltrn	WIL Champion	AgencyDiscipline	DETAIL	Y
-wiltrn	WIL Champion	AgencyDiscipline	EDIT	Y
-wiltrn	WIL Champion	AgencyPersonnel	ADD	Y
-wiltrn	WIL Champion	AgencyPersonnel	DELETE	Y
-wiltrn	WIL Champion	AgencyPersonnel	EDIT	Y
-wiltrn	WIL Champion	Category	ADD	Y
-wiltrn	WIL Champion	Category	DELETE	Y
-wiltrn	WIL Champion	Category	DETAIL	Y
-wiltrn	WIL Champion	Category	EDIT	Y
-wiltrn	WIL Champion	Category	LIST	Y
-wiltrn	WIL Champion	Category	SEARCH	Y
-wiltrn	WIL Champion	Query	ADD	Y
-wiltrn	WIL Champion	Query	DETAIL	Y
-wiltrn	WIL Champion	Query	EDIT	Y
-wiltrn	WIL Champion	Query	LIST	Y
-wiltrn	WIL Champion	Query	SEARCH	Y
-wiltrn	WIL Champion	Rule	ADD	Y
-wiltrn	WIL Champion	Rule	EDIT	Y
-wiltrn	WIL Champion	Ruleset	ADD	Y
-wiltrn	WIL Champion	Ruleset	DETAIL	Y
-wiltrn	WIL Champion	Ruleset	EDIT	Y
-wiltrn	WIL Champion	Ruleset	LIST	Y
-wiltrn	WIL Champion	Ruleset	LISTALL	Y
-wiltrn	WIL Champion	Ruleset	SEARCH	Y
-wiltrn	WIL Champion	Staff	DETAIL	Y
-wiltrn	WIL Champion	Staff	LIST	Y
-wiltrn	WIL Champion	Staff	SEARCH	Y
-wiltrn	WIL Champion	StaffDisciplineCampus	ADD	Y
-wiltrn	WIL Champion	StaffDisciplineCampus	DELETE	Y
-wiltrn	WIL Champion	StaffDisciplineCampus	DETAIL	Y
-wiltrn	WIL Champion	StaffDisciplineCampus	EDIT	Y
-wiltrn	WIL Champion	StaffDisciplineCampus	LIST	Y
-wiltrn	WIL Champion	StaffDisciplineCampus	PRINT	Y
-wiltrn	WIL Champion	StaffDisciplineCampus	SEARCH	Y
-wiltrn	WIL Champion	StaffUnit Offering	ADD	Y
-wiltrn	WIL Champion	StaffUnit Offering	DELETE	Y
-wiltrn	WIL Champion	StaffUnit Offering	DETAIL	Y
-wiltrn	WIL Champion	StaffUnit Offering	EDIT	Y
-wiltrn	WIL Champion	StaffUnit Offering	LIST	Y
-wiltrn	WIL Champion	StaffUnit Offering	PRINT	Y
-wiltrn	WIL Champion	StaffUnit Offering	SEARCH	Y
-wiltrn	WIL Practitioner	Address	DETAIL	Y
-wiltrn	WIL Practitioner	Address	LIST	Y
-wiltrn	WIL Practitioner	Address	PRINT	Y
-wiltrn	WIL Practitioner	Address	SEARCH	Y
-wiltrn	WIL Practitioner	Agency	DETAIL	Y
-wiltrn	WIL Practitioner	Agency	LIST	Y
-wiltrn	WIL Practitioner	Agency	LISTALL	Y
-wiltrn	WIL Practitioner	Agency	PRINT	Y
-wiltrn	WIL Practitioner	Agency	SEARCH	Y
-wiltrn	WIL Practitioner	Agency Category	DETAIL	Y
-wiltrn	WIL Practitioner	Agency Category	LIST	Y
-wiltrn	WIL Practitioner	Agency Docs	ADD	Y
-wiltrn	WIL Practitioner	Agency Docs	DELETE	Y
-wiltrn	WIL Practitioner	Agency Docs	DETAIL	Y
-wiltrn	WIL Practitioner	Agency Docs	EDIT	Y
-wiltrn	WIL Practitioner	Agency Docs	LIST	Y
-wiltrn	WIL Practitioner	Agency Docs	PRINT	Y
-wiltrn	WIL Practitioner	Agency Docs	SEARCH	Y
-wiltrn	WIL Practitioner	Agency Notes	ADD	Y
-wiltrn	WIL Practitioner	Agency Notes	DELETE	Y
-wiltrn	WIL Practitioner	Agency Notes	DETAIL	Y
-wiltrn	WIL Practitioner	Agency Notes	EDIT	Y
-wiltrn	WIL Practitioner	Agency Notes	LIST	Y
-wiltrn	WIL Practitioner	Agency Notes	PRINT	Y
-wiltrn	WIL Practitioner	Agency Notes	SEARCH	Y
-wiltrn	WIL Practitioner	Agency Personnel Docs	ADD	Y
-wiltrn	WIL Practitioner	Agency Personnel Docs	DETAIL	Y
-wiltrn	WIL Practitioner	Agency Personnel Docs	EDIT	Y
-wiltrn	WIL Practitioner	Agency Personnel Docs	LIST	Y
-wiltrn	WIL Practitioner	Agency Personnel Docs	SEARCH	Y
-wiltrn	WIL Practitioner	Agency Personnel Notes	ADD	Y
-wiltrn	WIL Practitioner	Agency Personnel Notes	DETAIL	Y
-wiltrn	WIL Practitioner	Agency Personnel Notes	EDIT	Y
-wiltrn	WIL Practitioner	Agency Personnel Notes	LIST	Y
-wiltrn	WIL Practitioner	Agency Personnel Notes	SEARCH	Y
-wiltrn	WIL Practitioner	Agency Preference	ADD	Y
-wiltrn	WIL Practitioner	Agency Preference	DETAIL	Y
-wiltrn	WIL Practitioner	Agency Preference	EDIT	Y
-wiltrn	WIL Practitioner	Agency Preference	LIST	Y
-wiltrn	WIL Practitioner	Agency Preference	SEARCH	Y
-wiltrn	WIL Practitioner	AgencyAddress	DETAIL	Y
-wiltrn	WIL Practitioner	AgencyAddress	LIST	Y
-wiltrn	WIL Practitioner	AgencyAddress	PRINT	Y
-wiltrn	WIL Practitioner	AgencyAddress	SEARCH	Y
-wiltrn	WIL Practitioner	AgencyDiscipline	ADD	Y
-wiltrn	WIL Practitioner	AgencyDiscipline	DELETE	Y
-wiltrn	WIL Practitioner	AgencyDiscipline	DETAIL	Y
-wiltrn	WIL Practitioner	AgencyDiscipline	EDIT	Y
-wiltrn	WIL Practitioner	AgencyDiscipline	LIST	Y
-wiltrn	WIL Practitioner	AgencyDiscipline	SEARCH	Y
-wiltrn	WIL Practitioner	AgencyLevel	DETAIL	Y
-wiltrn	WIL Practitioner	AgencyLevel	LIST	Y
-wiltrn	WIL Practitioner	AgencyPersonnel	ADD	Y
-wiltrn	WIL Practitioner	AgencyPersonnel	DETAIL	Y
-wiltrn	WIL Practitioner	AgencyPersonnel	EDIT	Y
-wiltrn	WIL Practitioner	AgencyPersonnel	LIST	Y
-wiltrn	WIL Practitioner	AgencyPersonnel	PRINT	Y
-wiltrn	WIL Practitioner	AgencyPersonnel	SEARCH	Y
-wiltrn	WIL Practitioner	AgencyPersonnelDiscipline	ADD	Y
-wiltrn	WIL Practitioner	AgencyPersonnelDiscipline	DELETE	Y
-wiltrn	WIL Practitioner	AgencyPersonnelDiscipline	DETAIL	Y
-wiltrn	WIL Practitioner	AgencyPersonnelDiscipline	EDIT	Y
-wiltrn	WIL Practitioner	AgencyPersonnelDiscipline	LIST	Y
-wiltrn	WIL Practitioner	AgencyPersonnelDiscipline	LISTALL	Y
-wiltrn	WIL Practitioner	AgencyPersonnelDiscipline	PRINT	Y
-wiltrn	WIL Practitioner	AgencyPersonnelDiscipline	SEARCH	Y
-wiltrn	WIL Practitioner	Course	DETAIL	Y
-wiltrn	WIL Practitioner	Course	LIST	Y
-wiltrn	WIL Practitioner	Course	PRINT	Y
-wiltrn	WIL Practitioner	Course	SEARCH	Y
-wiltrn	WIL Practitioner	CourseVersion	DETAIL	Y
-wiltrn	WIL Practitioner	CourseVersion	LIST	Y
-wiltrn	WIL Practitioner	CourseVersion	PRINT	Y
-wiltrn	WIL Practitioner	CourseVersion	SEARCH	Y
-wiltrn	WIL Practitioner	DocumentTemplate	DETAIL	Y
-wiltrn	WIL Practitioner	DocumentTemplate	EDIT	Y
-wiltrn	WIL Practitioner	DocumentTemplate	LIST	Y
-wiltrn	WIL Practitioner	DocumentTemplate	PRINT	Y
-wiltrn	WIL Practitioner	DocumentTemplate	SEARCH	Y
-wiltrn	WIL Practitioner	Email Templates	ADD	Y
-wiltrn	WIL Practitioner	Email Templates	DETAIL	Y
-wiltrn	WIL Practitioner	Email Templates	EDIT	Y
-wiltrn	WIL Practitioner	Email Templates	PRINT	Y
-wiltrn	WIL Practitioner	Email Templates	SEARCH	Y
-wiltrn	WIL Practitioner	Group	ADD	Y
-wiltrn	WIL Practitioner	Group	DETAIL	Y
-wiltrn	WIL Practitioner	Group	SEARCH	Y
-wiltrn	WIL Practitioner	Incompatibility	ADD	Y
-wiltrn	WIL Practitioner	Incompatibility	DELETE	Y
-wiltrn	WIL Practitioner	Incompatibility	DETAIL	Y
-wiltrn	WIL Practitioner	Incompatibility	EDIT	Y
-wiltrn	WIL Practitioner	Incompatibility	LIST	Y
-wiltrn	WIL Practitioner	Incompatibility	SEARCH	Y
-wiltrn	WIL Practitioner	Opportunities	ADD	Y
-wiltrn	WIL Practitioner	Opportunities	DELETE	Y
-wiltrn	WIL Practitioner	Opportunities	DETAIL	Y
-wiltrn	WIL Practitioner	Opportunities	EDIT	Y
-wiltrn	WIL Practitioner	Opportunities	LIST	Y
-wiltrn	WIL Practitioner	Opportunities	LISTALL	Y
-wiltrn	WIL Practitioner	Opportunities	PRINT	Y
-wiltrn	WIL Practitioner	Opportunities	SEARCH	Y
-wiltrn	WIL Practitioner	Opportunity Application	ADD	Y
-wiltrn	WIL Practitioner	Opportunity Application	DELETE	Y
-wiltrn	WIL Practitioner	Opportunity Application	DETAIL	Y
-wiltrn	WIL Practitioner	Opportunity Application	EDIT	Y
-wiltrn	WIL Practitioner	Opportunity Application	LIST	Y
-wiltrn	WIL Practitioner	Opportunity Application	LISTALL	Y
-wiltrn	WIL Practitioner	Opportunity Application	PRINT	Y
-wiltrn	WIL Practitioner	Opportunity Application	SEARCH	Y
-wiltrn	WIL Practitioner	Opportunity Type	ADD	Y
-wiltrn	WIL Practitioner	Opportunity Type	DELETE	Y
-wiltrn	WIL Practitioner	Opportunity Type	DETAIL	Y
-wiltrn	WIL Practitioner	Opportunity Type	EDIT	Y
-wiltrn	WIL Practitioner	Opportunity Type	LIST	Y
-wiltrn	WIL Practitioner	Opportunity Type	LISTALL	Y
-wiltrn	WIL Practitioner	Opportunity Type	PRINT	Y
-wiltrn	WIL Practitioner	Opportunity Type	SEARCH	Y
-wiltrn	WIL Practitioner	Placement	ADD	Y
-wiltrn	WIL Practitioner	Placement	DELETE	Y
-wiltrn	WIL Practitioner	Placement	DETAIL	Y
-wiltrn	WIL Practitioner	Placement	EDIT	Y
-wiltrn	WIL Practitioner	Placement	LIST	Y
-wiltrn	WIL Practitioner	Placement	PRINT	Y
-wiltrn	WIL Practitioner	Placement	SEARCH	Y
-wiltrn	WIL Practitioner	Placement Block Group	ADD	Y
-wiltrn	WIL Practitioner	Placement Block Group	DELETE	Y
-wiltrn	WIL Practitioner	Placement Block Group	DETAIL	Y
-wiltrn	WIL Practitioner	Placement Block Group	EDIT	Y
-wiltrn	WIL Practitioner	Placement Block Group	LIST	Y
-wiltrn	WIL Practitioner	Placement Block Group	PRINT	Y
-wiltrn	WIL Practitioner	Placement Block Group	SEARCH	Y
-wiltrn	WIL Practitioner	Placement Block Group Unit Offering	ADD	Y
-wiltrn	WIL Practitioner	Placement Block Group Unit Offering	DELETE	Y
-wiltrn	WIL Practitioner	Placement Block Group Unit Offering	DETAIL	Y
-wiltrn	WIL Practitioner	Placement Block Group Unit Offering	EDIT	Y
-wiltrn	WIL Practitioner	Placement Block Group Unit Offering	LIST	Y
-wiltrn	WIL Practitioner	Placement Block Group Unit Offering	PRINT	Y
-wiltrn	WIL Practitioner	Placement Block Group Unit Offering	SEARCH	Y
-wiltrn	WIL Practitioner	Placement Bulk Update	ADD	Y
-wiltrn	WIL Practitioner	Placement Bulk Update	DELETE	Y
-wiltrn	WIL Practitioner	Placement Bulk Update	DETAIL	Y
-wiltrn	WIL Practitioner	Placement Bulk Update	EDIT	Y
-wiltrn	WIL Practitioner	Placement Bulk Update	LIST	Y
-wiltrn	WIL Practitioner	Placement Bulk Update	LISTALL	Y
-wiltrn	WIL Practitioner	Placement Bulk Update	PRINT	Y
-wiltrn	WIL Practitioner	Placement Bulk Update	SEARCH	Y
-wiltrn	WIL Practitioner	Placement Docs	ADD	Y
-wiltrn	WIL Practitioner	Placement Docs	DELETE	Y
-wiltrn	WIL Practitioner	Placement Docs	DETAIL	Y
-wiltrn	WIL Practitioner	Placement Docs	EDIT	Y
-wiltrn	WIL Practitioner	Placement Docs	LIST	Y
-wiltrn	WIL Practitioner	Placement Docs	PRINT	Y
-wiltrn	WIL Practitioner	Placement Docs	SEARCH	Y
-wiltrn	WIL Practitioner	Placement Incompatibility	ADD	Y
-wiltrn	WIL Practitioner	Placement Incompatibility	DELETE	Y
-wiltrn	WIL Practitioner	Placement Incompatibility	DETAIL	Y
-wiltrn	WIL Practitioner	Placement Incompatibility	EDIT	Y
-wiltrn	WIL Practitioner	Placement Incompatibility	LIST	Y
-wiltrn	WIL Practitioner	Placement Incompatibility	PRINT	Y
-wiltrn	WIL Practitioner	Placement Incompatibility	SEARCH	Y
-wiltrn	WIL Practitioner	Placement Manager	ADD	Y
-wiltrn	WIL Practitioner	Placement Manager	DETAIL	Y
-wiltrn	WIL Practitioner	Placement Manager	EDIT	Y
-wiltrn	WIL Practitioner	Placement Manager	LIST	Y
-wiltrn	WIL Practitioner	Placement Manager	PRINT	Y
-wiltrn	WIL Practitioner	Placement Manager	SEARCH	Y
-wiltrn	WIL Practitioner	Placement Notes	ADD	Y
-wiltrn	WIL Practitioner	Placement Notes	DELETE	Y
-wiltrn	WIL Practitioner	Placement Notes	DETAIL	Y
-wiltrn	WIL Practitioner	Placement Notes	EDIT	Y
-wiltrn	WIL Practitioner	Placement Notes	LIST	Y
-wiltrn	WIL Practitioner	Placement Notes	PRINT	Y
-wiltrn	WIL Practitioner	Placement Notes	SEARCH	Y
-wiltrn	WIL Practitioner	PlacementBlock	ADD	Y
-wiltrn	WIL Practitioner	PlacementBlock	DELETE	Y
-wiltrn	WIL Practitioner	PlacementBlock	DETAIL	Y
-wiltrn	WIL Practitioner	PlacementBlock	EDIT	Y
-wiltrn	WIL Practitioner	PlacementBlock	LIST	Y
-wiltrn	WIL Practitioner	PlacementBlock	PRINT	Y
-wiltrn	WIL Practitioner	PlacementBlock	SEARCH	Y
-wiltrn	WIL Practitioner	PlacementHistory	DETAIL	Y
-wiltrn	WIL Practitioner	PlacementHistory	LIST	Y
-wiltrn	WIL Practitioner	PlacementStatus	DETAIL	Y
-wiltrn	WIL Practitioner	PlacementStatus	EDIT	Y
-wiltrn	WIL Practitioner	PlacementSupervisor	ADD	Y
-wiltrn	WIL Practitioner	PlacementSupervisor	DELETE	Y
-wiltrn	WIL Practitioner	PlacementSupervisor	DETAIL	Y
-wiltrn	WIL Practitioner	PlacementSupervisor	EDIT	Y
-wiltrn	WIL Practitioner	PlacementSupervisor	LIST	Y
-wiltrn	WIL Practitioner	Preferences	DETAIL	Y
-wiltrn	WIL Practitioner	Preferences	LIST	Y
-wiltrn	WIL Practitioner	Process	ADD	Y
-wiltrn	WIL Practitioner	Process	DELETE	Y
-wiltrn	WIL Practitioner	Process	DETAIL	Y
-wiltrn	WIL Practitioner	Process	EDIT	Y
-wiltrn	WIL Practitioner	Process	LIST	Y
-wiltrn	WIL Practitioner	Process	PRINT	Y
-wiltrn	WIL Practitioner	Process	SEARCH	Y
-wiltrn	WIL Practitioner	Qualification	ADD	Y
-wiltrn	WIL Practitioner	Qualification	DETAIL	Y
-wiltrn	WIL Practitioner	Qualification	EDIT	Y
-wiltrn	WIL Practitioner	Qualification	LIST	Y
-wiltrn	WIL Practitioner	Qualification	SEARCH	Y
-wiltrn	WIL Practitioner	Query	DETAIL	Y
-wiltrn	WIL Practitioner	Query	LIST	Y
-wiltrn	WIL Practitioner	Query	SEARCH	Y
-wiltrn	WIL Practitioner	Request	ADD	Y
-wiltrn	WIL Practitioner	Request	DETAIL	Y
-wiltrn	WIL Practitioner	Request	EDIT	Y
-wiltrn	WIL Practitioner	Request	LIST	Y
-wiltrn	WIL Practitioner	Request	PRINT	Y
-wiltrn	WIL Practitioner	Request	SEARCH	Y
-wiltrn	WIL Practitioner	Request Default	ADD	Y
-wiltrn	WIL Practitioner	Request Default	DELETE	Y
-wiltrn	WIL Practitioner	Request Default	DETAIL	Y
-wiltrn	WIL Practitioner	Request Default	EDIT	Y
-wiltrn	WIL Practitioner	Request Default	LIST	Y
-wiltrn	WIL Practitioner	Request Default	PRINT	Y
-wiltrn	WIL Practitioner	Request Default	SEARCH	Y
-wiltrn	WIL Practitioner	Request Docs	ADD	Y
-wiltrn	WIL Practitioner	Request Docs	DELETE	Y
-wiltrn	WIL Practitioner	Request Docs	DETAIL	Y
-wiltrn	WIL Practitioner	Request Docs	EDIT	Y
-wiltrn	WIL Practitioner	Request Docs	LIST	Y
-wiltrn	WIL Practitioner	Request Docs	PRINT	Y
-wiltrn	WIL Practitioner	Request Docs	SEARCH	Y
-wiltrn	WIL Practitioner	Request Manager	ADD	Y
-wiltrn	WIL Practitioner	Request Manager	DETAIL	Y
-wiltrn	WIL Practitioner	Request Manager	EDIT	Y
-wiltrn	WIL Practitioner	Request Manager	LIST	Y
-wiltrn	WIL Practitioner	Request Manager	PRINT	Y
-wiltrn	WIL Practitioner	Request Manager	SEARCH	Y
-wiltrn	WIL Practitioner	Request Notes	ADD	Y
-wiltrn	WIL Practitioner	Request Notes	DELETE	Y
-wiltrn	WIL Practitioner	Request Notes	DETAIL	Y
-wiltrn	WIL Practitioner	Request Notes	EDIT	Y
-wiltrn	WIL Practitioner	Request Notes	LIST	Y
-wiltrn	WIL Practitioner	Request Notes	PRINT	Y
-wiltrn	WIL Practitioner	Request Notes	SEARCH	Y
-wiltrn	WIL Practitioner	Rule	DETAIL	Y
-wiltrn	WIL Practitioner	Rule	LIST	Y
-wiltrn	WIL Practitioner	Rule	SEARCH	Y
-wiltrn	WIL Practitioner	Ruleset	DETAIL	Y
-wiltrn	WIL Practitioner	Ruleset	EDIT	Y
-wiltrn	WIL Practitioner	Ruleset	LIST	Y
-wiltrn	WIL Practitioner	Ruleset	SEARCH	Y
-wiltrn	WIL Practitioner	SelfPlacement	ADD	Y
-wiltrn	WIL Practitioner	SelfPlacement	DETAIL	Y
-wiltrn	WIL Practitioner	SelfPlacement	EDIT	Y
-wiltrn	WIL Practitioner	SelfPlacement	LIST	Y
-wiltrn	WIL Practitioner	SelfPlacement	PRINT	Y
-wiltrn	WIL Practitioner	SelfPlacement	SEARCH	Y
-wiltrn	WIL Practitioner	Self-Selectable Placement	ADD	Y
-wiltrn	WIL Practitioner	Self-Selectable Placement	DELETE	Y
-wiltrn	WIL Practitioner	Self-Selectable Placement	DETAIL	Y
-wiltrn	WIL Practitioner	Self-Selectable Placement	EDIT	Y
-wiltrn	WIL Practitioner	Self-Selectable Placement	LIST	Y
-wiltrn	WIL Practitioner	Self-Selectable Placement	PRINT	Y
-wiltrn	WIL Practitioner	Self-Selectable Placement	SEARCH	Y
-wiltrn	WIL Practitioner	Staff	DETAIL	Y
-wiltrn	WIL Practitioner	Staff	SEARCH	Y
-wiltrn	WIL Practitioner	StaffDisciplineCampus	DETAIL	Y
-wiltrn	WIL Practitioner	StaffDisciplineCampus	LIST	Y
-wiltrn	WIL Practitioner	StaffUnit Offering	ADD	Y
-wiltrn	WIL Practitioner	StaffUnit Offering	DELETE	Y
-wiltrn	WIL Practitioner	StaffUnit Offering	DETAIL	Y
-wiltrn	WIL Practitioner	StaffUnit Offering	EDIT	Y
-wiltrn	WIL Practitioner	StaffUnit Offering	LIST	Y
-wiltrn	WIL Practitioner	Student	DETAIL	Y
-wiltrn	WIL Practitioner	Student	LIST	Y
-wiltrn	WIL Practitioner	Student	PRINT	Y
-wiltrn	WIL Practitioner	Student	SEARCH	Y
-wiltrn	WIL Practitioner	Student Agency Preferences	DETAIL	Y
-wiltrn	WIL Practitioner	Student Agency Preferences	LIST	Y
-wiltrn	WIL Practitioner	Student Docs	ADD	Y
-wiltrn	WIL Practitioner	Student Docs	DELETE	Y
-wiltrn	WIL Practitioner	Student Docs	DETAIL	Y
-wiltrn	WIL Practitioner	Student Docs	EDIT	Y
-wiltrn	WIL Practitioner	Student Docs	LIST	Y
-wiltrn	WIL Practitioner	Student Docs	PRINT	Y
-wiltrn	WIL Practitioner	Student Docs	SEARCH	Y
-wiltrn	WIL Practitioner	Student Method	DETAIL	Y
-wiltrn	WIL Practitioner	Student Method	LIST	Y
-wiltrn	WIL Practitioner	Student Method	SEARCH	Y
-wiltrn	WIL Practitioner	Student Notes	ADD	Y
-wiltrn	WIL Practitioner	Student Notes	DELETE	Y
-wiltrn	WIL Practitioner	Student Notes	DETAIL	Y
-wiltrn	WIL Practitioner	Student Notes	EDIT	Y
-wiltrn	WIL Practitioner	Student Notes	LIST	Y
-wiltrn	WIL Practitioner	Student Notes	PRINT	Y
-wiltrn	WIL Practitioner	Student Notes	SEARCH	Y
-wiltrn	WIL Practitioner	StudentAddress	DETAIL	Y
-wiltrn	WIL Practitioner	StudentAddress	LIST	Y
-wiltrn	WIL Practitioner	StudentCourseOffering	DETAIL	Y
-wiltrn	WIL Practitioner	StudentCourseOffering	LIST	Y
-wiltrn	WIL Practitioner	StudentCourseOffering	SEARCH	Y
-wiltrn	WIL Practitioner	StudentUnit Offering	DETAIL	Y
-wiltrn	WIL Practitioner	StudentUnit Offering	LIST	Y
-wiltrn	WIL Practitioner	StudentUnit Offering	SEARCH	Y
-wiltrn	WIL Practitioner	Timesheet	ADD	Y
-wiltrn	WIL Practitioner	Timesheet	DELETE	Y
-wiltrn	WIL Practitioner	Timesheet	DETAIL	Y
-wiltrn	WIL Practitioner	Timesheet	EDIT	Y
-wiltrn	WIL Practitioner	Timesheet	LIST	Y
-wiltrn	WIL Practitioner	Timesheet	PRINT	Y
-wiltrn	WIL Practitioner	Timesheet	SEARCH	Y
-wiltrn	WIL Practitioner	Timesheet Placement 	ADD	Y
-wiltrn	WIL Practitioner	Timesheet Placement 	DELETE	Y
-wiltrn	WIL Practitioner	Timesheet Placement 	DETAIL	Y
-wiltrn	WIL Practitioner	Timesheet Placement 	EDIT	Y
-wiltrn	WIL Practitioner	Timesheet Placement 	LIST	Y
-wiltrn	WIL Practitioner	Timesheet Placement 	PRINT	Y
-wiltrn	WIL Practitioner	Timesheet Placement 	SEARCH	Y
-wiltrn	WIL Practitioner	Timesheet Placement Confirm	ADD	Y
-wiltrn	WIL Practitioner	Timesheet Placement Confirm	DELETE	Y
-wiltrn	WIL Practitioner	Timesheet Placement Confirm	DETAIL	Y
-wiltrn	WIL Practitioner	Timesheet Placement Confirm	EDIT	Y
-wiltrn	WIL Practitioner	Timesheet Placement Confirm	LIST	Y
-wiltrn	WIL Practitioner	Timesheet Placement Confirm	PRINT	Y
-wiltrn	WIL Practitioner	Timesheet Placement Confirm	SEARCH	Y
-wiltrn	WIL Practitioner	Timesheet Type	DETAIL	Y
-wiltrn	WIL Practitioner	Timesheet Type	EDIT	Y
-wiltrn	WIL Practitioner	Unit	DETAIL	Y
-wiltrn	WIL Practitioner	Unit	LIST	Y
-wiltrn	WIL Practitioner	Unit	PRINT	Y
-wiltrn	WIL Practitioner	Unit	SEARCH	Y
-wiltrn	WIL Practitioner	Unit Offering	DETAIL	Y
-wiltrn	WIL Practitioner	Unit Offering	EDIT	Y
-wiltrn	WIL Practitioner	Unit Offering	LIST	Y
-wiltrn	WIL Practitioner	Unit Offering	SEARCH	Y
-wiltrn	WIL Practitioner	Unit Offering Group	ADD	Y
-wiltrn	WIL Practitioner	Unit Offering Group	DELETE	Y
-wiltrn	WIL Practitioner	Unit Offering Group	DETAIL	Y
-wiltrn	WIL Practitioner	Unit Offering Group	EDIT	Y
-wiltrn	WIL Practitioner	Unit Offering Group	LIST	Y
-wiltrn	WIL Practitioner	Unit Offering Group	PRINT	Y
-wiltrn	WIL Practitioner	Unit Offering Group	SEARCH	Y
-wiltrn	WIL Practitioner	Unit Offering Group Unit Offering	ADD	Y
-wiltrn	WIL Practitioner	Unit Offering Group Unit Offering	DELETE	Y
-wiltrn	WIL Practitioner	Unit Offering Group Unit Offering	DETAIL	Y
-wiltrn	WIL Practitioner	Unit Offering Group Unit Offering	EDIT	Y
-wiltrn	WIL Practitioner	Unit Offering Group Unit Offering	LIST	Y
-wiltrn	WIL Practitioner	Unit Offering Group Unit Offering	PRINT	Y
-wiltrn	WIL Practitioner	Unit Offering Group Unit Offering	SEARCH	Y
-wiltrn	WIL Practitioner	UnitVersion	DETAIL	Y
-wiltrn	WIL Practitioner	UnitVersion	EDIT	Y
-wiltrn	WIL Practitioner	UnitVersion	LIST	Y
-wiltrn	WIL Practitioner	UnitVersion	PRINT	Y
-wiltrn	WIL Practitioner	UnitVersion	SEARCH	Y
-wiltrn	WIL Read Only	Address	DETAIL	Y
-wiltrn	WIL Read Only	Address	LIST	Y
-wiltrn	WIL Read Only	Address	SEARCH	Y
-wiltrn	WIL Read Only	Agency	DETAIL	Y
-wiltrn	WIL Read Only	Agency	LIST	Y
-wiltrn	WIL Read Only	Agency	SEARCH	Y
-wiltrn	WIL Read Only	Agency Category	DETAIL	Y
-wiltrn	WIL Read Only	Agency Category	LIST	Y
-wiltrn	WIL Read Only	Agency Category	SEARCH	Y
-wiltrn	WIL Read Only	AgencyAddress	DETAIL	Y
-wiltrn	WIL Read Only	AgencyAddress	LIST	Y
-wiltrn	WIL Read Only	AgencyAddress	SEARCH	Y
-wiltrn	WIL Read Only	AgencyDiscipline	DETAIL	Y
-wiltrn	WIL Read Only	AgencyDiscipline	LIST	Y
-wiltrn	WIL Read Only	AgencyDiscipline	SEARCH	Y
-wiltrn	WIL Read Only	AgencyPersonnel	DETAIL	Y
-wiltrn	WIL Read Only	AgencyPersonnel	LIST	Y
-wiltrn	WIL Read Only	AgencyPersonnel	SEARCH	Y
-wiltrn	WIL Read Only	Personnel	DETAIL	Y
-wiltrn	WIL Read Only	Personnel	LIST	Y
-wiltrn	WIL Read Only	Personnel	SEARCH	Y
-wiltrn	WIL Read Only	Placement	DETAIL	Y
-wiltrn	WIL Read Only	Placement	LIST	Y
-wiltrn	WIL Read Only	Placement	SEARCH	Y
-wiltrn	WIL Read Only	PlacementSupervisor	DETAIL	Y
-wiltrn	WIL Read Only	PlacementSupervisor	LIST	Y
-wiltrn	WIL Read Only	PlacementSupervisor	SEARCH	Y
-wiltrn	WIL Read Only	Staff	DETAIL	Y
-wiltrn	WIL Read Only	StaffDisciplineCampus	DETAIL	Y
-wiltrn	WIL Read Only	StaffDisciplineCampus	LIST	Y
-wiltrn	WIL Read Only	StaffDisciplineCampus	SEARCH	Y
-wiltrn	WIL Read Only	StaffUnit Offering	DETAIL	Y
-wiltrn	WIL Read Only	StaffUnit Offering	LIST	Y
-wiltrn	WIL Read Only	StaffUnit Offering	SEARCH	Y
-wiltrn	WIL Read Only	Student	DETAIL	Y
-wiltrn	WIL Read Only	Student	LIST	Y
-wiltrn	WIL Read Only	Student	SEARCH	Y
+wil	(Discipline Setup)	Attribute	ADD	Y
+wil	(Discipline Setup)	Attribute	DETAIL	Y
+wil	(Discipline Setup)	Attribute	LIST	Y
+wil	(Discipline Setup)	Attribute	LISTALL	Y
+wil	(Discipline Setup)	Attribute	PRINT	Y
+wil	(Discipline Setup)	Attribute	SEARCH	Y
+wil	(Discipline Setup)	EntityAttribute	ADD	Y
+wil	(Discipline Setup)	EntityAttribute	DETAIL	Y
+wil	(Discipline Setup)	EntityAttribute	EDIT	Y
+wil	(Discipline Setup)	EntityAttribute	LIST	Y
+wil	(Discipline Setup)	EntityAttribute	LISTALL	Y
+wil	(Discipline Setup)	EntityAttribute	PRINT	Y
+wil	(Discipline Setup)	Staff	DETAIL	Y
+wil	(Discipline Setup)	Staff	LIST	Y
+wil	(Discipline Setup)	Staff	LISTALL	Y
+wil	(Discipline Setup)	Staff	PRINT	Y
+wil	(Discipline Setup)	Staff	SEARCH	Y
+wil	(Discipline Setup)	StaffUnit Offering	ADD	Y
+wil	(Discipline Setup)	StaffUnit Offering	DELETE	Y
+wil	(Discipline Setup)	StaffUnit Offering	DETAIL	Y
+wil	(Discipline Setup)	StaffUnit Offering	EDIT	Y
+wil	(Discipline Setup)	StaffUnit Offering	LIST	Y
+wil	(Discipline Setup)	StaffUnit Offering	PRINT	Y
+wil	(Discipline Setup)	StaffUnit Offering	SEARCH	Y
+wil	(Discipline Setup)	Unit	PRINT	Y
+wil	(Discipline Setup)	Unit	SEARCH	Y
+wil	(Discipline Setup)	Unit Offering	PRINT	Y
+wil	(Discipline Setup)	Unit Offering	SEARCH	Y
+wil	(Discipline Setup)	Unit Offering Group	ADD	Y
+wil	(Discipline Setup)	Unit Offering Group	DETAIL	Y
+wil	(Discipline Setup)	Unit Offering Group	EDIT	Y
+wil	(Discipline Setup)	Unit Offering Group	LIST	Y
+wil	(Discipline Setup)	Unit Offering Group	PRINT	Y
+wil	(Discipline Setup)	Unit Offering Group	SEARCH	Y
+wil	(Discipline Setup)	Unit Offering Group Unit Offering	ADD	Y
+wil	(Discipline Setup)	Unit Offering Group Unit Offering	DETAIL	Y
+wil	(Discipline Setup)	Unit Offering Group Unit Offering	EDIT	Y
+wil	(Discipline Setup)	Unit Offering Group Unit Offering	LIST	Y
+wil	(Discipline Setup)	Unit Offering Group Unit Offering	PRINT	Y
+wil	(Discipline Setup)	Unit Offering Group Unit Offering	SEARCH	Y
+wil	+ Agency	Address	ADD	Y
+wil	+ Agency	Address	DELETE	Y
+wil	+ Agency	Address	EDIT	Y
+wil	+ Agency	Agency	ADD	Y
+wil	+ Agency	Agency	DELETE	Y
+wil	+ Agency	Agency	EDIT	Y
+wil	+ Agency	Agency	LISTALL	Y
+wil	+ Agency	Agency Category	ADD	Y
+wil	+ Agency	Agency Category	DELETE	Y
+wil	+ Agency	Agency Category	EDIT	Y
+wil	+ Agency	AgencyAddress	ADD	Y
+wil	+ Agency	AgencyAddress	DELETE	Y
+wil	+ Agency	AgencyAddress	EDIT	Y
+wil	+ Agency	AgencyDiscipline	ADD	Y
+wil	+ Agency	AgencyDiscipline	DETAIL	Y
+wil	+ Agency	AgencyDiscipline	EDIT	Y
+wil	+ Agency	AgencyPersonnel	ADD	Y
+wil	+ Agency	AgencyPersonnel	DELETE	Y
+wil	+ Agency	AgencyPersonnel	EDIT	Y
+wil	+ Agency	Category	ADD	Y
+wil	+ Agency	Category	DELETE	Y
+wil	+ Agency	Category	DETAIL	Y
+wil	+ Agency	Category	EDIT	Y
+wil	+ Agency	Category	LIST	Y
+wil	+ Agency	Category	SEARCH	Y
+wil	+ HWA Reporting	Cost Manager	SEARCH	Y
+wil	+ HWA Reporting	CourseVersion	SEARCH	Y
+wil	+ HWA Reporting	HWA Reports	ADD	Y
+wil	+ HWA Reporting	HWA Reports	DELETE	Y
+wil	+ HWA Reporting	HWA Reports	DETAIL	Y
+wil	+ HWA Reporting	HWA Reports	EDIT	Y
+wil	+ HWA Reporting	HWA Reports	LIST	Y
+wil	+ HWA Reporting	HWA Reports	LISTALL	Y
+wil	+ HWA Reporting	HWA Reports	PRINT	Y
+wil	+ HWA Reporting	HWA Reports	SEARCH	Y
+wil	+ InSight	Campaign	ADD	Y
+wil	+ InSight	Campaign	DELETE	Y
+wil	+ InSight	Campaign	DETAIL	Y
+wil	+ InSight	Campaign	EDIT	Y
+wil	+ InSight	Campaign	LIST	Y
+wil	+ InSight	Campaign	PRINT	Y
+wil	+ InSight	Campaign	SEARCH	Y
+wil	+ InSight	Question	ADD	Y
+wil	+ InSight	Question	DELETE	Y
+wil	+ InSight	Question	DETAIL	Y
+wil	+ InSight	Question	EDIT	Y
+wil	+ InSight	Question	LIST	Y
+wil	+ InSight	Question	LISTALL	Y
+wil	+ InSight	Question	PRINT	Y
+wil	+ InSight	Question	SEARCH	Y
+wil	+ InSight	Survey	ADD	Y
+wil	+ InSight	Survey	DELETE	Y
+wil	+ InSight	Survey	DETAIL	Y
+wil	+ InSight	Survey	EDIT	Y
+wil	+ InSight	Survey	LIST	Y
+wil	+ InSight	Survey	PRINT	Y
+wil	+ InSight	Survey	SEARCH	Y
+wil	+ Placement	Placement	EDIT	Y
+wil	+ Query Tool	Query	ADD	Y
+wil	+ Rules and Rulesets	Rule	ADD	Y
+wil	+ Rules and Rulesets	Rule	EDIT	Y
+wil	+ Rules and Rulesets	Ruleset	ADD	Y
+wil	+ Rules and Rulesets	Ruleset	EDIT	Y
+wil	+ Student Bulk Operations	Student	EDIT	Y
+wil	+ Student Bulk Operations	Student Bulk Update	ADD	Y
+wil	+ Student Bulk Operations	Student Bulk Update	DELETE	Y
+wil	+ Student Bulk Operations	Student Bulk Update	DETAIL	Y
+wil	+ Student Bulk Operations	Student Bulk Update	EDIT	Y
+wil	+ Student Bulk Operations	Student Bulk Update	LIST	Y
+wil	+ Student Bulk Operations	Student Bulk Update	LISTALL	Y
+wil	+ Student Bulk Operations	Student Bulk Update	PRINT	Y
+wil	+ Student Bulk Operations	Student Bulk Update	SEARCH	Y
+wil	+ Student Bulk Operations	StudentUnit Offering	ADD	Y
+wil	+ Student Bulk Operations	StudentUnit Offering	EDIT	Y
+wil	+ viCPlace			
+wil	Operational Support	Allocation Round	ADD	Y
+wil	Operational Support	Allocation Round	DELETE	Y
+wil	Operational Support	Allocation Round	DETAIL	Y
+wil	Operational Support	Allocation Round	EDIT	Y
+wil	Operational Support	Allocation Round	LIST	Y
+wil	Operational Support	Allocation Round	LISTALL	Y
+wil	Operational Support	Allocation Round	PRINT	Y
+wil	Operational Support	Allocation Round	SEARCH	Y
+wil	Operational Support	AppSetting	ADD	Y
+wil	Operational Support	AppSetting	DELETE	Y
+wil	Operational Support	AppSetting	DETAIL	Y
+wil	Operational Support	AppSetting	EDIT	Y
+wil	Operational Support	AppSetting	LIST	Y
+wil	Operational Support	AppSetting	LISTALL	Y
+wil	Operational Support	AppSetting	PRINT	Y
+wil	Operational Support	AppSetting	SEARCH	Y
+wil	Operational Support	AuditLog	ADD	Y
+wil	Operational Support	AuditLog	DELETE	Y
+wil	Operational Support	AuditLog	DETAIL	Y
+wil	Operational Support	AuditLog	EDIT	Y
+wil	Operational Support	AuditLog	LIST	Y
+wil	Operational Support	AuditLog	LISTALL	Y
+wil	Operational Support	AuditLog	PRINT	Y
+wil	Operational Support	AuditLog	SEARCH	Y
+wil	Operational Support	Configuration	ADD	Y
+wil	Operational Support	Configuration	DELETE	Y
+wil	Operational Support	Configuration	DETAIL	Y
+wil	Operational Support	Configuration	EDIT	Y
+wil	Operational Support	Configuration	LIST	Y
+wil	Operational Support	Configuration	LISTALL	Y
+wil	Operational Support	Configuration	PRINT	Y
+wil	Operational Support	Configuration	SEARCH	Y
+wil	Operational Support	Detail Audit	ADD	Y
+wil	Operational Support	Detail Audit	DELETE	Y
+wil	Operational Support	Detail Audit	DETAIL	Y
+wil	Operational Support	Detail Audit	EDIT	Y
+wil	Operational Support	Detail Audit	LIST	Y
+wil	Operational Support	Detail Audit	LISTALL	Y
+wil	Operational Support	Detail Audit	PRINT	Y
+wil	Operational Support	Detail Audit	SEARCH	Y
+wil	Operational Support	Foreign Domestic Status	ADD	Y
+wil	Operational Support	Foreign Domestic Status	DELETE	Y
+wil	Operational Support	Foreign Domestic Status	DETAIL	Y
+wil	Operational Support	Foreign Domestic Status	EDIT	Y
+wil	Operational Support	Foreign Domestic Status	LIST	Y
+wil	Operational Support	Foreign Domestic Status	LISTALL	Y
+wil	Operational Support	Foreign Domestic Status	PRINT	Y
+wil	Operational Support	Foreign Domestic Status	SEARCH	Y
+wil	Operational Support	Job Scheduling	ADD	Y
+wil	Operational Support	Job Scheduling	DELETE	Y
+wil	Operational Support	Job Scheduling	DETAIL	Y
+wil	Operational Support	Job Scheduling	EDIT	Y
+wil	Operational Support	Job Scheduling	LIST	Y
+wil	Operational Support	Job Scheduling	LISTALL	Y
+wil	Operational Support	Job Scheduling	PRINT	Y
+wil	Operational Support	Job Scheduling	SEARCH	Y
+wil	Operational Support	Licence	ADD	Y
+wil	Operational Support	Licence	DELETE	Y
+wil	Operational Support	Licence	DETAIL	Y
+wil	Operational Support	Licence	EDIT	Y
+wil	Operational Support	Licence	LIST	Y
+wil	Operational Support	Licence	LISTALL	Y
+wil	Operational Support	Licence	PRINT	Y
+wil	Operational Support	Licence	SEARCH	Y
+wil	Operational Support	SIS Ownership	ADD	Y
+wil	Operational Support	SIS Ownership	DELETE	Y
+wil	Operational Support	SIS Ownership	DETAIL	Y
+wil	Operational Support	SIS Ownership	EDIT	Y
+wil	Operational Support	SIS Ownership	LIST	Y
+wil	Operational Support	SIS Ownership	LISTALL	Y
+wil	Operational Support	SIS Ownership	PRINT	Y
+wil	Operational Support	SIS Ownership	SEARCH	Y
+wil	Operational Support	System Import Log	ADD	Y
+wil	Operational Support	System Import Log	DELETE	Y
+wil	Operational Support	System Import Log	DETAIL	Y
+wil	Operational Support	System Import Log	EDIT	Y
+wil	Operational Support	System Import Log	LIST	Y
+wil	Operational Support	System Import Log	LISTALL	Y
+wil	Operational Support	System Import Log	PRINT	Y
+wil	Operational Support	System Import Log	SEARCH	Y
+wil	Operational Support	System Setting	ADD	Y
+wil	Operational Support	System Setting	DELETE	Y
+wil	Operational Support	System Setting	DETAIL	Y
+wil	Operational Support	System Setting	EDIT	Y
+wil	Operational Support	System Setting	LIST	Y
+wil	Operational Support	System Setting	LISTALL	Y
+wil	Operational Support	System Setting	PRINT	Y
+wil	Operational Support	System Setting	SEARCH	Y
+wil	Staff	Staff	DETAIL	Y
+wil	Staff	StaffDisciplineCampus	LIST	Y
+wil	Student	Address	DETAIL	Y
+wil	Student	Address	LIST	Y
+wil	Student	Address	PRINT	Y
+wil	Student	Address	SEARCH	Y
+wil	Student	AddressType	DETAIL	Y
+wil	Student	AddressType	LIST	Y
+wil	Student	AddressType	PRINT	Y
+wil	Student	AddressType	SEARCH	Y
+wil	Student	Agency	DETAIL	Y
+wil	Student	Agency	PRINT	Y
+wil	Student	Agency	SEARCH	Y
+wil	Student	AgencyAddress	DETAIL	Y
+wil	Student	AgencyAddress	LIST	Y
+wil	Student	AgencyAddress	PRINT	Y
+wil	Student	AgencyAddress	SEARCH	Y
+wil	Student	AgencyLevel	DETAIL	Y
+wil	Student	AgencyType	DETAIL	Y
+wil	Student	Document	ADD	Y
+wil	Student	Document	DETAIL	Y
+wil	Student	Document	LIST	Y
+wil	Student	Document	PRINT	Y
+wil	Student	Document	SEARCH	Y
+wil	Student	Enrolment	DETAIL	Y
+wil	Student	Enrolment	LIST	Y
+wil	Student	Enrolment	PRINT	Y
+wil	Student	Enrolment	SEARCH	Y
+wil	Student	Opportunities	LIST	Y
+wil	Student	Opportunity Application	ADD	Y
+wil	Student	Opportunity Application	DETAIL	Y
+wil	Student	Opportunity Application	EDIT	Y
+wil	Student	Opportunity Application	LIST	Y
+wil	Student	Opportunity Application	SEARCH	Y
+wil	Student	Placement	DETAIL	Y
+wil	Student	Placement	LIST	Y
+wil	Student	Placement	PRINT	Y
+wil	Student	Placement	SEARCH	Y
+wil	Student	Placement Docs	ADD	Y
+wil	Student	Placement Docs	DETAIL	Y
+wil	Student	Placement Docs	LIST	Y
+wil	Student	Placement Docs	PRINT	Y
+wil	Student	PlacementSupervisor	DETAIL	Y
+wil	Student	PlacementSupervisor	LIST	Y
+wil	Student	PlacementSupervisor	PRINT	Y
+wil	Student	PlacementSupervisor	SEARCH	Y
+wil	Student	Schedule	DETAIL	Y
+wil	Student	Schedule	LIST	Y
+wil	Student	Schedule	PRINT	Y
+wil	Student	Schedule	SEARCH	Y
+wil	Student	ScheduleType	DETAIL	Y
+wil	Student	ScheduleType	LIST	Y
+wil	Student	ScheduleType	PRINT	Y
+wil	Student	ScheduleType	SEARCH	Y
+wil	Student	SelfPlacement	ADD	Y
+wil	Student	SelfPlacement	DETAIL	Y
+wil	Student	SelfPlacement	EDIT	Y
+wil	Student	SelfPlacement	LIST	Y
+wil	Student	SelfPlacement	PRINT	Y
+wil	Student	SelfPlacement	SEARCH	Y
+wil	Student	Self-Selectable Placement	DETAIL	Y
+wil	Student	Self-Selectable Placement	LIST	Y
+wil	Student	Self-Selectable Placement	PRINT	Y
+wil	Student	Self-Selectable Placement	SEARCH	Y
+wil	Student	Student	DETAIL	Y
+wil	Student	Student	PRINT	Y
+wil	Student	Student	SEARCH	Y
+wil	Student	Student Agency Preferences	ADD	Y
+wil	Student	Student Agency Preferences	DELETE	Y
+wil	Student	Student Agency Preferences	DETAIL	Y
+wil	Student	Student Agency Preferences	EDIT	Y
+wil	Student	Student Agency Preferences	LIST	Y
+wil	Student	Student Agency Preferences	LISTALL	Y
+wil	Student	Student Agency Preferences	PRINT	Y
+wil	Student	Student Agency Preferences	SEARCH	Y
+wil	Student	StudentAddress	DETAIL	Y
+wil	Student	StudentAddress	LIST	Y
+wil	Student	StudentAddress	PRINT	Y
+wil	Student	StudentAddress	SEARCH	Y
+wil	Student	StudentCourseOffering	DETAIL	Y
+wil	Student	StudentCourseOffering	LIST	Y
+wil	Student	StudentCourseOffering	PRINT	Y
+wil	Student	StudentCourseOffering	SEARCH	Y
+wil	Student	StudentUnit Offering	DETAIL	Y
+wil	Student	StudentUnit Offering	LIST	Y
+wil	Student	StudentUnit Offering	PRINT	Y
+wil	Student	StudentUnit Offering	SEARCH	Y
+wil	Student	Timesheet	DETAIL	Y
+wil	Student	Timesheet	EDIT	Y
+wil	Student	Timesheet	LIST	Y
+wil	Student	Timesheet	PRINT	Y
+wil	Student	Timesheet Placement 	ADD	Y
+wil	Student	Timesheet Placement 	DETAIL	Y
+wil	Student	Timesheet Placement 	EDIT	Y
+wil	Student	Timesheet Placement 	LIST	Y
+wil	Student	Timesheet Placement 	PRINT	Y
+wil	Student	Timesheet Placement Confirm	ADD	Y
+wil	Student	Timesheet Placement Confirm	DETAIL	Y
+wil	Student	Timesheet Placement Confirm	EDIT	Y
+wil	Student	Timesheet Placement Confirm	LIST	Y
+wil	Student	Timesheet Placement Confirm	PRINT	Y
+wil	Student	Unit Offering	SEARCH	Y
+wil	SuperUser	Absent Reason	ADD	Y
+wil	SuperUser	Absent Reason	DELETE	Y
+wil	SuperUser	Absent Reason	DETAIL	Y
+wil	SuperUser	Absent Reason	EDIT	Y
+wil	SuperUser	Absent Reason	LIST	Y
+wil	SuperUser	Absent Reason	LISTALL	Y
+wil	SuperUser	Absent Reason	PRINT	Y
+wil	SuperUser	Absent Reason	SEARCH	Y
+wil	SuperUser	Address	ADD	Y
+wil	SuperUser	Address	DELETE	Y
+wil	SuperUser	Address	DETAIL	Y
+wil	SuperUser	Address	EDIT	Y
+wil	SuperUser	Address	LIST	Y
+wil	SuperUser	Address	LISTALL	Y
+wil	SuperUser	Address	PRINT	Y
+wil	SuperUser	Address	SEARCH	Y
+wil	SuperUser	AddressType	ADD	Y
+wil	SuperUser	AddressType	DELETE	Y
+wil	SuperUser	AddressType	DETAIL	Y
+wil	SuperUser	AddressType	EDIT	Y
+wil	SuperUser	AddressType	LIST	Y
+wil	SuperUser	AddressType	LISTALL	Y
+wil	SuperUser	AddressType	PRINT	Y
+wil	SuperUser	AddressType	SEARCH	Y
+wil	SuperUser	AdhocQuery	ADD	Y
+wil	SuperUser	AdhocQuery	DELETE	Y
+wil	SuperUser	AdhocQuery	DETAIL	Y
+wil	SuperUser	AdhocQuery	EDIT	Y
+wil	SuperUser	AdhocQuery	LIST	Y
+wil	SuperUser	AdhocQuery	LISTALL	Y
+wil	SuperUser	AdhocQuery	PRINT	Y
+wil	SuperUser	AdhocQuery	SEARCH	Y
+wil	SuperUser	Agency	ADD	Y
+wil	SuperUser	Agency	DELETE	Y
+wil	SuperUser	Agency	DETAIL	Y
+wil	SuperUser	Agency	EDIT	Y
+wil	SuperUser	Agency	LIST	Y
+wil	SuperUser	Agency	LISTALL	Y
+wil	SuperUser	Agency	PRINT	Y
+wil	SuperUser	Agency	SEARCH	Y
+wil	SuperUser	Agency Category	ADD	Y
+wil	SuperUser	Agency Category	DELETE	Y
+wil	SuperUser	Agency Category	DETAIL	Y
+wil	SuperUser	Agency Category	EDIT	Y
+wil	SuperUser	Agency Category	LIST	Y
+wil	SuperUser	Agency Category	LISTALL	Y
+wil	SuperUser	Agency Category	PRINT	Y
+wil	SuperUser	Agency Category	SEARCH	Y
+wil	SuperUser	Agency Docs	ADD	Y
+wil	SuperUser	Agency Docs	DELETE	Y
+wil	SuperUser	Agency Docs	DETAIL	Y
+wil	SuperUser	Agency Docs	EDIT	Y
+wil	SuperUser	Agency Docs	LIST	Y
+wil	SuperUser	Agency Docs	LISTALL	Y
+wil	SuperUser	Agency Docs	PRINT	Y
+wil	SuperUser	Agency Docs	SEARCH	Y
+wil	SuperUser	Agency Level Template	ADD	Y
+wil	SuperUser	Agency Level Template	DELETE	Y
+wil	SuperUser	Agency Level Template	DETAIL	Y
+wil	SuperUser	Agency Level Template	EDIT	Y
+wil	SuperUser	Agency Level Template	LIST	Y
+wil	SuperUser	Agency Level Template	LISTALL	Y
+wil	SuperUser	Agency Level Template	PRINT	Y
+wil	SuperUser	Agency Level Template	SEARCH	Y
+wil	SuperUser	Agency Notes	ADD	Y
+wil	SuperUser	Agency Notes	DELETE	Y
+wil	SuperUser	Agency Notes	DETAIL	Y
+wil	SuperUser	Agency Notes	EDIT	Y
+wil	SuperUser	Agency Notes	LIST	Y
+wil	SuperUser	Agency Notes	LISTALL	Y
+wil	SuperUser	Agency Notes	PRINT	Y
+wil	SuperUser	Agency Notes	SEARCH	Y
+wil	SuperUser	Agency Personnel Docs	ADD	Y
+wil	SuperUser	Agency Personnel Docs	DELETE	Y
+wil	SuperUser	Agency Personnel Docs	DETAIL	Y
+wil	SuperUser	Agency Personnel Docs	EDIT	Y
+wil	SuperUser	Agency Personnel Docs	LIST	Y
+wil	SuperUser	Agency Personnel Docs	LISTALL	Y
+wil	SuperUser	Agency Personnel Docs	PRINT	Y
+wil	SuperUser	Agency Personnel Docs	SEARCH	Y
+wil	SuperUser	Agency Personnel Mentor	ADD	Y
+wil	SuperUser	Agency Personnel Mentor	DELETE	Y
+wil	SuperUser	Agency Personnel Mentor	DETAIL	Y
+wil	SuperUser	Agency Personnel Mentor	EDIT	Y
+wil	SuperUser	Agency Personnel Mentor	LIST	Y
+wil	SuperUser	Agency Personnel Mentor	LISTALL	Y
+wil	SuperUser	Agency Personnel Mentor	PRINT	Y
+wil	SuperUser	Agency Personnel Mentor	SEARCH	Y
+wil	SuperUser	Agency Personnel Notes	ADD	Y
+wil	SuperUser	Agency Personnel Notes	DELETE	Y
+wil	SuperUser	Agency Personnel Notes	DETAIL	Y
+wil	SuperUser	Agency Personnel Notes	EDIT	Y
+wil	SuperUser	Agency Personnel Notes	LIST	Y
+wil	SuperUser	Agency Personnel Notes	LISTALL	Y
+wil	SuperUser	Agency Personnel Notes	PRINT	Y
+wil	SuperUser	Agency Personnel Notes	SEARCH	Y
+wil	SuperUser	Agency Placement Agreement Docs	ADD	Y
+wil	SuperUser	Agency Placement Agreement Docs	DELETE	Y
+wil	SuperUser	Agency Placement Agreement Docs	DETAIL	Y
+wil	SuperUser	Agency Placement Agreement Docs	EDIT	Y
+wil	SuperUser	Agency Placement Agreement Docs	LIST	Y
+wil	SuperUser	Agency Placement Agreement Docs	LISTALL	Y
+wil	SuperUser	Agency Placement Agreement Docs	PRINT	Y
+wil	SuperUser	Agency Placement Agreement Docs	SEARCH	Y
+wil	SuperUser	Agency Placement Agreement Notes	ADD	Y
+wil	SuperUser	Agency Placement Agreement Notes	DELETE	Y
+wil	SuperUser	Agency Placement Agreement Notes	DETAIL	Y
+wil	SuperUser	Agency Placement Agreement Notes	EDIT	Y
+wil	SuperUser	Agency Placement Agreement Notes	LIST	Y
+wil	SuperUser	Agency Placement Agreement Notes	LISTALL	Y
+wil	SuperUser	Agency Placement Agreement Notes	PRINT	Y
+wil	SuperUser	Agency Placement Agreement Notes	SEARCH	Y
+wil	SuperUser	Agency Preference	ADD	Y
+wil	SuperUser	Agency Preference	DELETE	Y
+wil	SuperUser	Agency Preference	DETAIL	Y
+wil	SuperUser	Agency Preference	EDIT	Y
+wil	SuperUser	Agency Preference	LIST	Y
+wil	SuperUser	Agency Preference	LISTALL	Y
+wil	SuperUser	Agency Preference	PRINT	Y
+wil	SuperUser	Agency Preference	SEARCH	Y
+wil	SuperUser	AgencyAddress	ADD	Y
+wil	SuperUser	AgencyAddress	DELETE	Y
+wil	SuperUser	AgencyAddress	DETAIL	Y
+wil	SuperUser	AgencyAddress	EDIT	Y
+wil	SuperUser	AgencyAddress	LIST	Y
+wil	SuperUser	AgencyAddress	LISTALL	Y
+wil	SuperUser	AgencyAddress	PRINT	Y
+wil	SuperUser	AgencyAddress	SEARCH	Y
+wil	SuperUser	AgencyAgreementDiscipline	ADD	Y
+wil	SuperUser	AgencyAgreementDiscipline	DELETE	Y
+wil	SuperUser	AgencyAgreementDiscipline	DETAIL	Y
+wil	SuperUser	AgencyAgreementDiscipline	EDIT	Y
+wil	SuperUser	AgencyAgreementDiscipline	LIST	Y
+wil	SuperUser	AgencyAgreementDiscipline	LISTALL	Y
+wil	SuperUser	AgencyAgreementDiscipline	PRINT	Y
+wil	SuperUser	AgencyAgreementDiscipline	SEARCH	Y
+wil	SuperUser	AgencyDiscipline	ADD	Y
+wil	SuperUser	AgencyDiscipline	DELETE	Y
+wil	SuperUser	AgencyDiscipline	DETAIL	Y
+wil	SuperUser	AgencyDiscipline	EDIT	Y
+wil	SuperUser	AgencyDiscipline	LIST	Y
+wil	SuperUser	AgencyDiscipline	LISTALL	Y
+wil	SuperUser	AgencyDiscipline	PRINT	Y
+wil	SuperUser	AgencyDiscipline	SEARCH	Y
+wil	SuperUser	AgencyLevel	ADD	Y
+wil	SuperUser	AgencyLevel	DELETE	Y
+wil	SuperUser	AgencyLevel	DETAIL	Y
+wil	SuperUser	AgencyLevel	EDIT	Y
+wil	SuperUser	AgencyLevel	LIST	Y
+wil	SuperUser	AgencyLevel	LISTALL	Y
+wil	SuperUser	AgencyLevel	PRINT	Y
+wil	SuperUser	AgencyLevel	SEARCH	Y
+wil	SuperUser	AgencyPersonnel	ADD	Y
+wil	SuperUser	AgencyPersonnel	DELETE	Y
+wil	SuperUser	AgencyPersonnel	DETAIL	Y
+wil	SuperUser	AgencyPersonnel	EDIT	Y
+wil	SuperUser	AgencyPersonnel	LIST	Y
+wil	SuperUser	AgencyPersonnel	LISTALL	Y
+wil	SuperUser	AgencyPersonnel	PRINT	Y
+wil	SuperUser	AgencyPersonnel	SEARCH	Y
+wil	SuperUser	AgencyPersonnelDiscipline	ADD	Y
+wil	SuperUser	AgencyPersonnelDiscipline	DELETE	Y
+wil	SuperUser	AgencyPersonnelDiscipline	DETAIL	Y
+wil	SuperUser	AgencyPersonnelDiscipline	EDIT	Y
+wil	SuperUser	AgencyPersonnelDiscipline	LIST	Y
+wil	SuperUser	AgencyPersonnelDiscipline	LISTALL	Y
+wil	SuperUser	AgencyPersonnelDiscipline	PRINT	Y
+wil	SuperUser	AgencyPersonnelDiscipline	SEARCH	Y
+wil	SuperUser	AgencyPlacementAgreement	ADD	Y
+wil	SuperUser	AgencyPlacementAgreement	DELETE	Y
+wil	SuperUser	AgencyPlacementAgreement	DETAIL	Y
+wil	SuperUser	AgencyPlacementAgreement	EDIT	Y
+wil	SuperUser	AgencyPlacementAgreement	LIST	Y
+wil	SuperUser	AgencyPlacementAgreement	LISTALL	Y
+wil	SuperUser	AgencyPlacementAgreement	PRINT	Y
+wil	SuperUser	AgencyPlacementAgreement	SEARCH	Y
+wil	SuperUser	AgencyType	ADD	Y
+wil	SuperUser	AgencyType	DELETE	Y
+wil	SuperUser	AgencyType	DETAIL	Y
+wil	SuperUser	AgencyType	EDIT	Y
+wil	SuperUser	AgencyType	LIST	Y
+wil	SuperUser	AgencyType	LISTALL	Y
+wil	SuperUser	AgencyType	PRINT	Y
+wil	SuperUser	AgencyType	SEARCH	Y
+wil	SuperUser	Alert	ADD	Y
+wil	SuperUser	Alert	DELETE	Y
+wil	SuperUser	Alert	DETAIL	Y
+wil	SuperUser	Alert	EDIT	Y
+wil	SuperUser	Alert	LIST	Y
+wil	SuperUser	Alert	LISTALL	Y
+wil	SuperUser	Alert	PRINT	Y
+wil	SuperUser	Alert	SEARCH	Y
+wil	SuperUser	Allocation Round	ADD	Y
+wil	SuperUser	Allocation Round	DELETE	Y
+wil	SuperUser	Allocation Round	DETAIL	Y
+wil	SuperUser	Allocation Round	EDIT	Y
+wil	SuperUser	Allocation Round	LIST	Y
+wil	SuperUser	Allocation Round	LISTALL	Y
+wil	SuperUser	Allocation Round	PRINT	Y
+wil	SuperUser	Allocation Round	SEARCH	Y
+wil	SuperUser	Allocation Round Preference	ADD	Y
+wil	SuperUser	Allocation Round Preference	DELETE	Y
+wil	SuperUser	Allocation Round Preference	DETAIL	Y
+wil	SuperUser	Allocation Round Preference	EDIT	Y
+wil	SuperUser	Allocation Round Preference	LIST	Y
+wil	SuperUser	Allocation Round Preference	LISTALL	Y
+wil	SuperUser	Allocation Round Preference	PRINT	Y
+wil	SuperUser	Allocation Round Preference	SEARCH	Y
+wil	SuperUser	AllocationType	ADD	Y
+wil	SuperUser	AllocationType	DELETE	Y
+wil	SuperUser	AllocationType	DETAIL	Y
+wil	SuperUser	AllocationType	EDIT	Y
+wil	SuperUser	AllocationType	LIST	Y
+wil	SuperUser	AllocationType	LISTALL	Y
+wil	SuperUser	AllocationType	PRINT	Y
+wil	SuperUser	AllocationType	SEARCH	Y
+wil	SuperUser	AppDocument	ADD	Y
+wil	SuperUser	AppDocument	DELETE	Y
+wil	SuperUser	AppDocument	DETAIL	Y
+wil	SuperUser	AppDocument	EDIT	Y
+wil	SuperUser	AppDocument	LIST	Y
+wil	SuperUser	AppDocument	LISTALL	Y
+wil	SuperUser	AppDocument	PRINT	Y
+wil	SuperUser	AppDocument	SEARCH	Y
+wil	SuperUser	AppSetting	ADD	Y
+wil	SuperUser	AppSetting	DELETE	Y
+wil	SuperUser	AppSetting	DETAIL	Y
+wil	SuperUser	AppSetting	EDIT	Y
+wil	SuperUser	AppSetting	LIST	Y
+wil	SuperUser	AppSetting	LISTALL	Y
+wil	SuperUser	AppSetting	PRINT	Y
+wil	SuperUser	AppSetting	SEARCH	Y
+wil	SuperUser	aspnet_Applications	ADD	Y
+wil	SuperUser	aspnet_Applications	DELETE	Y
+wil	SuperUser	aspnet_Applications	DETAIL	Y
+wil	SuperUser	aspnet_Applications	EDIT	Y
+wil	SuperUser	aspnet_Applications	LIST	Y
+wil	SuperUser	aspnet_Applications	LISTALL	Y
+wil	SuperUser	aspnet_Applications	PRINT	Y
+wil	SuperUser	aspnet_Applications	SEARCH	Y
+wil	SuperUser	aspnet_Membership	ADD	Y
+wil	SuperUser	aspnet_Membership	DELETE	Y
+wil	SuperUser	aspnet_Membership	DETAIL	Y
+wil	SuperUser	aspnet_Membership	EDIT	Y
+wil	SuperUser	aspnet_Membership	LIST	Y
+wil	SuperUser	aspnet_Membership	LISTALL	Y
+wil	SuperUser	aspnet_Membership	PRINT	Y
+wil	SuperUser	aspnet_Membership	SEARCH	Y
+wil	SuperUser	aspnet_Roles	ADD	Y
+wil	SuperUser	aspnet_Roles	DELETE	Y
+wil	SuperUser	aspnet_Roles	DETAIL	Y
+wil	SuperUser	aspnet_Roles	EDIT	Y
+wil	SuperUser	aspnet_Roles	LIST	Y
+wil	SuperUser	aspnet_Roles	LISTALL	Y
+wil	SuperUser	aspnet_Roles	PRINT	Y
+wil	SuperUser	aspnet_Roles	SEARCH	Y
+wil	SuperUser	aspnet_SchemaVersions	ADD	Y
+wil	SuperUser	aspnet_SchemaVersions	DELETE	Y
+wil	SuperUser	aspnet_SchemaVersions	DETAIL	Y
+wil	SuperUser	aspnet_SchemaVersions	EDIT	Y
+wil	SuperUser	aspnet_SchemaVersions	LIST	Y
+wil	SuperUser	aspnet_SchemaVersions	LISTALL	Y
+wil	SuperUser	aspnet_SchemaVersions	PRINT	Y
+wil	SuperUser	aspnet_SchemaVersions	SEARCH	Y
+wil	SuperUser	aspnet_Users	ADD	Y
+wil	SuperUser	aspnet_Users	DELETE	Y
+wil	SuperUser	aspnet_Users	DETAIL	Y
+wil	SuperUser	aspnet_Users	EDIT	Y
+wil	SuperUser	aspnet_Users	LIST	Y
+wil	SuperUser	aspnet_Users	LISTALL	Y
+wil	SuperUser	aspnet_Users	PRINT	Y
+wil	SuperUser	aspnet_Users	SEARCH	Y
+wil	SuperUser	aspnet_UsersInRoles	ADD	Y
+wil	SuperUser	aspnet_UsersInRoles	DELETE	Y
+wil	SuperUser	aspnet_UsersInRoles	DETAIL	Y
+wil	SuperUser	aspnet_UsersInRoles	EDIT	Y
+wil	SuperUser	aspnet_UsersInRoles	LIST	Y
+wil	SuperUser	aspnet_UsersInRoles	LISTALL	Y
+wil	SuperUser	aspnet_UsersInRoles	PRINT	Y
+wil	SuperUser	aspnet_UsersInRoles	SEARCH	Y
+wil	SuperUser	Assessment	ADD	Y
+wil	SuperUser	Assessment	DELETE	Y
+wil	SuperUser	Assessment	DETAIL	Y
+wil	SuperUser	Assessment	EDIT	Y
+wil	SuperUser	Assessment	LIST	Y
+wil	SuperUser	Assessment	LISTALL	Y
+wil	SuperUser	Assessment	PRINT	Y
+wil	SuperUser	Assessment	SEARCH	Y
+wil	SuperUser	Attribute	ADD	Y
+wil	SuperUser	Attribute	DELETE	Y
+wil	SuperUser	Attribute	DETAIL	Y
+wil	SuperUser	Attribute	EDIT	Y
+wil	SuperUser	Attribute	LIST	Y
+wil	SuperUser	Attribute	LISTALL	Y
+wil	SuperUser	Attribute	PRINT	Y
+wil	SuperUser	Attribute	SEARCH	Y
+wil	SuperUser	AttributeList	ADD	Y
+wil	SuperUser	AttributeList	DELETE	Y
+wil	SuperUser	AttributeList	DETAIL	Y
+wil	SuperUser	AttributeList	EDIT	Y
+wil	SuperUser	AttributeList	LIST	Y
+wil	SuperUser	AttributeList	LISTALL	Y
+wil	SuperUser	AttributeList	PRINT	Y
+wil	SuperUser	AttributeList	SEARCH	Y
+wil	SuperUser	AttributeListItem	ADD	Y
+wil	SuperUser	AttributeListItem	DELETE	Y
+wil	SuperUser	AttributeListItem	DETAIL	Y
+wil	SuperUser	AttributeListItem	EDIT	Y
+wil	SuperUser	AttributeListItem	LIST	Y
+wil	SuperUser	AttributeListItem	LISTALL	Y
+wil	SuperUser	AttributeListItem	PRINT	Y
+wil	SuperUser	AttributeListItem	SEARCH	Y
+wil	SuperUser	AttributeType	ADD	Y
+wil	SuperUser	AttributeType	DELETE	Y
+wil	SuperUser	AttributeType	DETAIL	Y
+wil	SuperUser	AttributeType	EDIT	Y
+wil	SuperUser	AttributeType	LIST	Y
+wil	SuperUser	AttributeType	LISTALL	Y
+wil	SuperUser	AttributeType	PRINT	Y
+wil	SuperUser	AttributeType	SEARCH	Y
+wil	SuperUser	AuditLog	ADD	Y
+wil	SuperUser	AuditLog	DELETE	Y
+wil	SuperUser	AuditLog	DETAIL	Y
+wil	SuperUser	AuditLog	EDIT	Y
+wil	SuperUser	AuditLog	LIST	Y
+wil	SuperUser	AuditLog	LISTALL	Y
+wil	SuperUser	AuditLog	PRINT	Y
+wil	SuperUser	AuditLog	SEARCH	Y
+wil	SuperUser	Calendar	ADD	Y
+wil	SuperUser	Calendar	DELETE	Y
+wil	SuperUser	Calendar	DETAIL	Y
+wil	SuperUser	Calendar	EDIT	Y
+wil	SuperUser	Calendar	LIST	Y
+wil	SuperUser	Calendar	LISTALL	Y
+wil	SuperUser	Calendar	PRINT	Y
+wil	SuperUser	Calendar	SEARCH	Y
+wil	SuperUser	Campaign	ADD	Y
+wil	SuperUser	Campaign	DELETE	Y
+wil	SuperUser	Campaign	DETAIL	Y
+wil	SuperUser	Campaign	EDIT	Y
+wil	SuperUser	Campaign	LIST	Y
+wil	SuperUser	Campaign	LISTALL	Y
+wil	SuperUser	Campaign	PRINT	Y
+wil	SuperUser	Campaign	SEARCH	Y
+wil	SuperUser	Campus	ADD	Y
+wil	SuperUser	Campus	DELETE	Y
+wil	SuperUser	Campus	DETAIL	Y
+wil	SuperUser	Campus	EDIT	Y
+wil	SuperUser	Campus	LIST	Y
+wil	SuperUser	Campus	LISTALL	Y
+wil	SuperUser	Campus	PRINT	Y
+wil	SuperUser	Campus	SEARCH	Y
+wil	SuperUser	Campus Docs	ADD	Y
+wil	SuperUser	Campus Docs	DELETE	Y
+wil	SuperUser	Campus Docs	DETAIL	Y
+wil	SuperUser	Campus Docs	EDIT	Y
+wil	SuperUser	Campus Docs	LIST	Y
+wil	SuperUser	Campus Docs	LISTALL	Y
+wil	SuperUser	Campus Docs	PRINT	Y
+wil	SuperUser	Campus Docs	SEARCH	Y
+wil	SuperUser	Campus Notes	ADD	Y
+wil	SuperUser	Campus Notes	DELETE	Y
+wil	SuperUser	Campus Notes	DETAIL	Y
+wil	SuperUser	Campus Notes	EDIT	Y
+wil	SuperUser	Campus Notes	LIST	Y
+wil	SuperUser	Campus Notes	LISTALL	Y
+wil	SuperUser	Campus Notes	PRINT	Y
+wil	SuperUser	Campus Notes	SEARCH	Y
+wil	SuperUser	Capacity Management	ADD	Y
+wil	SuperUser	Capacity Management	DELETE	Y
+wil	SuperUser	Capacity Management	DETAIL	Y
+wil	SuperUser	Capacity Management	EDIT	Y
+wil	SuperUser	Capacity Management	LIST	Y
+wil	SuperUser	Capacity Management	LISTALL	Y
+wil	SuperUser	Capacity Management	PRINT	Y
+wil	SuperUser	Capacity Management	SEARCH	Y
+wil	SuperUser	Category	ADD	Y
+wil	SuperUser	Category	DELETE	Y
+wil	SuperUser	Category	DETAIL	Y
+wil	SuperUser	Category	EDIT	Y
+wil	SuperUser	Category	LIST	Y
+wil	SuperUser	Category	LISTALL	Y
+wil	SuperUser	Category	PRINT	Y
+wil	SuperUser	Category	SEARCH	Y
+wil	SuperUser	ChangeRequest	ADD	Y
+wil	SuperUser	ChangeRequest	DELETE	Y
+wil	SuperUser	ChangeRequest	DETAIL	Y
+wil	SuperUser	ChangeRequest	EDIT	Y
+wil	SuperUser	ChangeRequest	LIST	Y
+wil	SuperUser	ChangeRequest	LISTALL	Y
+wil	SuperUser	ChangeRequest	PRINT	Y
+wil	SuperUser	ChangeRequest	SEARCH	Y
+wil	SuperUser	ChangeRequestStatus	ADD	Y
+wil	SuperUser	ChangeRequestStatus	DELETE	Y
+wil	SuperUser	ChangeRequestStatus	DETAIL	Y
+wil	SuperUser	ChangeRequestStatus	EDIT	Y
+wil	SuperUser	ChangeRequestStatus	LIST	Y
+wil	SuperUser	ChangeRequestStatus	LISTALL	Y
+wil	SuperUser	ChangeRequestStatus	PRINT	Y
+wil	SuperUser	ChangeRequestStatus	SEARCH	Y
+wil	SuperUser	ChangeRequestType	ADD	Y
+wil	SuperUser	ChangeRequestType	DELETE	Y
+wil	SuperUser	ChangeRequestType	DETAIL	Y
+wil	SuperUser	ChangeRequestType	EDIT	Y
+wil	SuperUser	ChangeRequestType	LIST	Y
+wil	SuperUser	ChangeRequestType	LISTALL	Y
+wil	SuperUser	ChangeRequestType	PRINT	Y
+wil	SuperUser	ChangeRequestType	SEARCH	Y
+wil	SuperUser	ChangeRequestUserType	ADD	Y
+wil	SuperUser	ChangeRequestUserType	DELETE	Y
+wil	SuperUser	ChangeRequestUserType	DETAIL	Y
+wil	SuperUser	ChangeRequestUserType	EDIT	Y
+wil	SuperUser	ChangeRequestUserType	LIST	Y
+wil	SuperUser	ChangeRequestUserType	LISTALL	Y
+wil	SuperUser	ChangeRequestUserType	PRINT	Y
+wil	SuperUser	ChangeRequestUserType	SEARCH	Y
+wil	SuperUser	Clinical School Agreement Docs	ADD	Y
+wil	SuperUser	Clinical School Agreement Docs	DELETE	Y
+wil	SuperUser	Clinical School Agreement Docs	DETAIL	Y
+wil	SuperUser	Clinical School Agreement Docs	EDIT	Y
+wil	SuperUser	Clinical School Agreement Docs	LIST	Y
+wil	SuperUser	Clinical School Agreement Docs	LISTALL	Y
+wil	SuperUser	Clinical School Agreement Docs	PRINT	Y
+wil	SuperUser	Clinical School Agreement Docs	SEARCH	Y
+wil	SuperUser	Clinical School Agreement Notes	ADD	Y
+wil	SuperUser	Clinical School Agreement Notes	DELETE	Y
+wil	SuperUser	Clinical School Agreement Notes	DETAIL	Y
+wil	SuperUser	Clinical School Agreement Notes	EDIT	Y
+wil	SuperUser	Clinical School Agreement Notes	LIST	Y
+wil	SuperUser	Clinical School Agreement Notes	LISTALL	Y
+wil	SuperUser	Clinical School Agreement Notes	PRINT	Y
+wil	SuperUser	Clinical School Agreement Notes	SEARCH	Y
+wil	SuperUser	Clinical School Docs	ADD	Y
+wil	SuperUser	Clinical School Docs	DELETE	Y
+wil	SuperUser	Clinical School Docs	DETAIL	Y
+wil	SuperUser	Clinical School Docs	EDIT	Y
+wil	SuperUser	Clinical School Docs	LIST	Y
+wil	SuperUser	Clinical School Docs	LISTALL	Y
+wil	SuperUser	Clinical School Docs	PRINT	Y
+wil	SuperUser	Clinical School Docs	SEARCH	Y
+wil	SuperUser	Clinical School Notes	ADD	Y
+wil	SuperUser	Clinical School Notes	DELETE	Y
+wil	SuperUser	Clinical School Notes	DETAIL	Y
+wil	SuperUser	Clinical School Notes	EDIT	Y
+wil	SuperUser	Clinical School Notes	LIST	Y
+wil	SuperUser	Clinical School Notes	LISTALL	Y
+wil	SuperUser	Clinical School Notes	PRINT	Y
+wil	SuperUser	Clinical School Notes	SEARCH	Y
+wil	SuperUser	Clinical Training Setting	ADD	Y
+wil	SuperUser	Clinical Training Setting	DELETE	Y
+wil	SuperUser	Clinical Training Setting	DETAIL	Y
+wil	SuperUser	Clinical Training Setting	EDIT	Y
+wil	SuperUser	Clinical Training Setting	LIST	Y
+wil	SuperUser	Clinical Training Setting	LISTALL	Y
+wil	SuperUser	Clinical Training Setting	PRINT	Y
+wil	SuperUser	Clinical Training Setting	SEARCH	Y
+wil	SuperUser	ClinicalSchool	ADD	Y
+wil	SuperUser	ClinicalSchool	DELETE	Y
+wil	SuperUser	ClinicalSchool	DETAIL	Y
+wil	SuperUser	ClinicalSchool	EDIT	Y
+wil	SuperUser	ClinicalSchool	LIST	Y
+wil	SuperUser	ClinicalSchool	LISTALL	Y
+wil	SuperUser	ClinicalSchool	PRINT	Y
+wil	SuperUser	ClinicalSchool	SEARCH	Y
+wil	SuperUser	ClinicalSchoolAgreement	ADD	Y
+wil	SuperUser	ClinicalSchoolAgreement	DELETE	Y
+wil	SuperUser	ClinicalSchoolAgreement	DETAIL	Y
+wil	SuperUser	ClinicalSchoolAgreement	EDIT	Y
+wil	SuperUser	ClinicalSchoolAgreement	LIST	Y
+wil	SuperUser	ClinicalSchoolAgreement	LISTALL	Y
+wil	SuperUser	ClinicalSchoolAgreement	PRINT	Y
+wil	SuperUser	ClinicalSchoolAgreement	SEARCH	Y
+wil	SuperUser	ClinicalSchoolAgreementStudent	ADD	Y
+wil	SuperUser	ClinicalSchoolAgreementStudent	DELETE	Y
+wil	SuperUser	ClinicalSchoolAgreementStudent	DETAIL	Y
+wil	SuperUser	ClinicalSchoolAgreementStudent	EDIT	Y
+wil	SuperUser	ClinicalSchoolAgreementStudent	LIST	Y
+wil	SuperUser	ClinicalSchoolAgreementStudent	LISTALL	Y
+wil	SuperUser	ClinicalSchoolAgreementStudent	PRINT	Y
+wil	SuperUser	ClinicalSchoolAgreementStudent	SEARCH	Y
+wil	SuperUser	ClinicalSchoolAgreementUnit Offering	ADD	Y
+wil	SuperUser	ClinicalSchoolAgreementUnit Offering	DELETE	Y
+wil	SuperUser	ClinicalSchoolAgreementUnit Offering	DETAIL	Y
+wil	SuperUser	ClinicalSchoolAgreementUnit Offering	EDIT	Y
+wil	SuperUser	ClinicalSchoolAgreementUnit Offering	LIST	Y
+wil	SuperUser	ClinicalSchoolAgreementUnit Offering	LISTALL	Y
+wil	SuperUser	ClinicalSchoolAgreementUnit Offering	PRINT	Y
+wil	SuperUser	ClinicalSchoolAgreementUnit Offering	SEARCH	Y
+wil	SuperUser	Communication Bulk Sender	ADD	Y
+wil	SuperUser	Communication Bulk Sender	DELETE	Y
+wil	SuperUser	Communication Bulk Sender	DETAIL	Y
+wil	SuperUser	Communication Bulk Sender	EDIT	Y
+wil	SuperUser	Communication Bulk Sender	LIST	Y
+wil	SuperUser	Communication Bulk Sender	LISTALL	Y
+wil	SuperUser	Communication Bulk Sender	PRINT	Y
+wil	SuperUser	Communication Bulk Sender	SEARCH	Y
+wil	SuperUser	Configuration	ADD	Y
+wil	SuperUser	Configuration	DELETE	Y
+wil	SuperUser	Configuration	DETAIL	Y
+wil	SuperUser	Configuration	EDIT	Y
+wil	SuperUser	Configuration	LIST	Y
+wil	SuperUser	Configuration	LISTALL	Y
+wil	SuperUser	Configuration	PRINT	Y
+wil	SuperUser	Configuration	SEARCH	Y
+wil	SuperUser	ContactMethod	ADD	Y
+wil	SuperUser	ContactMethod	DELETE	Y
+wil	SuperUser	ContactMethod	DETAIL	Y
+wil	SuperUser	ContactMethod	EDIT	Y
+wil	SuperUser	ContactMethod	LIST	Y
+wil	SuperUser	ContactMethod	LISTALL	Y
+wil	SuperUser	ContactMethod	PRINT	Y
+wil	SuperUser	ContactMethod	SEARCH	Y
+wil	SuperUser	ContactMethodType	ADD	Y
+wil	SuperUser	ContactMethodType	DELETE	Y
+wil	SuperUser	ContactMethodType	DETAIL	Y
+wil	SuperUser	ContactMethodType	EDIT	Y
+wil	SuperUser	ContactMethodType	LIST	Y
+wil	SuperUser	ContactMethodType	LISTALL	Y
+wil	SuperUser	ContactMethodType	PRINT	Y
+wil	SuperUser	ContactMethodType	SEARCH	Y
+wil	SuperUser	Cost Manager	ADD	Y
+wil	SuperUser	Cost Manager	DELETE	Y
+wil	SuperUser	Cost Manager	DETAIL	Y
+wil	SuperUser	Cost Manager	EDIT	Y
+wil	SuperUser	Cost Manager	LIST	Y
+wil	SuperUser	Cost Manager	LISTALL	Y
+wil	SuperUser	Cost Manager	PRINT	Y
+wil	SuperUser	Cost Manager	SEARCH	Y
+wil	SuperUser	Course	ADD	Y
+wil	SuperUser	Course	DELETE	Y
+wil	SuperUser	Course	DETAIL	Y
+wil	SuperUser	Course	EDIT	Y
+wil	SuperUser	Course	LIST	Y
+wil	SuperUser	Course	LISTALL	Y
+wil	SuperUser	Course	PRINT	Y
+wil	SuperUser	Course	SEARCH	Y
+wil	SuperUser	Course Docs	ADD	Y
+wil	SuperUser	Course Docs	DELETE	Y
+wil	SuperUser	Course Docs	DETAIL	Y
+wil	SuperUser	Course Docs	EDIT	Y
+wil	SuperUser	Course Docs	LIST	Y
+wil	SuperUser	Course Docs	LISTALL	Y
+wil	SuperUser	Course Docs	PRINT	Y
+wil	SuperUser	Course Docs	SEARCH	Y
+wil	SuperUser	Course Notes	ADD	Y
+wil	SuperUser	Course Notes	DELETE	Y
+wil	SuperUser	Course Notes	DETAIL	Y
+wil	SuperUser	Course Notes	EDIT	Y
+wil	SuperUser	Course Notes	LIST	Y
+wil	SuperUser	Course Notes	LISTALL	Y
+wil	SuperUser	Course Notes	PRINT	Y
+wil	SuperUser	Course Notes	SEARCH	Y
+wil	SuperUser	Course Version Docs	ADD	Y
+wil	SuperUser	Course Version Docs	DELETE	Y
+wil	SuperUser	Course Version Docs	DETAIL	Y
+wil	SuperUser	Course Version Docs	EDIT	Y
+wil	SuperUser	Course Version Docs	LIST	Y
+wil	SuperUser	Course Version Docs	LISTALL	Y
+wil	SuperUser	Course Version Docs	PRINT	Y
+wil	SuperUser	Course Version Docs	SEARCH	Y
+wil	SuperUser	Course Version Notes	ADD	Y
+wil	SuperUser	Course Version Notes	DELETE	Y
+wil	SuperUser	Course Version Notes	DETAIL	Y
+wil	SuperUser	Course Version Notes	EDIT	Y
+wil	SuperUser	Course Version Notes	LIST	Y
+wil	SuperUser	Course Version Notes	LISTALL	Y
+wil	SuperUser	Course Version Notes	PRINT	Y
+wil	SuperUser	Course Version Notes	SEARCH	Y
+wil	SuperUser	CourseOffering	ADD	Y
+wil	SuperUser	CourseOffering	DELETE	Y
+wil	SuperUser	CourseOffering	DETAIL	Y
+wil	SuperUser	CourseOffering	EDIT	Y
+wil	SuperUser	CourseOffering	LIST	Y
+wil	SuperUser	CourseOffering	LISTALL	Y
+wil	SuperUser	CourseOffering	PRINT	Y
+wil	SuperUser	CourseOffering	SEARCH	Y
+wil	SuperUser	CourseVersion	ADD	Y
+wil	SuperUser	CourseVersion	DELETE	Y
+wil	SuperUser	CourseVersion	DETAIL	Y
+wil	SuperUser	CourseVersion	EDIT	Y
+wil	SuperUser	CourseVersion	LIST	Y
+wil	SuperUser	CourseVersion	LISTALL	Y
+wil	SuperUser	CourseVersion	PRINT	Y
+wil	SuperUser	CourseVersion	SEARCH	Y
+wil	SuperUser	Custom Report	ADD	Y
+wil	SuperUser	Custom Report	DELETE	Y
+wil	SuperUser	Custom Report	DETAIL	Y
+wil	SuperUser	Custom Report	EDIT	Y
+wil	SuperUser	Custom Report	LIST	Y
+wil	SuperUser	Custom Report	LISTALL	Y
+wil	SuperUser	Custom Report	PRINT	Y
+wil	SuperUser	Custom Report	SEARCH	Y
+wil	SuperUser	Data Conversion and Migration Tool	ADD	Y
+wil	SuperUser	Data Conversion and Migration Tool	DELETE	Y
+wil	SuperUser	Data Conversion and Migration Tool	DETAIL	Y
+wil	SuperUser	Data Conversion and Migration Tool	EDIT	Y
+wil	SuperUser	Data Conversion and Migration Tool	LIST	Y
+wil	SuperUser	Data Conversion and Migration Tool	LISTALL	Y
+wil	SuperUser	Data Conversion and Migration Tool	PRINT	Y
+wil	SuperUser	Data Conversion and Migration Tool	SEARCH	Y
+wil	SuperUser	Detail Audit	ADD	Y
+wil	SuperUser	Detail Audit	DELETE	Y
+wil	SuperUser	Detail Audit	DETAIL	Y
+wil	SuperUser	Detail Audit	EDIT	Y
+wil	SuperUser	Detail Audit	LIST	Y
+wil	SuperUser	Detail Audit	LISTALL	Y
+wil	SuperUser	Detail Audit	PRINT	Y
+wil	SuperUser	Detail Audit	SEARCH	Y
+wil	SuperUser	Discipline	ADD	Y
+wil	SuperUser	Discipline	DELETE	Y
+wil	SuperUser	Discipline	DETAIL	Y
+wil	SuperUser	Discipline	EDIT	Y
+wil	SuperUser	Discipline	LIST	Y
+wil	SuperUser	Discipline	LISTALL	Y
+wil	SuperUser	Discipline	PRINT	Y
+wil	SuperUser	Discipline	SEARCH	Y
+wil	SuperUser	Discipline Docs	ADD	Y
+wil	SuperUser	Discipline Docs	DELETE	Y
+wil	SuperUser	Discipline Docs	DETAIL	Y
+wil	SuperUser	Discipline Docs	EDIT	Y
+wil	SuperUser	Discipline Docs	LIST	Y
+wil	SuperUser	Discipline Docs	LISTALL	Y
+wil	SuperUser	Discipline Docs	PRINT	Y
+wil	SuperUser	Discipline Docs	SEARCH	Y
+wil	SuperUser	Discipline Notes	ADD	Y
+wil	SuperUser	Discipline Notes	DELETE	Y
+wil	SuperUser	Discipline Notes	DETAIL	Y
+wil	SuperUser	Discipline Notes	EDIT	Y
+wil	SuperUser	Discipline Notes	LIST	Y
+wil	SuperUser	Discipline Notes	LISTALL	Y
+wil	SuperUser	Discipline Notes	PRINT	Y
+wil	SuperUser	Discipline Notes	SEARCH	Y
+wil	SuperUser	Document	ADD	Y
+wil	SuperUser	Document	DELETE	Y
+wil	SuperUser	Document	DETAIL	Y
+wil	SuperUser	Document	EDIT	Y
+wil	SuperUser	Document	LIST	Y
+wil	SuperUser	Document	LISTALL	Y
+wil	SuperUser	Document	PRINT	Y
+wil	SuperUser	Document	SEARCH	Y
+wil	SuperUser	DocumentTemplate	ADD	Y
+wil	SuperUser	DocumentTemplate	DELETE	Y
+wil	SuperUser	DocumentTemplate	DETAIL	Y
+wil	SuperUser	DocumentTemplate	EDIT	Y
+wil	SuperUser	DocumentTemplate	LIST	Y
+wil	SuperUser	DocumentTemplate	LISTALL	Y
+wil	SuperUser	DocumentTemplate	PRINT	Y
+wil	SuperUser	DocumentTemplate	SEARCH	Y
+wil	SuperUser	Email Templates	ADD	Y
+wil	SuperUser	Email Templates	DELETE	Y
+wil	SuperUser	Email Templates	DETAIL	Y
+wil	SuperUser	Email Templates	EDIT	Y
+wil	SuperUser	Email Templates	LIST	Y
+wil	SuperUser	Email Templates	LISTALL	Y
+wil	SuperUser	Email Templates	PRINT	Y
+wil	SuperUser	Email Templates	SEARCH	Y
+wil	SuperUser	Engagement	ADD	Y
+wil	SuperUser	Engagement	DELETE	Y
+wil	SuperUser	Engagement	DETAIL	Y
+wil	SuperUser	Engagement	EDIT	Y
+wil	SuperUser	Engagement	LIST	Y
+wil	SuperUser	Engagement	LISTALL	Y
+wil	SuperUser	Engagement	PRINT	Y
+wil	SuperUser	Engagement	SEARCH	Y
+wil	SuperUser	Engagement Type	ADD	Y
+wil	SuperUser	Engagement Type	DELETE	Y
+wil	SuperUser	Engagement Type	DETAIL	Y
+wil	SuperUser	Engagement Type	EDIT	Y
+wil	SuperUser	Engagement Type	LIST	Y
+wil	SuperUser	Engagement Type	LISTALL	Y
+wil	SuperUser	Engagement Type	PRINT	Y
+wil	SuperUser	Engagement Type	SEARCH	Y
+wil	SuperUser	Enrolment	ADD	Y
+wil	SuperUser	Enrolment	DELETE	Y
+wil	SuperUser	Enrolment	DETAIL	Y
+wil	SuperUser	Enrolment	EDIT	Y
+wil	SuperUser	Enrolment	LIST	Y
+wil	SuperUser	Enrolment	LISTALL	Y
+wil	SuperUser	Enrolment	PRINT	Y
+wil	SuperUser	Enrolment	SEARCH	Y
+wil	SuperUser	Enrolment Type	ADD	Y
+wil	SuperUser	Enrolment Type	DELETE	Y
+wil	SuperUser	Enrolment Type	DETAIL	Y
+wil	SuperUser	Enrolment Type	EDIT	Y
+wil	SuperUser	Enrolment Type	LIST	Y
+wil	SuperUser	Enrolment Type	LISTALL	Y
+wil	SuperUser	Enrolment Type	PRINT	Y
+wil	SuperUser	Enrolment Type	SEARCH	Y
+wil	SuperUser	EntityAttribute	ADD	Y
+wil	SuperUser	EntityAttribute	DELETE	Y
+wil	SuperUser	EntityAttribute	DETAIL	Y
+wil	SuperUser	EntityAttribute	EDIT	Y
+wil	SuperUser	EntityAttribute	LIST	Y
+wil	SuperUser	EntityAttribute	LISTALL	Y
+wil	SuperUser	EntityAttribute	PRINT	Y
+wil	SuperUser	EntityAttribute	SEARCH	Y
+wil	SuperUser	EntityFunction	ADD	Y
+wil	SuperUser	EntityFunction	DELETE	Y
+wil	SuperUser	EntityFunction	DETAIL	Y
+wil	SuperUser	EntityFunction	EDIT	Y
+wil	SuperUser	EntityFunction	LIST	Y
+wil	SuperUser	EntityFunction	LISTALL	Y
+wil	SuperUser	EntityFunction	PRINT	Y
+wil	SuperUser	EntityFunction	SEARCH	Y
+wil	SuperUser	EntityRelationship	ADD	Y
+wil	SuperUser	EntityRelationship	DELETE	Y
+wil	SuperUser	EntityRelationship	DETAIL	Y
+wil	SuperUser	EntityRelationship	EDIT	Y
+wil	SuperUser	EntityRelationship	LIST	Y
+wil	SuperUser	EntityRelationship	LISTALL	Y
+wil	SuperUser	EntityRelationship	PRINT	Y
+wil	SuperUser	EntityRelationship	SEARCH	Y
+wil	SuperUser	EntityRelationshipEntity	ADD	Y
+wil	SuperUser	EntityRelationshipEntity	DELETE	Y
+wil	SuperUser	EntityRelationshipEntity	DETAIL	Y
+wil	SuperUser	EntityRelationshipEntity	EDIT	Y
+wil	SuperUser	EntityRelationshipEntity	LIST	Y
+wil	SuperUser	EntityRelationshipEntity	LISTALL	Y
+wil	SuperUser	EntityRelationshipEntity	PRINT	Y
+wil	SuperUser	EntityRelationshipEntity	SEARCH	Y
+wil	SuperUser	EntityType	ADD	Y
+wil	SuperUser	EntityType	DELETE	Y
+wil	SuperUser	EntityType	DETAIL	Y
+wil	SuperUser	EntityType	EDIT	Y
+wil	SuperUser	EntityType	LIST	Y
+wil	SuperUser	EntityType	LISTALL	Y
+wil	SuperUser	EntityType	PRINT	Y
+wil	SuperUser	EntityType	SEARCH	Y
+wil	SuperUser	EntityTypeFunction	ADD	Y
+wil	SuperUser	EntityTypeFunction	DELETE	Y
+wil	SuperUser	EntityTypeFunction	DETAIL	Y
+wil	SuperUser	EntityTypeFunction	EDIT	Y
+wil	SuperUser	EntityTypeFunction	LIST	Y
+wil	SuperUser	EntityTypeFunction	LISTALL	Y
+wil	SuperUser	EntityTypeFunction	PRINT	Y
+wil	SuperUser	EntityTypeFunction	SEARCH	Y
+wil	SuperUser	EntityTypeFunctionRole	ADD	Y
+wil	SuperUser	EntityTypeFunctionRole	DELETE	Y
+wil	SuperUser	EntityTypeFunctionRole	DETAIL	Y
+wil	SuperUser	EntityTypeFunctionRole	EDIT	Y
+wil	SuperUser	EntityTypeFunctionRole	LIST	Y
+wil	SuperUser	EntityTypeFunctionRole	LISTALL	Y
+wil	SuperUser	EntityTypeFunctionRole	PRINT	Y
+wil	SuperUser	EntityTypeFunctionRole	SEARCH	Y
+wil	SuperUser	Experience	ADD	Y
+wil	SuperUser	Experience	DELETE	Y
+wil	SuperUser	Experience	DETAIL	Y
+wil	SuperUser	Experience	EDIT	Y
+wil	SuperUser	Experience	LIST	Y
+wil	SuperUser	Experience	LISTALL	Y
+wil	SuperUser	Experience	PRINT	Y
+wil	SuperUser	Experience	SEARCH	Y
+wil	SuperUser	Expression	ADD	Y
+wil	SuperUser	Expression	DELETE	Y
+wil	SuperUser	Expression	DETAIL	Y
+wil	SuperUser	Expression	EDIT	Y
+wil	SuperUser	Expression	LIST	Y
+wil	SuperUser	Expression	LISTALL	Y
+wil	SuperUser	Expression	PRINT	Y
+wil	SuperUser	Expression	SEARCH	Y
+wil	SuperUser	Faculty	ADD	Y
+wil	SuperUser	Faculty	DELETE	Y
+wil	SuperUser	Faculty	DETAIL	Y
+wil	SuperUser	Faculty	EDIT	Y
+wil	SuperUser	Faculty	LIST	Y
+wil	SuperUser	Faculty	LISTALL	Y
+wil	SuperUser	Faculty	PRINT	Y
+wil	SuperUser	Faculty	SEARCH	Y
+wil	SuperUser	Faculty Docs	ADD	Y
+wil	SuperUser	Faculty Docs	DELETE	Y
+wil	SuperUser	Faculty Docs	DETAIL	Y
+wil	SuperUser	Faculty Docs	EDIT	Y
+wil	SuperUser	Faculty Docs	LIST	Y
+wil	SuperUser	Faculty Docs	LISTALL	Y
+wil	SuperUser	Faculty Docs	PRINT	Y
+wil	SuperUser	Faculty Docs	SEARCH	Y
+wil	SuperUser	Faculty Notes	ADD	Y
+wil	SuperUser	Faculty Notes	DELETE	Y
+wil	SuperUser	Faculty Notes	DETAIL	Y
+wil	SuperUser	Faculty Notes	EDIT	Y
+wil	SuperUser	Faculty Notes	LIST	Y
+wil	SuperUser	Faculty Notes	LISTALL	Y
+wil	SuperUser	Faculty Notes	PRINT	Y
+wil	SuperUser	Faculty Notes	SEARCH	Y
+wil	SuperUser	FMS Import Error	ADD	Y
+wil	SuperUser	FMS Import Error	DELETE	Y
+wil	SuperUser	FMS Import Error	DETAIL	Y
+wil	SuperUser	FMS Import Error	EDIT	Y
+wil	SuperUser	FMS Import Error	LIST	Y
+wil	SuperUser	FMS Import Error	LISTALL	Y
+wil	SuperUser	FMS Import Error	PRINT	Y
+wil	SuperUser	FMS Import Error	SEARCH	Y
+wil	SuperUser	FMS Invoice	ADD	Y
+wil	SuperUser	FMS Invoice	DELETE	Y
+wil	SuperUser	FMS Invoice	DETAIL	Y
+wil	SuperUser	FMS Invoice	EDIT	Y
+wil	SuperUser	FMS Invoice	LIST	Y
+wil	SuperUser	FMS Invoice	LISTALL	Y
+wil	SuperUser	FMS Invoice	PRINT	Y
+wil	SuperUser	FMS Invoice	SEARCH	Y
+wil	SuperUser	FMS Invoice Line	ADD	Y
+wil	SuperUser	FMS Invoice Line	DELETE	Y
+wil	SuperUser	FMS Invoice Line	DETAIL	Y
+wil	SuperUser	FMS Invoice Line	EDIT	Y
+wil	SuperUser	FMS Invoice Line	LIST	Y
+wil	SuperUser	FMS Invoice Line	LISTALL	Y
+wil	SuperUser	FMS Invoice Line	PRINT	Y
+wil	SuperUser	FMS Invoice Line	SEARCH	Y
+wil	SuperUser	FMS Payment	ADD	Y
+wil	SuperUser	FMS Payment	DELETE	Y
+wil	SuperUser	FMS Payment	DETAIL	Y
+wil	SuperUser	FMS Payment	EDIT	Y
+wil	SuperUser	FMS Payment	LIST	Y
+wil	SuperUser	FMS Payment	LISTALL	Y
+wil	SuperUser	FMS Payment	PRINT	Y
+wil	SuperUser	FMS Payment	SEARCH	Y
+wil	SuperUser	FMS Payment Line	ADD	Y
+wil	SuperUser	FMS Payment Line	DELETE	Y
+wil	SuperUser	FMS Payment Line	DETAIL	Y
+wil	SuperUser	FMS Payment Line	EDIT	Y
+wil	SuperUser	FMS Payment Line	LIST	Y
+wil	SuperUser	FMS Payment Line	LISTALL	Y
+wil	SuperUser	FMS Payment Line	PRINT	Y
+wil	SuperUser	FMS Payment Line	SEARCH	Y
+wil	SuperUser	FMS Purchase Order	ADD	Y
+wil	SuperUser	FMS Purchase Order	DELETE	Y
+wil	SuperUser	FMS Purchase Order	DETAIL	Y
+wil	SuperUser	FMS Purchase Order	EDIT	Y
+wil	SuperUser	FMS Purchase Order	LIST	Y
+wil	SuperUser	FMS Purchase Order	LISTALL	Y
+wil	SuperUser	FMS Purchase Order	PRINT	Y
+wil	SuperUser	FMS Purchase Order	SEARCH	Y
+wil	SuperUser	FMS Purchase Order Line	ADD	Y
+wil	SuperUser	FMS Purchase Order Line	DELETE	Y
+wil	SuperUser	FMS Purchase Order Line	DETAIL	Y
+wil	SuperUser	FMS Purchase Order Line	EDIT	Y
+wil	SuperUser	FMS Purchase Order Line	LIST	Y
+wil	SuperUser	FMS Purchase Order Line	LISTALL	Y
+wil	SuperUser	FMS Purchase Order Line	PRINT	Y
+wil	SuperUser	FMS Purchase Order Line	SEARCH	Y
+wil	SuperUser	FMS Requisition	ADD	Y
+wil	SuperUser	FMS Requisition	DELETE	Y
+wil	SuperUser	FMS Requisition	DETAIL	Y
+wil	SuperUser	FMS Requisition	EDIT	Y
+wil	SuperUser	FMS Requisition	LIST	Y
+wil	SuperUser	FMS Requisition	LISTALL	Y
+wil	SuperUser	FMS Requisition	PRINT	Y
+wil	SuperUser	FMS Requisition	SEARCH	Y
+wil	SuperUser	FMS Validation Issue	ADD	Y
+wil	SuperUser	FMS Validation Issue	DELETE	Y
+wil	SuperUser	FMS Validation Issue	DETAIL	Y
+wil	SuperUser	FMS Validation Issue	EDIT	Y
+wil	SuperUser	FMS Validation Issue	LIST	Y
+wil	SuperUser	FMS Validation Issue	LISTALL	Y
+wil	SuperUser	FMS Validation Issue	PRINT	Y
+wil	SuperUser	FMS Validation Issue	SEARCH	Y
+wil	SuperUser	FMS Vendor	ADD	Y
+wil	SuperUser	FMS Vendor	DELETE	Y
+wil	SuperUser	FMS Vendor	DETAIL	Y
+wil	SuperUser	FMS Vendor	EDIT	Y
+wil	SuperUser	FMS Vendor	LIST	Y
+wil	SuperUser	FMS Vendor	LISTALL	Y
+wil	SuperUser	FMS Vendor	PRINT	Y
+wil	SuperUser	FMS Vendor	SEARCH	Y
+wil	SuperUser	Foreign Domestic Status	ADD	Y
+wil	SuperUser	Foreign Domestic Status	DELETE	Y
+wil	SuperUser	Foreign Domestic Status	DETAIL	Y
+wil	SuperUser	Foreign Domestic Status	EDIT	Y
+wil	SuperUser	Foreign Domestic Status	LIST	Y
+wil	SuperUser	Foreign Domestic Status	LISTALL	Y
+wil	SuperUser	Foreign Domestic Status	PRINT	Y
+wil	SuperUser	Foreign Domestic Status	SEARCH	Y
+wil	SuperUser	Form	ADD	Y
+wil	SuperUser	Form	DELETE	Y
+wil	SuperUser	Form	DETAIL	Y
+wil	SuperUser	Form	EDIT	Y
+wil	SuperUser	Form	LIST	Y
+wil	SuperUser	Form	LISTALL	Y
+wil	SuperUser	Form	PRINT	Y
+wil	SuperUser	Form	SEARCH	Y
+wil	SuperUser	Global	ADD	Y
+wil	SuperUser	Global	DELETE	Y
+wil	SuperUser	Global	DETAIL	Y
+wil	SuperUser	Global	EDIT	Y
+wil	SuperUser	Global	LIST	Y
+wil	SuperUser	Global	LISTALL	Y
+wil	SuperUser	Global	PRINT	Y
+wil	SuperUser	Global	SEARCH	Y
+wil	SuperUser	Group	ADD	Y
+wil	SuperUser	Group	DELETE	Y
+wil	SuperUser	Group	DETAIL	Y
+wil	SuperUser	Group	EDIT	Y
+wil	SuperUser	Group	LIST	Y
+wil	SuperUser	Group	LISTALL	Y
+wil	SuperUser	Group	PRINT	Y
+wil	SuperUser	Group	SEARCH	Y
+wil	SuperUser	HelpObject	ADD	Y
+wil	SuperUser	HelpObject	DELETE	Y
+wil	SuperUser	HelpObject	DETAIL	Y
+wil	SuperUser	HelpObject	EDIT	Y
+wil	SuperUser	HelpObject	LIST	Y
+wil	SuperUser	HelpObject	LISTALL	Y
+wil	SuperUser	HelpObject	PRINT	Y
+wil	SuperUser	HelpObject	SEARCH	Y
+wil	SuperUser	HelpObjectControl	ADD	Y
+wil	SuperUser	HelpObjectControl	DELETE	Y
+wil	SuperUser	HelpObjectControl	DETAIL	Y
+wil	SuperUser	HelpObjectControl	EDIT	Y
+wil	SuperUser	HelpObjectControl	LIST	Y
+wil	SuperUser	HelpObjectControl	LISTALL	Y
+wil	SuperUser	HelpObjectControl	PRINT	Y
+wil	SuperUser	HelpObjectControl	SEARCH	Y
+wil	SuperUser	HWA Reports	ADD	Y
+wil	SuperUser	HWA Reports	DELETE	Y
+wil	SuperUser	HWA Reports	DETAIL	Y
+wil	SuperUser	HWA Reports	EDIT	Y
+wil	SuperUser	HWA Reports	LIST	Y
+wil	SuperUser	HWA Reports	LISTALL	Y
+wil	SuperUser	HWA Reports	PRINT	Y
+wil	SuperUser	HWA Reports	SEARCH	Y
+wil	SuperUser	ImporterRule	ADD	Y
+wil	SuperUser	ImporterRule	DELETE	Y
+wil	SuperUser	ImporterRule	DETAIL	Y
+wil	SuperUser	ImporterRule	EDIT	Y
+wil	SuperUser	ImporterRule	LIST	Y
+wil	SuperUser	ImporterRule	LISTALL	Y
+wil	SuperUser	ImporterRule	PRINT	Y
+wil	SuperUser	ImporterRule	SEARCH	Y
+wil	SuperUser	Incompatibility	ADD	Y
+wil	SuperUser	Incompatibility	DELETE	Y
+wil	SuperUser	Incompatibility	DETAIL	Y
+wil	SuperUser	Incompatibility	EDIT	Y
+wil	SuperUser	Incompatibility	LIST	Y
+wil	SuperUser	Incompatibility	LISTALL	Y
+wil	SuperUser	Incompatibility	PRINT	Y
+wil	SuperUser	Incompatibility	SEARCH	Y
+wil	SuperUser	Integration with Partner Systems	ADD	Y
+wil	SuperUser	Integration with Partner Systems	DELETE	Y
+wil	SuperUser	Integration with Partner Systems	DETAIL	Y
+wil	SuperUser	Integration with Partner Systems	EDIT	Y
+wil	SuperUser	Integration with Partner Systems	LIST	Y
+wil	SuperUser	Integration with Partner Systems	LISTALL	Y
+wil	SuperUser	Integration with Partner Systems	PRINT	Y
+wil	SuperUser	Integration with Partner Systems	SEARCH	Y
+wil	SuperUser	Invoice	ADD	Y
+wil	SuperUser	Invoice	DELETE	Y
+wil	SuperUser	Invoice	DETAIL	Y
+wil	SuperUser	Invoice	EDIT	Y
+wil	SuperUser	Invoice	LIST	Y
+wil	SuperUser	Invoice	LISTALL	Y
+wil	SuperUser	Invoice	PRINT	Y
+wil	SuperUser	Invoice	SEARCH	Y
+wil	SuperUser	Invoice Docs	ADD	Y
+wil	SuperUser	Invoice Docs	DELETE	Y
+wil	SuperUser	Invoice Docs	DETAIL	Y
+wil	SuperUser	Invoice Docs	EDIT	Y
+wil	SuperUser	Invoice Docs	LIST	Y
+wil	SuperUser	Invoice Docs	LISTALL	Y
+wil	SuperUser	Invoice Docs	PRINT	Y
+wil	SuperUser	Invoice Docs	SEARCH	Y
+wil	SuperUser	Invoice Notes	ADD	Y
+wil	SuperUser	Invoice Notes	DELETE	Y
+wil	SuperUser	Invoice Notes	DETAIL	Y
+wil	SuperUser	Invoice Notes	EDIT	Y
+wil	SuperUser	Invoice Notes	LIST	Y
+wil	SuperUser	Invoice Notes	LISTALL	Y
+wil	SuperUser	Invoice Notes	PRINT	Y
+wil	SuperUser	Invoice Notes	SEARCH	Y
+wil	SuperUser	Invoice Reminder	ADD	Y
+wil	SuperUser	Invoice Reminder	DELETE	Y
+wil	SuperUser	Invoice Reminder	DETAIL	Y
+wil	SuperUser	Invoice Reminder	EDIT	Y
+wil	SuperUser	Invoice Reminder	LIST	Y
+wil	SuperUser	Invoice Reminder	LISTALL	Y
+wil	SuperUser	Invoice Reminder	PRINT	Y
+wil	SuperUser	Invoice Reminder	SEARCH	Y
+wil	SuperUser	Invoice Reminder Docs	ADD	Y
+wil	SuperUser	Invoice Reminder Docs	DELETE	Y
+wil	SuperUser	Invoice Reminder Docs	DETAIL	Y
+wil	SuperUser	Invoice Reminder Docs	EDIT	Y
+wil	SuperUser	Invoice Reminder Docs	LIST	Y
+wil	SuperUser	Invoice Reminder Docs	LISTALL	Y
+wil	SuperUser	Invoice Reminder Docs	PRINT	Y
+wil	SuperUser	Invoice Reminder Docs	SEARCH	Y
+wil	SuperUser	Job Scheduling	ADD	Y
+wil	SuperUser	Job Scheduling	DELETE	Y
+wil	SuperUser	Job Scheduling	DETAIL	Y
+wil	SuperUser	Job Scheduling	EDIT	Y
+wil	SuperUser	Job Scheduling	LIST	Y
+wil	SuperUser	Job Scheduling	LISTALL	Y
+wil	SuperUser	Job Scheduling	PRINT	Y
+wil	SuperUser	Job Scheduling	SEARCH	Y
+wil	SuperUser	Letter of Exchange	ADD	Y
+wil	SuperUser	Letter of Exchange	DELETE	Y
+wil	SuperUser	Letter of Exchange	DETAIL	Y
+wil	SuperUser	Letter of Exchange	EDIT	Y
+wil	SuperUser	Letter of Exchange	LIST	Y
+wil	SuperUser	Letter of Exchange	LISTALL	Y
+wil	SuperUser	Letter of Exchange	PRINT	Y
+wil	SuperUser	Letter of Exchange	SEARCH	Y
+wil	SuperUser	Licence	ADD	Y
+wil	SuperUser	Licence	DELETE	Y
+wil	SuperUser	Licence	DETAIL	Y
+wil	SuperUser	Licence	EDIT	Y
+wil	SuperUser	Licence	LIST	Y
+wil	SuperUser	Licence	LISTALL	Y
+wil	SuperUser	Licence	PRINT	Y
+wil	SuperUser	Licence	SEARCH	Y
+wil	SuperUser	Mapping objects with Partner Systems	ADD	Y
+wil	SuperUser	Mapping objects with Partner Systems	DELETE	Y
+wil	SuperUser	Mapping objects with Partner Systems	DETAIL	Y
+wil	SuperUser	Mapping objects with Partner Systems	EDIT	Y
+wil	SuperUser	Mapping objects with Partner Systems	LIST	Y
+wil	SuperUser	Mapping objects with Partner Systems	LISTALL	Y
+wil	SuperUser	Mapping objects with Partner Systems	PRINT	Y
+wil	SuperUser	Mapping objects with Partner Systems	SEARCH	Y
+wil	SuperUser	MessageBoard	ADD	Y
+wil	SuperUser	MessageBoard	DELETE	Y
+wil	SuperUser	MessageBoard	DETAIL	Y
+wil	SuperUser	MessageBoard	EDIT	Y
+wil	SuperUser	MessageBoard	LIST	Y
+wil	SuperUser	MessageBoard	LISTALL	Y
+wil	SuperUser	MessageBoard	PRINT	Y
+wil	SuperUser	MessageBoard	SEARCH	Y
+wil	SuperUser	MessageLog	ADD	Y
+wil	SuperUser	MessageLog	DELETE	Y
+wil	SuperUser	MessageLog	DETAIL	Y
+wil	SuperUser	MessageLog	EDIT	Y
+wil	SuperUser	MessageLog	LIST	Y
+wil	SuperUser	MessageLog	LISTALL	Y
+wil	SuperUser	MessageLog	PRINT	Y
+wil	SuperUser	MessageLog	SEARCH	Y
+wil	SuperUser	MessageLogAttachment	ADD	Y
+wil	SuperUser	MessageLogAttachment	DELETE	Y
+wil	SuperUser	MessageLogAttachment	DETAIL	Y
+wil	SuperUser	MessageLogAttachment	EDIT	Y
+wil	SuperUser	MessageLogAttachment	LIST	Y
+wil	SuperUser	MessageLogAttachment	LISTALL	Y
+wil	SuperUser	MessageLogAttachment	PRINT	Y
+wil	SuperUser	MessageLogAttachment	SEARCH	Y
+wil	SuperUser	MessageType	ADD	Y
+wil	SuperUser	MessageType	DELETE	Y
+wil	SuperUser	MessageType	DETAIL	Y
+wil	SuperUser	MessageType	EDIT	Y
+wil	SuperUser	MessageType	LIST	Y
+wil	SuperUser	MessageType	LISTALL	Y
+wil	SuperUser	MessageType	PRINT	Y
+wil	SuperUser	MessageType	SEARCH	Y
+wil	SuperUser	Method	ADD	Y
+wil	SuperUser	Method	DELETE	Y
+wil	SuperUser	Method	DETAIL	Y
+wil	SuperUser	Method	EDIT	Y
+wil	SuperUser	Method	LIST	Y
+wil	SuperUser	Method	LISTALL	Y
+wil	SuperUser	Method	PRINT	Y
+wil	SuperUser	Method	SEARCH	Y
+wil	SuperUser	Note	ADD	Y
+wil	SuperUser	Note	DELETE	Y
+wil	SuperUser	Note	DETAIL	Y
+wil	SuperUser	Note	EDIT	Y
+wil	SuperUser	Note	LIST	Y
+wil	SuperUser	Note	LISTALL	Y
+wil	SuperUser	Note	PRINT	Y
+wil	SuperUser	Note	SEARCH	Y
+wil	SuperUser	Opportunities	ADD	Y
+wil	SuperUser	Opportunities	DELETE	Y
+wil	SuperUser	Opportunities	DETAIL	Y
+wil	SuperUser	Opportunities	EDIT	Y
+wil	SuperUser	Opportunities	LIST	Y
+wil	SuperUser	Opportunities	LISTALL	Y
+wil	SuperUser	Opportunities	PRINT	Y
+wil	SuperUser	Opportunities	SEARCH	Y
+wil	SuperUser	Opportunity Application	ADD	Y
+wil	SuperUser	Opportunity Application	DELETE	Y
+wil	SuperUser	Opportunity Application	DETAIL	Y
+wil	SuperUser	Opportunity Application	EDIT	Y
+wil	SuperUser	Opportunity Application	LIST	Y
+wil	SuperUser	Opportunity Application	LISTALL	Y
+wil	SuperUser	Opportunity Application	PRINT	Y
+wil	SuperUser	Opportunity Application	SEARCH	Y
+wil	SuperUser	Opportunity Type	ADD	Y
+wil	SuperUser	Opportunity Type	DELETE	Y
+wil	SuperUser	Opportunity Type	DETAIL	Y
+wil	SuperUser	Opportunity Type	EDIT	Y
+wil	SuperUser	Opportunity Type	LIST	Y
+wil	SuperUser	Opportunity Type	LISTALL	Y
+wil	SuperUser	Opportunity Type	PRINT	Y
+wil	SuperUser	Opportunity Type	SEARCH	Y
+wil	SuperUser	Payment	ADD	Y
+wil	SuperUser	Payment	DELETE	Y
+wil	SuperUser	Payment	DETAIL	Y
+wil	SuperUser	Payment	EDIT	Y
+wil	SuperUser	Payment	LIST	Y
+wil	SuperUser	Payment	LISTALL	Y
+wil	SuperUser	Payment	PRINT	Y
+wil	SuperUser	Payment	SEARCH	Y
+wil	SuperUser	Personnel	ADD	Y
+wil	SuperUser	Personnel	DELETE	Y
+wil	SuperUser	Personnel	DETAIL	Y
+wil	SuperUser	Personnel	EDIT	Y
+wil	SuperUser	Personnel	LIST	Y
+wil	SuperUser	Personnel	LISTALL	Y
+wil	SuperUser	Personnel	PRINT	Y
+wil	SuperUser	Personnel	SEARCH	Y
+wil	SuperUser	PersonnelType	ADD	Y
+wil	SuperUser	PersonnelType	DELETE	Y
+wil	SuperUser	PersonnelType	DETAIL	Y
+wil	SuperUser	PersonnelType	EDIT	Y
+wil	SuperUser	PersonnelType	LIST	Y
+wil	SuperUser	PersonnelType	LISTALL	Y
+wil	SuperUser	PersonnelType	PRINT	Y
+wil	SuperUser	PersonnelType	SEARCH	Y
+wil	SuperUser	Placement	ADD	Y
+wil	SuperUser	Placement	DELETE	Y
+wil	SuperUser	Placement	DETAIL	Y
+wil	SuperUser	Placement	EDIT	Y
+wil	SuperUser	Placement	LIST	Y
+wil	SuperUser	Placement	LISTALL	Y
+wil	SuperUser	Placement	PRINT	Y
+wil	SuperUser	Placement	SEARCH	Y
+wil	SuperUser	Placement Agreement Docs	ADD	Y
+wil	SuperUser	Placement Agreement Docs	DELETE	Y
+wil	SuperUser	Placement Agreement Docs	DETAIL	Y
+wil	SuperUser	Placement Agreement Docs	EDIT	Y
+wil	SuperUser	Placement Agreement Docs	LIST	Y
+wil	SuperUser	Placement Agreement Docs	LISTALL	Y
+wil	SuperUser	Placement Agreement Docs	PRINT	Y
+wil	SuperUser	Placement Agreement Docs	SEARCH	Y
+wil	SuperUser	Placement Agreement Notes	ADD	Y
+wil	SuperUser	Placement Agreement Notes	DELETE	Y
+wil	SuperUser	Placement Agreement Notes	DETAIL	Y
+wil	SuperUser	Placement Agreement Notes	EDIT	Y
+wil	SuperUser	Placement Agreement Notes	LIST	Y
+wil	SuperUser	Placement Agreement Notes	LISTALL	Y
+wil	SuperUser	Placement Agreement Notes	PRINT	Y
+wil	SuperUser	Placement Agreement Notes	SEARCH	Y
+wil	SuperUser	Placement Block Docs	ADD	Y
+wil	SuperUser	Placement Block Docs	DELETE	Y
+wil	SuperUser	Placement Block Docs	DETAIL	Y
+wil	SuperUser	Placement Block Docs	EDIT	Y
+wil	SuperUser	Placement Block Docs	LIST	Y
+wil	SuperUser	Placement Block Docs	LISTALL	Y
+wil	SuperUser	Placement Block Docs	PRINT	Y
+wil	SuperUser	Placement Block Docs	SEARCH	Y
+wil	SuperUser	Placement Block Group	ADD	Y
+wil	SuperUser	Placement Block Group	DELETE	Y
+wil	SuperUser	Placement Block Group	DETAIL	Y
+wil	SuperUser	Placement Block Group	EDIT	Y
+wil	SuperUser	Placement Block Group	LIST	Y
+wil	SuperUser	Placement Block Group	LISTALL	Y
+wil	SuperUser	Placement Block Group	PRINT	Y
+wil	SuperUser	Placement Block Group	SEARCH	Y
+wil	SuperUser	Placement Block Group Unit Offering	ADD	Y
+wil	SuperUser	Placement Block Group Unit Offering	DELETE	Y
+wil	SuperUser	Placement Block Group Unit Offering	DETAIL	Y
+wil	SuperUser	Placement Block Group Unit Offering	EDIT	Y
+wil	SuperUser	Placement Block Group Unit Offering	LIST	Y
+wil	SuperUser	Placement Block Group Unit Offering	LISTALL	Y
+wil	SuperUser	Placement Block Group Unit Offering	PRINT	Y
+wil	SuperUser	Placement Block Group Unit Offering	SEARCH	Y
+wil	SuperUser	Placement Block Notes	ADD	Y
+wil	SuperUser	Placement Block Notes	DELETE	Y
+wil	SuperUser	Placement Block Notes	DETAIL	Y
+wil	SuperUser	Placement Block Notes	EDIT	Y
+wil	SuperUser	Placement Block Notes	LIST	Y
+wil	SuperUser	Placement Block Notes	LISTALL	Y
+wil	SuperUser	Placement Block Notes	PRINT	Y
+wil	SuperUser	Placement Block Notes	SEARCH	Y
+wil	SuperUser	Placement Bulk Update	ADD	Y
+wil	SuperUser	Placement Bulk Update	DELETE	Y
+wil	SuperUser	Placement Bulk Update	DETAIL	Y
+wil	SuperUser	Placement Bulk Update	EDIT	Y
+wil	SuperUser	Placement Bulk Update	LIST	Y
+wil	SuperUser	Placement Bulk Update	LISTALL	Y
+wil	SuperUser	Placement Bulk Update	PRINT	Y
+wil	SuperUser	Placement Bulk Update	SEARCH	Y
+wil	SuperUser	Placement Cost	ADD	Y
+wil	SuperUser	Placement Cost	DELETE	Y
+wil	SuperUser	Placement Cost	DETAIL	Y
+wil	SuperUser	Placement Cost	EDIT	Y
+wil	SuperUser	Placement Cost	LIST	Y
+wil	SuperUser	Placement Cost	LISTALL	Y
+wil	SuperUser	Placement Cost	PRINT	Y
+wil	SuperUser	Placement Cost	SEARCH	Y
+wil	SuperUser	Placement Docs	ADD	Y
+wil	SuperUser	Placement Docs	DELETE	Y
+wil	SuperUser	Placement Docs	DETAIL	Y
+wil	SuperUser	Placement Docs	EDIT	Y
+wil	SuperUser	Placement Docs	LIST	Y
+wil	SuperUser	Placement Docs	LISTALL	Y
+wil	SuperUser	Placement Docs	PRINT	Y
+wil	SuperUser	Placement Docs	SEARCH	Y
+wil	SuperUser	Placement Incompatibility	ADD	Y
+wil	SuperUser	Placement Incompatibility	DELETE	Y
+wil	SuperUser	Placement Incompatibility	DETAIL	Y
+wil	SuperUser	Placement Incompatibility	EDIT	Y
+wil	SuperUser	Placement Incompatibility	LIST	Y
+wil	SuperUser	Placement Incompatibility	LISTALL	Y
+wil	SuperUser	Placement Incompatibility	PRINT	Y
+wil	SuperUser	Placement Incompatibility	SEARCH	Y
+wil	SuperUser	Placement Manager	ADD	Y
+wil	SuperUser	Placement Manager	DELETE	Y
+wil	SuperUser	Placement Manager	DETAIL	Y
+wil	SuperUser	Placement Manager	EDIT	Y
+wil	SuperUser	Placement Manager	LIST	Y
+wil	SuperUser	Placement Manager	LISTALL	Y
+wil	SuperUser	Placement Manager	PRINT	Y
+wil	SuperUser	Placement Manager	SEARCH	Y
+wil	SuperUser	Placement Notes	ADD	Y
+wil	SuperUser	Placement Notes	DELETE	Y
+wil	SuperUser	Placement Notes	DETAIL	Y
+wil	SuperUser	Placement Notes	EDIT	Y
+wil	SuperUser	Placement Notes	LIST	Y
+wil	SuperUser	Placement Notes	LISTALL	Y
+wil	SuperUser	Placement Notes	PRINT	Y
+wil	SuperUser	Placement Notes	SEARCH	Y
+wil	SuperUser	Placement Supervisor Cost	ADD	Y
+wil	SuperUser	Placement Supervisor Cost	DELETE	Y
+wil	SuperUser	Placement Supervisor Cost	DETAIL	Y
+wil	SuperUser	Placement Supervisor Cost	EDIT	Y
+wil	SuperUser	Placement Supervisor Cost	LIST	Y
+wil	SuperUser	Placement Supervisor Cost	LISTALL	Y
+wil	SuperUser	Placement Supervisor Cost	PRINT	Y
+wil	SuperUser	Placement Supervisor Cost	SEARCH	Y
+wil	SuperUser	PlacementAgreement	ADD	Y
+wil	SuperUser	PlacementAgreement	DELETE	Y
+wil	SuperUser	PlacementAgreement	DETAIL	Y
+wil	SuperUser	PlacementAgreement	EDIT	Y
+wil	SuperUser	PlacementAgreement	LIST	Y
+wil	SuperUser	PlacementAgreement	LISTALL	Y
+wil	SuperUser	PlacementAgreement	PRINT	Y
+wil	SuperUser	PlacementAgreement	SEARCH	Y
+wil	SuperUser	PlacementBlock	ADD	Y
+wil	SuperUser	PlacementBlock	DELETE	Y
+wil	SuperUser	PlacementBlock	DETAIL	Y
+wil	SuperUser	PlacementBlock	EDIT	Y
+wil	SuperUser	PlacementBlock	LIST	Y
+wil	SuperUser	PlacementBlock	LISTALL	Y
+wil	SuperUser	PlacementBlock	PRINT	Y
+wil	SuperUser	PlacementBlock	SEARCH	Y
+wil	SuperUser	PlacementHistory	ADD	Y
+wil	SuperUser	PlacementHistory	DELETE	Y
+wil	SuperUser	PlacementHistory	DETAIL	Y
+wil	SuperUser	PlacementHistory	EDIT	Y
+wil	SuperUser	PlacementHistory	LIST	Y
+wil	SuperUser	PlacementHistory	LISTALL	Y
+wil	SuperUser	PlacementHistory	PRINT	Y
+wil	SuperUser	PlacementHistory	SEARCH	Y
+wil	SuperUser	PlacementStatus	ADD	Y
+wil	SuperUser	PlacementStatus	DELETE	Y
+wil	SuperUser	PlacementStatus	DETAIL	Y
+wil	SuperUser	PlacementStatus	EDIT	Y
+wil	SuperUser	PlacementStatus	LIST	Y
+wil	SuperUser	PlacementStatus	LISTALL	Y
+wil	SuperUser	PlacementStatus	PRINT	Y
+wil	SuperUser	PlacementStatus	SEARCH	Y
+wil	SuperUser	PlacementSupervisor	ADD	Y
+wil	SuperUser	PlacementSupervisor	DELETE	Y
+wil	SuperUser	PlacementSupervisor	DETAIL	Y
+wil	SuperUser	PlacementSupervisor	EDIT	Y
+wil	SuperUser	PlacementSupervisor	LIST	Y
+wil	SuperUser	PlacementSupervisor	LISTALL	Y
+wil	SuperUser	PlacementSupervisor	PRINT	Y
+wil	SuperUser	PlacementSupervisor	SEARCH	Y
+wil	SuperUser	Preferences	ADD	Y
+wil	SuperUser	Preferences	DELETE	Y
+wil	SuperUser	Preferences	DETAIL	Y
+wil	SuperUser	Preferences	EDIT	Y
+wil	SuperUser	Preferences	LIST	Y
+wil	SuperUser	Preferences	LISTALL	Y
+wil	SuperUser	Preferences	PRINT	Y
+wil	SuperUser	Preferences	SEARCH	Y
+wil	SuperUser	Process	ADD	Y
+wil	SuperUser	Process	DELETE	Y
+wil	SuperUser	Process	DETAIL	Y
+wil	SuperUser	Process	EDIT	Y
+wil	SuperUser	Process	LIST	Y
+wil	SuperUser	Process	LISTALL	Y
+wil	SuperUser	Process	PRINT	Y
+wil	SuperUser	Process	SEARCH	Y
+wil	SuperUser	Purchase Order	ADD	Y
+wil	SuperUser	Purchase Order	DELETE	Y
+wil	SuperUser	Purchase Order	DETAIL	Y
+wil	SuperUser	Purchase Order	EDIT	Y
+wil	SuperUser	Purchase Order	LIST	Y
+wil	SuperUser	Purchase Order	LISTALL	Y
+wil	SuperUser	Purchase Order	PRINT	Y
+wil	SuperUser	Purchase Order	SEARCH	Y
+wil	SuperUser	Qualification	ADD	Y
+wil	SuperUser	Qualification	DELETE	Y
+wil	SuperUser	Qualification	DETAIL	Y
+wil	SuperUser	Qualification	EDIT	Y
+wil	SuperUser	Qualification	LIST	Y
+wil	SuperUser	Qualification	LISTALL	Y
+wil	SuperUser	Qualification	PRINT	Y
+wil	SuperUser	Qualification	SEARCH	Y
+wil	SuperUser	Query	ADD	Y
+wil	SuperUser	Query	DELETE	Y
+wil	SuperUser	Query	DETAIL	Y
+wil	SuperUser	Query	EDIT	Y
+wil	SuperUser	Query	LIST	Y
+wil	SuperUser	Query	LISTALL	Y
+wil	SuperUser	Query	PRINT	Y
+wil	SuperUser	Query	SEARCH	Y
+wil	SuperUser	Question	ADD	Y
+wil	SuperUser	Question	DELETE	Y
+wil	SuperUser	Question	DETAIL	Y
+wil	SuperUser	Question	EDIT	Y
+wil	SuperUser	Question	LIST	Y
+wil	SuperUser	Question	LISTALL	Y
+wil	SuperUser	Question	PRINT	Y
+wil	SuperUser	Question	SEARCH	Y
+wil	SuperUser	Report	ADD	Y
+wil	SuperUser	Report	DELETE	Y
+wil	SuperUser	Report	DETAIL	Y
+wil	SuperUser	Report	EDIT	Y
+wil	SuperUser	Report	LIST	Y
+wil	SuperUser	Report	LISTALL	Y
+wil	SuperUser	Report	PRINT	Y
+wil	SuperUser	Report	SEARCH	Y
+wil	SuperUser	Request	ADD	Y
+wil	SuperUser	Request	DELETE	Y
+wil	SuperUser	Request	DETAIL	Y
+wil	SuperUser	Request	EDIT	Y
+wil	SuperUser	Request	LIST	Y
+wil	SuperUser	Request	LISTALL	Y
+wil	SuperUser	Request	PRINT	Y
+wil	SuperUser	Request	SEARCH	Y
+wil	SuperUser	Request Default	ADD	Y
+wil	SuperUser	Request Default	DELETE	Y
+wil	SuperUser	Request Default	DETAIL	Y
+wil	SuperUser	Request Default	EDIT	Y
+wil	SuperUser	Request Default	LIST	Y
+wil	SuperUser	Request Default	LISTALL	Y
+wil	SuperUser	Request Default	PRINT	Y
+wil	SuperUser	Request Default	SEARCH	Y
+wil	SuperUser	Request Docs	ADD	Y
+wil	SuperUser	Request Docs	DELETE	Y
+wil	SuperUser	Request Docs	DETAIL	Y
+wil	SuperUser	Request Docs	EDIT	Y
+wil	SuperUser	Request Docs	LIST	Y
+wil	SuperUser	Request Docs	LISTALL	Y
+wil	SuperUser	Request Docs	PRINT	Y
+wil	SuperUser	Request Docs	SEARCH	Y
+wil	SuperUser	Request Manager	ADD	Y
+wil	SuperUser	Request Manager	DELETE	Y
+wil	SuperUser	Request Manager	DETAIL	Y
+wil	SuperUser	Request Manager	EDIT	Y
+wil	SuperUser	Request Manager	LIST	Y
+wil	SuperUser	Request Manager	LISTALL	Y
+wil	SuperUser	Request Manager	PRINT	Y
+wil	SuperUser	Request Manager	SEARCH	Y
+wil	SuperUser	Request Notes	ADD	Y
+wil	SuperUser	Request Notes	DELETE	Y
+wil	SuperUser	Request Notes	DETAIL	Y
+wil	SuperUser	Request Notes	EDIT	Y
+wil	SuperUser	Request Notes	LIST	Y
+wil	SuperUser	Request Notes	LISTALL	Y
+wil	SuperUser	Request Notes	PRINT	Y
+wil	SuperUser	Request Notes	SEARCH	Y
+wil	SuperUser	Requisition	ADD	Y
+wil	SuperUser	Requisition	DELETE	Y
+wil	SuperUser	Requisition	DETAIL	Y
+wil	SuperUser	Requisition	EDIT	Y
+wil	SuperUser	Requisition	LIST	Y
+wil	SuperUser	Requisition	LISTALL	Y
+wil	SuperUser	Requisition	PRINT	Y
+wil	SuperUser	Requisition	SEARCH	Y
+wil	SuperUser	Requisition Line	ADD	Y
+wil	SuperUser	Requisition Line	DELETE	Y
+wil	SuperUser	Requisition Line	DETAIL	Y
+wil	SuperUser	Requisition Line	EDIT	Y
+wil	SuperUser	Requisition Line	LIST	Y
+wil	SuperUser	Requisition Line	LISTALL	Y
+wil	SuperUser	Requisition Line	PRINT	Y
+wil	SuperUser	Requisition Line	SEARCH	Y
+wil	SuperUser	Roster Session	ADD	Y
+wil	SuperUser	Roster Session	DELETE	Y
+wil	SuperUser	Roster Session	DETAIL	Y
+wil	SuperUser	Roster Session	EDIT	Y
+wil	SuperUser	Roster Session	LIST	Y
+wil	SuperUser	Roster Session	LISTALL	Y
+wil	SuperUser	Roster Session	PRINT	Y
+wil	SuperUser	Roster Session	SEARCH	Y
+wil	SuperUser	Rule	ADD	Y
+wil	SuperUser	Rule	DELETE	Y
+wil	SuperUser	Rule	DETAIL	Y
+wil	SuperUser	Rule	EDIT	Y
+wil	SuperUser	Rule	LIST	Y
+wil	SuperUser	Rule	LISTALL	Y
+wil	SuperUser	Rule	PRINT	Y
+wil	SuperUser	Rule	SEARCH	Y
+wil	SuperUser	Ruleset	ADD	Y
+wil	SuperUser	Ruleset	DELETE	Y
+wil	SuperUser	Ruleset	DETAIL	Y
+wil	SuperUser	Ruleset	EDIT	Y
+wil	SuperUser	Ruleset	LIST	Y
+wil	SuperUser	Ruleset	LISTALL	Y
+wil	SuperUser	Ruleset	PRINT	Y
+wil	SuperUser	Ruleset	SEARCH	Y
+wil	SuperUser	Rural Remote Category	ADD	Y
+wil	SuperUser	Rural Remote Category	DELETE	Y
+wil	SuperUser	Rural Remote Category	DETAIL	Y
+wil	SuperUser	Rural Remote Category	EDIT	Y
+wil	SuperUser	Rural Remote Category	LIST	Y
+wil	SuperUser	Rural Remote Category	LISTALL	Y
+wil	SuperUser	Rural Remote Category	PRINT	Y
+wil	SuperUser	Rural Remote Category	SEARCH	Y
+wil	SuperUser	Schedule	ADD	Y
+wil	SuperUser	Schedule	DELETE	Y
+wil	SuperUser	Schedule	DETAIL	Y
+wil	SuperUser	Schedule	EDIT	Y
+wil	SuperUser	Schedule	LIST	Y
+wil	SuperUser	Schedule	LISTALL	Y
+wil	SuperUser	Schedule	PRINT	Y
+wil	SuperUser	Schedule	SEARCH	Y
+wil	SuperUser	ScheduleType	ADD	Y
+wil	SuperUser	ScheduleType	DELETE	Y
+wil	SuperUser	ScheduleType	DETAIL	Y
+wil	SuperUser	ScheduleType	EDIT	Y
+wil	SuperUser	ScheduleType	LIST	Y
+wil	SuperUser	ScheduleType	LISTALL	Y
+wil	SuperUser	ScheduleType	PRINT	Y
+wil	SuperUser	ScheduleType	SEARCH	Y
+wil	SuperUser	Scholarship	ADD	Y
+wil	SuperUser	Scholarship	DELETE	Y
+wil	SuperUser	Scholarship	DETAIL	Y
+wil	SuperUser	Scholarship	EDIT	Y
+wil	SuperUser	Scholarship	LIST	Y
+wil	SuperUser	Scholarship	LISTALL	Y
+wil	SuperUser	Scholarship	PRINT	Y
+wil	SuperUser	Scholarship	SEARCH	Y
+wil	SuperUser	Scholarship Docs	ADD	Y
+wil	SuperUser	Scholarship Docs	DELETE	Y
+wil	SuperUser	Scholarship Docs	DETAIL	Y
+wil	SuperUser	Scholarship Docs	EDIT	Y
+wil	SuperUser	Scholarship Docs	LIST	Y
+wil	SuperUser	Scholarship Docs	LISTALL	Y
+wil	SuperUser	Scholarship Docs	PRINT	Y
+wil	SuperUser	Scholarship Docs	SEARCH	Y
+wil	SuperUser	Scholarship Notes	ADD	Y
+wil	SuperUser	Scholarship Notes	DELETE	Y
+wil	SuperUser	Scholarship Notes	DETAIL	Y
+wil	SuperUser	Scholarship Notes	EDIT	Y
+wil	SuperUser	Scholarship Notes	LIST	Y
+wil	SuperUser	Scholarship Notes	LISTALL	Y
+wil	SuperUser	Scholarship Notes	PRINT	Y
+wil	SuperUser	Scholarship Notes	SEARCH	Y
+wil	SuperUser	Scholarship Type	ADD	Y
+wil	SuperUser	Scholarship Type	DELETE	Y
+wil	SuperUser	Scholarship Type	DETAIL	Y
+wil	SuperUser	Scholarship Type	EDIT	Y
+wil	SuperUser	Scholarship Type	LIST	Y
+wil	SuperUser	Scholarship Type	LISTALL	Y
+wil	SuperUser	Scholarship Type	PRINT	Y
+wil	SuperUser	Scholarship Type	SEARCH	Y
+wil	SuperUser	SecurityEntityRelationship	ADD	Y
+wil	SuperUser	SecurityEntityRelationship	DELETE	Y
+wil	SuperUser	SecurityEntityRelationship	DETAIL	Y
+wil	SuperUser	SecurityEntityRelationship	EDIT	Y
+wil	SuperUser	SecurityEntityRelationship	LIST	Y
+wil	SuperUser	SecurityEntityRelationship	LISTALL	Y
+wil	SuperUser	SecurityEntityRelationship	PRINT	Y
+wil	SuperUser	SecurityEntityRelationship	SEARCH	Y
+wil	SuperUser	SelfPlacement	ADD	Y
+wil	SuperUser	SelfPlacement	DELETE	Y
+wil	SuperUser	SelfPlacement	DETAIL	Y
+wil	SuperUser	SelfPlacement	EDIT	Y
+wil	SuperUser	SelfPlacement	LIST	Y
+wil	SuperUser	SelfPlacement	LISTALL	Y
+wil	SuperUser	SelfPlacement	PRINT	Y
+wil	SuperUser	SelfPlacement	SEARCH	Y
+wil	SuperUser	Self-Selectable Placement	ADD	Y
+wil	SuperUser	Self-Selectable Placement	DELETE	Y
+wil	SuperUser	Self-Selectable Placement	DETAIL	Y
+wil	SuperUser	Self-Selectable Placement	EDIT	Y
+wil	SuperUser	Self-Selectable Placement	LIST	Y
+wil	SuperUser	Self-Selectable Placement	LISTALL	Y
+wil	SuperUser	Self-Selectable Placement	PRINT	Y
+wil	SuperUser	Self-Selectable Placement	SEARCH	Y
+wil	SuperUser	SIS Ownership	ADD	Y
+wil	SuperUser	SIS Ownership	DELETE	Y
+wil	SuperUser	SIS Ownership	DETAIL	Y
+wil	SuperUser	SIS Ownership	EDIT	Y
+wil	SuperUser	SIS Ownership	LIST	Y
+wil	SuperUser	SIS Ownership	LISTALL	Y
+wil	SuperUser	SIS Ownership	PRINT	Y
+wil	SuperUser	SIS Ownership	SEARCH	Y
+wil	SuperUser	Specialism	ADD	Y
+wil	SuperUser	Specialism	DELETE	Y
+wil	SuperUser	Specialism	DETAIL	Y
+wil	SuperUser	Specialism	EDIT	Y
+wil	SuperUser	Specialism	LIST	Y
+wil	SuperUser	Specialism	LISTALL	Y
+wil	SuperUser	Specialism	PRINT	Y
+wil	SuperUser	Specialism	SEARCH	Y
+wil	SuperUser	Staff	ADD	Y
+wil	SuperUser	Staff	DELETE	Y
+wil	SuperUser	Staff	DETAIL	Y
+wil	SuperUser	Staff	EDIT	Y
+wil	SuperUser	Staff	LIST	Y
+wil	SuperUser	Staff	LISTALL	Y
+wil	SuperUser	Staff	PRINT	Y
+wil	SuperUser	Staff	SEARCH	Y
+wil	SuperUser	Staff Agency Link	ADD	Y
+wil	SuperUser	Staff Agency Link	DELETE	Y
+wil	SuperUser	Staff Agency Link	DETAIL	Y
+wil	SuperUser	Staff Agency Link	EDIT	Y
+wil	SuperUser	Staff Agency Link	LIST	Y
+wil	SuperUser	Staff Agency Link	LISTALL	Y
+wil	SuperUser	Staff Agency Link	PRINT	Y
+wil	SuperUser	Staff Agency Link	SEARCH	Y
+wil	SuperUser	Staff Docs	ADD	Y
+wil	SuperUser	Staff Docs	DELETE	Y
+wil	SuperUser	Staff Docs	DETAIL	Y
+wil	SuperUser	Staff Docs	EDIT	Y
+wil	SuperUser	Staff Docs	LIST	Y
+wil	SuperUser	Staff Docs	LISTALL	Y
+wil	SuperUser	Staff Docs	PRINT	Y
+wil	SuperUser	Staff Docs	SEARCH	Y
+wil	SuperUser	Staff Notes	ADD	Y
+wil	SuperUser	Staff Notes	DELETE	Y
+wil	SuperUser	Staff Notes	DETAIL	Y
+wil	SuperUser	Staff Notes	EDIT	Y
+wil	SuperUser	Staff Notes	LIST	Y
+wil	SuperUser	Staff Notes	LISTALL	Y
+wil	SuperUser	Staff Notes	PRINT	Y
+wil	SuperUser	Staff Notes	SEARCH	Y
+wil	SuperUser	StaffDisciplineCampus	ADD	Y
+wil	SuperUser	StaffDisciplineCampus	DELETE	Y
+wil	SuperUser	StaffDisciplineCampus	DETAIL	Y
+wil	SuperUser	StaffDisciplineCampus	EDIT	Y
+wil	SuperUser	StaffDisciplineCampus	LIST	Y
+wil	SuperUser	StaffDisciplineCampus	LISTALL	Y
+wil	SuperUser	StaffDisciplineCampus	PRINT	Y
+wil	SuperUser	StaffDisciplineCampus	SEARCH	Y
+wil	SuperUser	StaffRule	ADD	Y
+wil	SuperUser	StaffRule	DELETE	Y
+wil	SuperUser	StaffRule	DETAIL	Y
+wil	SuperUser	StaffRule	EDIT	Y
+wil	SuperUser	StaffRule	LIST	Y
+wil	SuperUser	StaffRule	LISTALL	Y
+wil	SuperUser	StaffRule	PRINT	Y
+wil	SuperUser	StaffRule	SEARCH	Y
+wil	SuperUser	StaffRuleset	ADD	Y
+wil	SuperUser	StaffRuleset	DELETE	Y
+wil	SuperUser	StaffRuleset	DETAIL	Y
+wil	SuperUser	StaffRuleset	EDIT	Y
+wil	SuperUser	StaffRuleset	LIST	Y
+wil	SuperUser	StaffRuleset	LISTALL	Y
+wil	SuperUser	StaffRuleset	PRINT	Y
+wil	SuperUser	StaffRuleset	SEARCH	Y
+wil	SuperUser	StaffUnit Offering	ADD	Y
+wil	SuperUser	StaffUnit Offering	DELETE	Y
+wil	SuperUser	StaffUnit Offering	DETAIL	Y
+wil	SuperUser	StaffUnit Offering	EDIT	Y
+wil	SuperUser	StaffUnit Offering	LIST	Y
+wil	SuperUser	StaffUnit Offering	LISTALL	Y
+wil	SuperUser	StaffUnit Offering	PRINT	Y
+wil	SuperUser	StaffUnit Offering	SEARCH	Y
+wil	SuperUser	Status	ADD	Y
+wil	SuperUser	Status	DELETE	Y
+wil	SuperUser	Status	DETAIL	Y
+wil	SuperUser	Status	EDIT	Y
+wil	SuperUser	Status	LIST	Y
+wil	SuperUser	Status	LISTALL	Y
+wil	SuperUser	Status	PRINT	Y
+wil	SuperUser	Status	SEARCH	Y
+wil	SuperUser	Student	ADD	Y
+wil	SuperUser	Student	DELETE	Y
+wil	SuperUser	Student	DETAIL	Y
+wil	SuperUser	Student	EDIT	Y
+wil	SuperUser	Student	LIST	Y
+wil	SuperUser	Student	LISTALL	Y
+wil	SuperUser	Student	PRINT	Y
+wil	SuperUser	Student	SEARCH	Y
+wil	SuperUser	Student Agency Preferences	ADD	Y
+wil	SuperUser	Student Agency Preferences	DELETE	Y
+wil	SuperUser	Student Agency Preferences	DETAIL	Y
+wil	SuperUser	Student Agency Preferences	EDIT	Y
+wil	SuperUser	Student Agency Preferences	LIST	Y
+wil	SuperUser	Student Agency Preferences	LISTALL	Y
+wil	SuperUser	Student Agency Preferences	PRINT	Y
+wil	SuperUser	Student Agency Preferences	SEARCH	Y
+wil	SuperUser	Student Bulk Update	ADD	Y
+wil	SuperUser	Student Bulk Update	DELETE	Y
+wil	SuperUser	Student Bulk Update	DETAIL	Y
+wil	SuperUser	Student Bulk Update	EDIT	Y
+wil	SuperUser	Student Bulk Update	LIST	Y
+wil	SuperUser	Student Bulk Update	LISTALL	Y
+wil	SuperUser	Student Bulk Update	PRINT	Y
+wil	SuperUser	Student Bulk Update	SEARCH	Y
+wil	SuperUser	Student Docs	ADD	Y
+wil	SuperUser	Student Docs	DELETE	Y
+wil	SuperUser	Student Docs	DETAIL	Y
+wil	SuperUser	Student Docs	EDIT	Y
+wil	SuperUser	Student Docs	LIST	Y
+wil	SuperUser	Student Docs	LISTALL	Y
+wil	SuperUser	Student Docs	PRINT	Y
+wil	SuperUser	Student Docs	SEARCH	Y
+wil	SuperUser	Student Method	ADD	Y
+wil	SuperUser	Student Method	DELETE	Y
+wil	SuperUser	Student Method	DETAIL	Y
+wil	SuperUser	Student Method	EDIT	Y
+wil	SuperUser	Student Method	LIST	Y
+wil	SuperUser	Student Method	LISTALL	Y
+wil	SuperUser	Student Method	PRINT	Y
+wil	SuperUser	Student Method	SEARCH	Y
+wil	SuperUser	Student Notes	ADD	Y
+wil	SuperUser	Student Notes	DELETE	Y
+wil	SuperUser	Student Notes	DETAIL	Y
+wil	SuperUser	Student Notes	EDIT	Y
+wil	SuperUser	Student Notes	LIST	Y
+wil	SuperUser	Student Notes	LISTALL	Y
+wil	SuperUser	Student Notes	PRINT	Y
+wil	SuperUser	Student Notes	SEARCH	Y
+wil	SuperUser	StudentAddress	ADD	Y
+wil	SuperUser	StudentAddress	DELETE	Y
+wil	SuperUser	StudentAddress	DETAIL	Y
+wil	SuperUser	StudentAddress	EDIT	Y
+wil	SuperUser	StudentAddress	LIST	Y
+wil	SuperUser	StudentAddress	LISTALL	Y
+wil	SuperUser	StudentAddress	PRINT	Y
+wil	SuperUser	StudentAddress	SEARCH	Y
+wil	SuperUser	StudentCourseOffering	ADD	Y
+wil	SuperUser	StudentCourseOffering	DELETE	Y
+wil	SuperUser	StudentCourseOffering	DETAIL	Y
+wil	SuperUser	StudentCourseOffering	EDIT	Y
+wil	SuperUser	StudentCourseOffering	LIST	Y
+wil	SuperUser	StudentCourseOffering	LISTALL	Y
+wil	SuperUser	StudentCourseOffering	PRINT	Y
+wil	SuperUser	StudentCourseOffering	SEARCH	Y
+wil	SuperUser	StudentUnit Offering	ADD	Y
+wil	SuperUser	StudentUnit Offering	DELETE	Y
+wil	SuperUser	StudentUnit Offering	DETAIL	Y
+wil	SuperUser	StudentUnit Offering	EDIT	Y
+wil	SuperUser	StudentUnit Offering	LIST	Y
+wil	SuperUser	StudentUnit Offering	LISTALL	Y
+wil	SuperUser	StudentUnit Offering	PRINT	Y
+wil	SuperUser	StudentUnit Offering	SEARCH	Y
+wil	SuperUser	Sundry Cost	ADD	Y
+wil	SuperUser	Sundry Cost	DELETE	Y
+wil	SuperUser	Sundry Cost	DETAIL	Y
+wil	SuperUser	Sundry Cost	EDIT	Y
+wil	SuperUser	Sundry Cost	LIST	Y
+wil	SuperUser	Sundry Cost	LISTALL	Y
+wil	SuperUser	Sundry Cost	PRINT	Y
+wil	SuperUser	Sundry Cost	SEARCH	Y
+wil	SuperUser	SupervisorType	ADD	Y
+wil	SuperUser	SupervisorType	DELETE	Y
+wil	SuperUser	SupervisorType	DETAIL	Y
+wil	SuperUser	SupervisorType	EDIT	Y
+wil	SuperUser	SupervisorType	LIST	Y
+wil	SuperUser	SupervisorType	LISTALL	Y
+wil	SuperUser	SupervisorType	PRINT	Y
+wil	SuperUser	SupervisorType	SEARCH	Y
+wil	SuperUser	Survey	ADD	Y
+wil	SuperUser	Survey	DELETE	Y
+wil	SuperUser	Survey	DETAIL	Y
+wil	SuperUser	Survey	EDIT	Y
+wil	SuperUser	Survey	LIST	Y
+wil	SuperUser	Survey	LISTALL	Y
+wil	SuperUser	Survey	PRINT	Y
+wil	SuperUser	Survey	SEARCH	Y
+wil	SuperUser	System Import Log	ADD	Y
+wil	SuperUser	System Import Log	DELETE	Y
+wil	SuperUser	System Import Log	DETAIL	Y
+wil	SuperUser	System Import Log	EDIT	Y
+wil	SuperUser	System Import Log	LIST	Y
+wil	SuperUser	System Import Log	LISTALL	Y
+wil	SuperUser	System Import Log	PRINT	Y
+wil	SuperUser	System Import Log	SEARCH	Y
+wil	SuperUser	System Setting	ADD	Y
+wil	SuperUser	System Setting	DELETE	Y
+wil	SuperUser	System Setting	DETAIL	Y
+wil	SuperUser	System Setting	EDIT	Y
+wil	SuperUser	System Setting	LIST	Y
+wil	SuperUser	System Setting	LISTALL	Y
+wil	SuperUser	System Setting	PRINT	Y
+wil	SuperUser	System Setting	SEARCH	Y
+wil	SuperUser	Timesheet	ADD	Y
+wil	SuperUser	Timesheet	DELETE	Y
+wil	SuperUser	Timesheet	DETAIL	Y
+wil	SuperUser	Timesheet	EDIT	Y
+wil	SuperUser	Timesheet	LIST	Y
+wil	SuperUser	Timesheet	LISTALL	Y
+wil	SuperUser	Timesheet	PRINT	Y
+wil	SuperUser	Timesheet	SEARCH	Y
+wil	SuperUser	Timesheet Placement 	ADD	Y
+wil	SuperUser	Timesheet Placement 	DELETE	Y
+wil	SuperUser	Timesheet Placement 	DETAIL	Y
+wil	SuperUser	Timesheet Placement 	EDIT	Y
+wil	SuperUser	Timesheet Placement 	LIST	Y
+wil	SuperUser	Timesheet Placement 	LISTALL	Y
+wil	SuperUser	Timesheet Placement 	PRINT	Y
+wil	SuperUser	Timesheet Placement 	SEARCH	Y
+wil	SuperUser	Timesheet Placement Confirm	ADD	Y
+wil	SuperUser	Timesheet Placement Confirm	DELETE	Y
+wil	SuperUser	Timesheet Placement Confirm	DETAIL	Y
+wil	SuperUser	Timesheet Placement Confirm	EDIT	Y
+wil	SuperUser	Timesheet Placement Confirm	LIST	Y
+wil	SuperUser	Timesheet Placement Confirm	LISTALL	Y
+wil	SuperUser	Timesheet Placement Confirm	PRINT	Y
+wil	SuperUser	Timesheet Placement Confirm	SEARCH	Y
+wil	SuperUser	Timesheet Theory	ADD	Y
+wil	SuperUser	Timesheet Theory	DELETE	Y
+wil	SuperUser	Timesheet Theory	DETAIL	Y
+wil	SuperUser	Timesheet Theory	EDIT	Y
+wil	SuperUser	Timesheet Theory	LIST	Y
+wil	SuperUser	Timesheet Theory	LISTALL	Y
+wil	SuperUser	Timesheet Theory	PRINT	Y
+wil	SuperUser	Timesheet Theory	SEARCH	Y
+wil	SuperUser	Timesheet Theory Confirm	ADD	Y
+wil	SuperUser	Timesheet Theory Confirm	DELETE	Y
+wil	SuperUser	Timesheet Theory Confirm	DETAIL	Y
+wil	SuperUser	Timesheet Theory Confirm	EDIT	Y
+wil	SuperUser	Timesheet Theory Confirm	LIST	Y
+wil	SuperUser	Timesheet Theory Confirm	LISTALL	Y
+wil	SuperUser	Timesheet Theory Confirm	PRINT	Y
+wil	SuperUser	Timesheet Theory Confirm	SEARCH	Y
+wil	SuperUser	Timesheet Type	ADD	Y
+wil	SuperUser	Timesheet Type	DELETE	Y
+wil	SuperUser	Timesheet Type	DETAIL	Y
+wil	SuperUser	Timesheet Type	EDIT	Y
+wil	SuperUser	Timesheet Type	LIST	Y
+wil	SuperUser	Timesheet Type	LISTALL	Y
+wil	SuperUser	Timesheet Type	PRINT	Y
+wil	SuperUser	Timesheet Type	SEARCH	Y
+wil	SuperUser	Unit	ADD	Y
+wil	SuperUser	Unit	DELETE	Y
+wil	SuperUser	Unit	DETAIL	Y
+wil	SuperUser	Unit	EDIT	Y
+wil	SuperUser	Unit	LIST	Y
+wil	SuperUser	Unit	LISTALL	Y
+wil	SuperUser	Unit	PRINT	Y
+wil	SuperUser	Unit	SEARCH	Y
+wil	SuperUser	Unit Docs	ADD	Y
+wil	SuperUser	Unit Docs	DELETE	Y
+wil	SuperUser	Unit Docs	DETAIL	Y
+wil	SuperUser	Unit Docs	EDIT	Y
+wil	SuperUser	Unit Docs	LIST	Y
+wil	SuperUser	Unit Docs	LISTALL	Y
+wil	SuperUser	Unit Docs	PRINT	Y
+wil	SuperUser	Unit Docs	SEARCH	Y
+wil	SuperUser	Unit Notes	ADD	Y
+wil	SuperUser	Unit Notes	DELETE	Y
+wil	SuperUser	Unit Notes	DETAIL	Y
+wil	SuperUser	Unit Notes	EDIT	Y
+wil	SuperUser	Unit Notes	LIST	Y
+wil	SuperUser	Unit Notes	LISTALL	Y
+wil	SuperUser	Unit Notes	PRINT	Y
+wil	SuperUser	Unit Notes	SEARCH	Y
+wil	SuperUser	Unit Offering	ADD	Y
+wil	SuperUser	Unit Offering	DELETE	Y
+wil	SuperUser	Unit Offering	DETAIL	Y
+wil	SuperUser	Unit Offering	EDIT	Y
+wil	SuperUser	Unit Offering	LIST	Y
+wil	SuperUser	Unit Offering	LISTALL	Y
+wil	SuperUser	Unit Offering	PRINT	Y
+wil	SuperUser	Unit Offering	SEARCH	Y
+wil	SuperUser	Unit Offering Docs	ADD	Y
+wil	SuperUser	Unit Offering Docs	DELETE	Y
+wil	SuperUser	Unit Offering Docs	DETAIL	Y
+wil	SuperUser	Unit Offering Docs	EDIT	Y
+wil	SuperUser	Unit Offering Docs	LIST	Y
+wil	SuperUser	Unit Offering Docs	LISTALL	Y
+wil	SuperUser	Unit Offering Docs	PRINT	Y
+wil	SuperUser	Unit Offering Docs	SEARCH	Y
+wil	SuperUser	Unit Offering Group	ADD	Y
+wil	SuperUser	Unit Offering Group	DELETE	Y
+wil	SuperUser	Unit Offering Group	DETAIL	Y
+wil	SuperUser	Unit Offering Group	EDIT	Y
+wil	SuperUser	Unit Offering Group	LIST	Y
+wil	SuperUser	Unit Offering Group	LISTALL	Y
+wil	SuperUser	Unit Offering Group	PRINT	Y
+wil	SuperUser	Unit Offering Group	SEARCH	Y
+wil	SuperUser	Unit Offering Group Unit Offering	ADD	Y
+wil	SuperUser	Unit Offering Group Unit Offering	DELETE	Y
+wil	SuperUser	Unit Offering Group Unit Offering	DETAIL	Y
+wil	SuperUser	Unit Offering Group Unit Offering	EDIT	Y
+wil	SuperUser	Unit Offering Group Unit Offering	LIST	Y
+wil	SuperUser	Unit Offering Group Unit Offering	LISTALL	Y
+wil	SuperUser	Unit Offering Group Unit Offering	PRINT	Y
+wil	SuperUser	Unit Offering Group Unit Offering	SEARCH	Y
+wil	SuperUser	Unit Offering Notes	ADD	Y
+wil	SuperUser	Unit Offering Notes	DELETE	Y
+wil	SuperUser	Unit Offering Notes	DETAIL	Y
+wil	SuperUser	Unit Offering Notes	EDIT	Y
+wil	SuperUser	Unit Offering Notes	LIST	Y
+wil	SuperUser	Unit Offering Notes	LISTALL	Y
+wil	SuperUser	Unit Offering Notes	PRINT	Y
+wil	SuperUser	Unit Offering Notes	SEARCH	Y
+wil	SuperUser	Unit OfferingScheduleType	ADD	Y
+wil	SuperUser	Unit OfferingScheduleType	DELETE	Y
+wil	SuperUser	Unit OfferingScheduleType	DETAIL	Y
+wil	SuperUser	Unit OfferingScheduleType	EDIT	Y
+wil	SuperUser	Unit OfferingScheduleType	LIST	Y
+wil	SuperUser	Unit OfferingScheduleType	LISTALL	Y
+wil	SuperUser	Unit OfferingScheduleType	PRINT	Y
+wil	SuperUser	Unit OfferingScheduleType	SEARCH	Y
+wil	SuperUser	Unit Version Discipline	ADD	Y
+wil	SuperUser	Unit Version Discipline	DELETE	Y
+wil	SuperUser	Unit Version Discipline	DETAIL	Y
+wil	SuperUser	Unit Version Discipline	EDIT	Y
+wil	SuperUser	Unit Version Discipline	LIST	Y
+wil	SuperUser	Unit Version Discipline	LISTALL	Y
+wil	SuperUser	Unit Version Discipline	PRINT	Y
+wil	SuperUser	Unit Version Discipline	SEARCH	Y
+wil	SuperUser	Unit Version Docs	ADD	Y
+wil	SuperUser	Unit Version Docs	DELETE	Y
+wil	SuperUser	Unit Version Docs	DETAIL	Y
+wil	SuperUser	Unit Version Docs	EDIT	Y
+wil	SuperUser	Unit Version Docs	LIST	Y
+wil	SuperUser	Unit Version Docs	LISTALL	Y
+wil	SuperUser	Unit Version Docs	PRINT	Y
+wil	SuperUser	Unit Version Docs	SEARCH	Y
+wil	SuperUser	Unit Version Notes	ADD	Y
+wil	SuperUser	Unit Version Notes	DELETE	Y
+wil	SuperUser	Unit Version Notes	DETAIL	Y
+wil	SuperUser	Unit Version Notes	EDIT	Y
+wil	SuperUser	Unit Version Notes	LIST	Y
+wil	SuperUser	Unit Version Notes	LISTALL	Y
+wil	SuperUser	Unit Version Notes	PRINT	Y
+wil	SuperUser	Unit Version Notes	SEARCH	Y
+wil	SuperUser	UnitDiscipline	ADD	Y
+wil	SuperUser	UnitDiscipline	DELETE	Y
+wil	SuperUser	UnitDiscipline	DETAIL	Y
+wil	SuperUser	UnitDiscipline	EDIT	Y
+wil	SuperUser	UnitDiscipline	LIST	Y
+wil	SuperUser	UnitDiscipline	LISTALL	Y
+wil	SuperUser	UnitDiscipline	PRINT	Y
+wil	SuperUser	UnitDiscipline	SEARCH	Y
+wil	SuperUser	UnitOfMeasure	ADD	Y
+wil	SuperUser	UnitOfMeasure	DELETE	Y
+wil	SuperUser	UnitOfMeasure	DETAIL	Y
+wil	SuperUser	UnitOfMeasure	EDIT	Y
+wil	SuperUser	UnitOfMeasure	LIST	Y
+wil	SuperUser	UnitOfMeasure	LISTALL	Y
+wil	SuperUser	UnitOfMeasure	PRINT	Y
+wil	SuperUser	UnitOfMeasure	SEARCH	Y
+wil	SuperUser	UnitVersion	ADD	Y
+wil	SuperUser	UnitVersion	DELETE	Y
+wil	SuperUser	UnitVersion	DETAIL	Y
+wil	SuperUser	UnitVersion	EDIT	Y
+wil	SuperUser	UnitVersion	LIST	Y
+wil	SuperUser	UnitVersion	LISTALL	Y
+wil	SuperUser	UnitVersion	PRINT	Y
+wil	SuperUser	UnitVersion	SEARCH	Y
+wil	SuperUser	User Agency Personnel	ADD	Y
+wil	SuperUser	User Agency Personnel	DELETE	Y
+wil	SuperUser	User Agency Personnel	DETAIL	Y
+wil	SuperUser	User Agency Personnel	EDIT	Y
+wil	SuperUser	User Agency Personnel	LIST	Y
+wil	SuperUser	User Agency Personnel	LISTALL	Y
+wil	SuperUser	User Agency Personnel	PRINT	Y
+wil	SuperUser	User Agency Personnel	SEARCH	Y
+wil	SuperUser	UserStaff	ADD	Y
+wil	SuperUser	UserStaff	DELETE	Y
+wil	SuperUser	UserStaff	DETAIL	Y
+wil	SuperUser	UserStaff	EDIT	Y
+wil	SuperUser	UserStaff	LIST	Y
+wil	SuperUser	UserStaff	LISTALL	Y
+wil	SuperUser	UserStaff	PRINT	Y
+wil	SuperUser	UserStaff	SEARCH	Y
+wil	SuperUser	UserStudent	ADD	Y
+wil	SuperUser	UserStudent	DELETE	Y
+wil	SuperUser	UserStudent	DETAIL	Y
+wil	SuperUser	UserStudent	EDIT	Y
+wil	SuperUser	UserStudent	LIST	Y
+wil	SuperUser	UserStudent	LISTALL	Y
+wil	SuperUser	UserStudent	PRINT	Y
+wil	SuperUser	UserStudent	SEARCH	Y
+wil	WIL Business Support	Address	DETAIL	Y
+wil	WIL Business Support	Address	LIST	Y
+wil	WIL Business Support	Address	LISTALL	Y
+wil	WIL Business Support	Address	SEARCH	Y
+wil	WIL Business Support	Agency	DETAIL	Y
+wil	WIL Business Support	Agency	LIST	Y
+wil	WIL Business Support	Agency	LISTALL	Y
+wil	WIL Business Support	Agency	SEARCH	Y
+wil	WIL Business Support	Agency Category	DETAIL	Y
+wil	WIL Business Support	Agency Category	LIST	Y
+wil	WIL Business Support	Agency Category	LISTALL	Y
+wil	WIL Business Support	Agency Category	SEARCH	Y
+wil	WIL Business Support	Agency Level Template	ADD	Y
+wil	WIL Business Support	Agency Level Template	DELETE	Y
+wil	WIL Business Support	Agency Level Template	DETAIL	Y
+wil	WIL Business Support	Agency Level Template	EDIT	Y
+wil	WIL Business Support	Agency Level Template	LIST	Y
+wil	WIL Business Support	Agency Level Template	LISTALL	Y
+wil	WIL Business Support	Agency Level Template	PRINT	Y
+wil	WIL Business Support	Agency Level Template	SEARCH	Y
+wil	WIL Business Support	AgencyAddress	DETAIL	Y
+wil	WIL Business Support	AgencyAddress	LIST	Y
+wil	WIL Business Support	AgencyAddress	LISTALL	Y
+wil	WIL Business Support	AgencyAddress	SEARCH	Y
+wil	WIL Business Support	AgencyDiscipline	ADD	Y
+wil	WIL Business Support	AgencyDiscipline	DELETE	Y
+wil	WIL Business Support	AgencyDiscipline	DETAIL	Y
+wil	WIL Business Support	AgencyDiscipline	EDIT	Y
+wil	WIL Business Support	AgencyDiscipline	LIST	Y
+wil	WIL Business Support	AgencyDiscipline	LISTALL	Y
+wil	WIL Business Support	AgencyDiscipline	SEARCH	Y
+wil	WIL Business Support	AgencyLevel	ADD	Y
+wil	WIL Business Support	AgencyLevel	DELETE	Y
+wil	WIL Business Support	AgencyLevel	DETAIL	Y
+wil	WIL Business Support	AgencyLevel	EDIT	Y
+wil	WIL Business Support	AgencyLevel	LIST	Y
+wil	WIL Business Support	AgencyLevel	LISTALL	Y
+wil	WIL Business Support	AgencyLevel	PRINT	Y
+wil	WIL Business Support	AgencyLevel	SEARCH	Y
+wil	WIL Business Support	AgencyPersonnel	DETAIL	Y
+wil	WIL Business Support	AgencyPersonnel	LIST	Y
+wil	WIL Business Support	AgencyPersonnel	LISTALL	Y
+wil	WIL Business Support	AgencyPersonnel	SEARCH	Y
+wil	WIL Business Support	AgencyPersonnelDiscipline	DETAIL	Y
+wil	WIL Business Support	AgencyPersonnelDiscipline	LIST	Y
+wil	WIL Business Support	AgencyPersonnelDiscipline	LISTALL	Y
+wil	WIL Business Support	AgencyPersonnelDiscipline	SEARCH	Y
+wil	WIL Business Support	AgencyType	ADD	Y
+wil	WIL Business Support	AgencyType	DELETE	Y
+wil	WIL Business Support	AgencyType	DETAIL	Y
+wil	WIL Business Support	AgencyType	EDIT	Y
+wil	WIL Business Support	AgencyType	LIST	Y
+wil	WIL Business Support	AgencyType	LISTALL	Y
+wil	WIL Business Support	AgencyType	PRINT	Y
+wil	WIL Business Support	AgencyType	SEARCH	Y
+wil	WIL Business Support	AppDocument	ADD	Y
+wil	WIL Business Support	AppDocument	DELETE	Y
+wil	WIL Business Support	AppDocument	DETAIL	Y
+wil	WIL Business Support	AppDocument	EDIT	Y
+wil	WIL Business Support	AppDocument	LIST	Y
+wil	WIL Business Support	AppDocument	LISTALL	Y
+wil	WIL Business Support	AppDocument	PRINT	Y
+wil	WIL Business Support	AppDocument	SEARCH	Y
+wil	WIL Business Support	aspnet_Roles	DETAIL	Y
+wil	WIL Business Support	aspnet_Roles	LIST	Y
+wil	WIL Business Support	aspnet_Roles	LISTALL	Y
+wil	WIL Business Support	aspnet_Roles	SEARCH	Y
+wil	WIL Business Support	aspnet_Users	DETAIL	Y
+wil	WIL Business Support	aspnet_Users	EDIT	Y
+wil	WIL Business Support	aspnet_Users	LIST	Y
+wil	WIL Business Support	aspnet_Users	LISTALL	Y
+wil	WIL Business Support	aspnet_Users	SEARCH	Y
+wil	WIL Business Support	aspnet_UsersInRoles	ADD	Y
+wil	WIL Business Support	aspnet_UsersInRoles	DELETE	Y
+wil	WIL Business Support	aspnet_UsersInRoles	DETAIL	Y
+wil	WIL Business Support	aspnet_UsersInRoles	EDIT	Y
+wil	WIL Business Support	aspnet_UsersInRoles	LIST	Y
+wil	WIL Business Support	aspnet_UsersInRoles	LISTALL	Y
+wil	WIL Business Support	aspnet_UsersInRoles	SEARCH	Y
+wil	WIL Business Support	Attribute	ADD	Y
+wil	WIL Business Support	Attribute	DELETE	Y
+wil	WIL Business Support	Attribute	DETAIL	Y
+wil	WIL Business Support	Attribute	EDIT	Y
+wil	WIL Business Support	Attribute	LIST	Y
+wil	WIL Business Support	Attribute	LISTALL	Y
+wil	WIL Business Support	Attribute	PRINT	Y
+wil	WIL Business Support	Attribute	SEARCH	Y
+wil	WIL Business Support	AttributeList	ADD	Y
+wil	WIL Business Support	AttributeList	DELETE	Y
+wil	WIL Business Support	AttributeList	DETAIL	Y
+wil	WIL Business Support	AttributeList	EDIT	Y
+wil	WIL Business Support	AttributeList	LIST	Y
+wil	WIL Business Support	AttributeList	LISTALL	Y
+wil	WIL Business Support	AttributeList	PRINT	Y
+wil	WIL Business Support	AttributeList	SEARCH	Y
+wil	WIL Business Support	AttributeListItem	ADD	Y
+wil	WIL Business Support	AttributeListItem	DELETE	Y
+wil	WIL Business Support	AttributeListItem	DETAIL	Y
+wil	WIL Business Support	AttributeListItem	EDIT	Y
+wil	WIL Business Support	AttributeListItem	LIST	Y
+wil	WIL Business Support	AttributeListItem	LISTALL	Y
+wil	WIL Business Support	AttributeListItem	PRINT	Y
+wil	WIL Business Support	AttributeListItem	SEARCH	Y
+wil	WIL Business Support	Calendar	ADD	Y
+wil	WIL Business Support	Calendar	DETAIL	Y
+wil	WIL Business Support	Calendar	EDIT	Y
+wil	WIL Business Support	Calendar	LIST	Y
+wil	WIL Business Support	Calendar	LISTALL	Y
+wil	WIL Business Support	Calendar	SEARCH	Y
+wil	WIL Business Support	Campus	DETAIL	Y
+wil	WIL Business Support	Campus	LIST	Y
+wil	WIL Business Support	Campus	LISTALL	Y
+wil	WIL Business Support	Campus	SEARCH	Y
+wil	WIL Business Support	Category	ADD	Y
+wil	WIL Business Support	Category	DELETE	Y
+wil	WIL Business Support	Category	DETAIL	Y
+wil	WIL Business Support	Category	EDIT	Y
+wil	WIL Business Support	Category	LIST	Y
+wil	WIL Business Support	Category	LISTALL	Y
+wil	WIL Business Support	Category	PRINT	Y
+wil	WIL Business Support	Category	SEARCH	Y
+wil	WIL Business Support	Course	DELETE	Y
+wil	WIL Business Support	Course	DETAIL	Y
+wil	WIL Business Support	Course	EDIT	Y
+wil	WIL Business Support	Course	LIST	Y
+wil	WIL Business Support	Course	LISTALL	Y
+wil	WIL Business Support	Course	SEARCH	Y
+wil	WIL Business Support	CourseOffering	DETAIL	Y
+wil	WIL Business Support	CourseOffering	EDIT	Y
+wil	WIL Business Support	CourseOffering	LIST	Y
+wil	WIL Business Support	CourseOffering	LISTALL	Y
+wil	WIL Business Support	CourseOffering	SEARCH	Y
+wil	WIL Business Support	CourseVersion	DETAIL	Y
+wil	WIL Business Support	CourseVersion	EDIT	Y
+wil	WIL Business Support	CourseVersion	LIST	Y
+wil	WIL Business Support	CourseVersion	LISTALL	Y
+wil	WIL Business Support	CourseVersion	SEARCH	Y
+wil	WIL Business Support	Discipline	ADD	Y
+wil	WIL Business Support	Discipline	DELETE	Y
+wil	WIL Business Support	Discipline	DETAIL	Y
+wil	WIL Business Support	Discipline	EDIT	Y
+wil	WIL Business Support	Discipline	LIST	Y
+wil	WIL Business Support	Discipline	LISTALL	Y
+wil	WIL Business Support	Discipline	PRINT	Y
+wil	WIL Business Support	Discipline	SEARCH	Y
+wil	WIL Business Support	Document	ADD	Y
+wil	WIL Business Support	Document	DELETE	Y
+wil	WIL Business Support	Document	DETAIL	Y
+wil	WIL Business Support	Document	EDIT	Y
+wil	WIL Business Support	Document	LIST	Y
+wil	WIL Business Support	Document	LISTALL	Y
+wil	WIL Business Support	Document	PRINT	Y
+wil	WIL Business Support	Document	SEARCH	Y
+wil	WIL Business Support	DocumentTemplate	ADD	Y
+wil	WIL Business Support	DocumentTemplate	DELETE	Y
+wil	WIL Business Support	DocumentTemplate	DETAIL	Y
+wil	WIL Business Support	DocumentTemplate	EDIT	Y
+wil	WIL Business Support	DocumentTemplate	LIST	Y
+wil	WIL Business Support	DocumentTemplate	LISTALL	Y
+wil	WIL Business Support	DocumentTemplate	PRINT	Y
+wil	WIL Business Support	DocumentTemplate	SEARCH	Y
+wil	WIL Business Support	Email Templates	ADD	Y
+wil	WIL Business Support	Email Templates	DELETE	Y
+wil	WIL Business Support	Email Templates	DETAIL	Y
+wil	WIL Business Support	Email Templates	EDIT	Y
+wil	WIL Business Support	Email Templates	LIST	Y
+wil	WIL Business Support	Email Templates	LISTALL	Y
+wil	WIL Business Support	Email Templates	PRINT	Y
+wil	WIL Business Support	Email Templates	SEARCH	Y
+wil	WIL Business Support	Enrolment	DETAIL	Y
+wil	WIL Business Support	Enrolment	LIST	Y
+wil	WIL Business Support	Enrolment	LISTALL	Y
+wil	WIL Business Support	Enrolment	SEARCH	Y
+wil	WIL Business Support	EntityAttribute	ADD	Y
+wil	WIL Business Support	EntityAttribute	DELETE	Y
+wil	WIL Business Support	EntityAttribute	DETAIL	Y
+wil	WIL Business Support	EntityAttribute	EDIT	Y
+wil	WIL Business Support	EntityAttribute	LIST	Y
+wil	WIL Business Support	EntityAttribute	LISTALL	Y
+wil	WIL Business Support	EntityAttribute	PRINT	Y
+wil	WIL Business Support	EntityAttribute	SEARCH	Y
+wil	WIL Business Support	EntityFunction	LISTALL	Y
+wil	WIL Business Support	EntityRelationship	ADD	Y
+wil	WIL Business Support	EntityRelationship	DELETE	Y
+wil	WIL Business Support	EntityRelationship	DETAIL	Y
+wil	WIL Business Support	EntityRelationship	EDIT	Y
+wil	WIL Business Support	EntityRelationship	LIST	Y
+wil	WIL Business Support	EntityRelationship	LISTALL	Y
+wil	WIL Business Support	EntityRelationship	PRINT	Y
+wil	WIL Business Support	EntityRelationship	SEARCH	Y
+wil	WIL Business Support	EntityRelationshipEntity	ADD	Y
+wil	WIL Business Support	EntityRelationshipEntity	DELETE	Y
+wil	WIL Business Support	EntityRelationshipEntity	DETAIL	Y
+wil	WIL Business Support	EntityRelationshipEntity	EDIT	Y
+wil	WIL Business Support	EntityRelationshipEntity	LIST	Y
+wil	WIL Business Support	EntityRelationshipEntity	LISTALL	Y
+wil	WIL Business Support	EntityRelationshipEntity	PRINT	Y
+wil	WIL Business Support	EntityRelationshipEntity	SEARCH	Y
+wil	WIL Business Support	EntityType	DETAIL	Y
+wil	WIL Business Support	EntityType	LIST	Y
+wil	WIL Business Support	EntityType	LISTALL	Y
+wil	WIL Business Support	EntityType	SEARCH	Y
+wil	WIL Business Support	EntityTypeFunction	DETAIL	Y
+wil	WIL Business Support	EntityTypeFunction	LIST	Y
+wil	WIL Business Support	EntityTypeFunction	LISTALL	Y
+wil	WIL Business Support	EntityTypeFunction	SEARCH	Y
+wil	WIL Business Support	EntityTypeFunctionRole	DETAIL	Y
+wil	WIL Business Support	EntityTypeFunctionRole	LIST	Y
+wil	WIL Business Support	EntityTypeFunctionRole	LISTALL	Y
+wil	WIL Business Support	EntityTypeFunctionRole	SEARCH	Y
+wil	WIL Business Support	Faculty	DETAIL	Y
+wil	WIL Business Support	Faculty	LIST	Y
+wil	WIL Business Support	Faculty	LISTALL	Y
+wil	WIL Business Support	Faculty	SEARCH	Y
+wil	WIL Business Support	HelpObject	DETAIL	Y
+wil	WIL Business Support	HelpObject	EDIT	Y
+wil	WIL Business Support	HelpObject	LIST	Y
+wil	WIL Business Support	HelpObject	LISTALL	Y
+wil	WIL Business Support	HelpObject	PRINT	Y
+wil	WIL Business Support	HelpObject	SEARCH	Y
+wil	WIL Business Support	HelpObjectControl	DETAIL	Y
+wil	WIL Business Support	HelpObjectControl	EDIT	Y
+wil	WIL Business Support	HelpObjectControl	LIST	Y
+wil	WIL Business Support	HelpObjectControl	LISTALL	Y
+wil	WIL Business Support	HelpObjectControl	PRINT	Y
+wil	WIL Business Support	HelpObjectControl	SEARCH	Y
+wil	WIL Business Support	ImporterRule	ADD	Y
+wil	WIL Business Support	ImporterRule	DELETE	Y
+wil	WIL Business Support	ImporterRule	DETAIL	Y
+wil	WIL Business Support	ImporterRule	EDIT	Y
+wil	WIL Business Support	ImporterRule	LIST	Y
+wil	WIL Business Support	ImporterRule	LISTALL	Y
+wil	WIL Business Support	ImporterRule	PRINT	Y
+wil	WIL Business Support	ImporterRule	SEARCH	Y
+wil	WIL Business Support	MessageBoard	ADD	Y
+wil	WIL Business Support	MessageBoard	DELETE	Y
+wil	WIL Business Support	MessageBoard	DETAIL	Y
+wil	WIL Business Support	MessageBoard	EDIT	Y
+wil	WIL Business Support	MessageBoard	LIST	Y
+wil	WIL Business Support	MessageBoard	LISTALL	Y
+wil	WIL Business Support	MessageBoard	PRINT	Y
+wil	WIL Business Support	MessageBoard	SEARCH	Y
+wil	WIL Business Support	Note	PRINT	Y
+wil	WIL Business Support	Opportunities	DETAIL	Y
+wil	WIL Business Support	Opportunities	LIST	Y
+wil	WIL Business Support	Opportunities	LISTALL	Y
+wil	WIL Business Support	Opportunities	PRINT	Y
+wil	WIL Business Support	Opportunities	SEARCH	Y
+wil	WIL Business Support	Opportunity Type	ADD	Y
+wil	WIL Business Support	Opportunity Type	DELETE	Y
+wil	WIL Business Support	Opportunity Type	DETAIL	Y
+wil	WIL Business Support	Opportunity Type	EDIT	Y
+wil	WIL Business Support	Opportunity Type	LIST	Y
+wil	WIL Business Support	Opportunity Type	LISTALL	Y
+wil	WIL Business Support	Opportunity Type	PRINT	Y
+wil	WIL Business Support	Opportunity Type	SEARCH	Y
+wil	WIL Business Support	Personnel	DETAIL	Y
+wil	WIL Business Support	Personnel	LIST	Y
+wil	WIL Business Support	Personnel	LISTALL	Y
+wil	WIL Business Support	Personnel	PRINT	Y
+wil	WIL Business Support	Personnel	SEARCH	Y
+wil	WIL Business Support	PersonnelType	ADD	Y
+wil	WIL Business Support	PersonnelType	DELETE	Y
+wil	WIL Business Support	PersonnelType	DETAIL	Y
+wil	WIL Business Support	PersonnelType	EDIT	Y
+wil	WIL Business Support	PersonnelType	LIST	Y
+wil	WIL Business Support	PersonnelType	LISTALL	Y
+wil	WIL Business Support	PersonnelType	PRINT	Y
+wil	WIL Business Support	PersonnelType	SEARCH	Y
+wil	WIL Business Support	Placement	DETAIL	Y
+wil	WIL Business Support	Placement	LIST	Y
+wil	WIL Business Support	Placement	LISTALL	Y
+wil	WIL Business Support	Placement	PRINT	Y
+wil	WIL Business Support	Placement	SEARCH	Y
+wil	WIL Business Support	PlacementHistory	DETAIL	Y
+wil	WIL Business Support	PlacementHistory	LIST	Y
+wil	WIL Business Support	PlacementHistory	LISTALL	Y
+wil	WIL Business Support	PlacementHistory	SEARCH	Y
+wil	WIL Business Support	PlacementSupervisor	DETAIL	Y
+wil	WIL Business Support	PlacementSupervisor	LIST	Y
+wil	WIL Business Support	PlacementSupervisor	LISTALL	Y
+wil	WIL Business Support	PlacementSupervisor	SEARCH	Y
+wil	WIL Business Support	Query	ADD	Y
+wil	WIL Business Support	Query	DELETE	Y
+wil	WIL Business Support	Query	DETAIL	Y
+wil	WIL Business Support	Query	EDIT	Y
+wil	WIL Business Support	Query	LIST	Y
+wil	WIL Business Support	Query	LISTALL	Y
+wil	WIL Business Support	Query	PRINT	Y
+wil	WIL Business Support	Query	SEARCH	Y
+wil	WIL Business Support	Request	DETAIL	Y
+wil	WIL Business Support	Request	LIST	Y
+wil	WIL Business Support	Request	LISTALL	Y
+wil	WIL Business Support	Request	PRINT	Y
+wil	WIL Business Support	Request	SEARCH	Y
+wil	WIL Business Support	Rule	ADD	Y
+wil	WIL Business Support	Rule	DELETE	Y
+wil	WIL Business Support	Rule	DETAIL	Y
+wil	WIL Business Support	Rule	EDIT	Y
+wil	WIL Business Support	Rule	LIST	Y
+wil	WIL Business Support	Rule	LISTALL	Y
+wil	WIL Business Support	Rule	PRINT	Y
+wil	WIL Business Support	Rule	SEARCH	Y
+wil	WIL Business Support	Ruleset	ADD	Y
+wil	WIL Business Support	Ruleset	DELETE	Y
+wil	WIL Business Support	Ruleset	DETAIL	Y
+wil	WIL Business Support	Ruleset	EDIT	Y
+wil	WIL Business Support	Ruleset	LIST	Y
+wil	WIL Business Support	Ruleset	LISTALL	Y
+wil	WIL Business Support	Ruleset	PRINT	Y
+wil	WIL Business Support	Ruleset	SEARCH	Y
+wil	WIL Business Support	Specialism	ADD	Y
+wil	WIL Business Support	Specialism	DELETE	Y
+wil	WIL Business Support	Specialism	DETAIL	Y
+wil	WIL Business Support	Specialism	EDIT	Y
+wil	WIL Business Support	Specialism	LIST	Y
+wil	WIL Business Support	Specialism	LISTALL	Y
+wil	WIL Business Support	Specialism	PRINT	Y
+wil	WIL Business Support	Specialism	SEARCH	Y
+wil	WIL Business Support	Staff	DETAIL	Y
+wil	WIL Business Support	Staff	EDIT	Y
+wil	WIL Business Support	Staff	LIST	Y
+wil	WIL Business Support	Staff	LISTALL	Y
+wil	WIL Business Support	Staff	PRINT	Y
+wil	WIL Business Support	Staff	SEARCH	Y
+wil	WIL Business Support	StaffDisciplineCampus	ADD	Y
+wil	WIL Business Support	StaffDisciplineCampus	DELETE	Y
+wil	WIL Business Support	StaffDisciplineCampus	DETAIL	Y
+wil	WIL Business Support	StaffDisciplineCampus	EDIT	Y
+wil	WIL Business Support	StaffDisciplineCampus	LIST	Y
+wil	WIL Business Support	StaffDisciplineCampus	LISTALL	Y
+wil	WIL Business Support	StaffDisciplineCampus	PRINT	Y
+wil	WIL Business Support	StaffDisciplineCampus	SEARCH	Y
+wil	WIL Business Support	StaffRule	DETAIL	Y
+wil	WIL Business Support	StaffRule	LIST	Y
+wil	WIL Business Support	StaffRule	LISTALL	Y
+wil	WIL Business Support	StaffRule	SEARCH	Y
+wil	WIL Business Support	StaffRuleset	DETAIL	Y
+wil	WIL Business Support	StaffRuleset	LIST	Y
+wil	WIL Business Support	StaffRuleset	LISTALL	Y
+wil	WIL Business Support	StaffRuleset	SEARCH	Y
+wil	WIL Business Support	StaffUnit Offering	ADD	Y
+wil	WIL Business Support	StaffUnit Offering	DELETE	Y
+wil	WIL Business Support	StaffUnit Offering	DETAIL	Y
+wil	WIL Business Support	StaffUnit Offering	EDIT	Y
+wil	WIL Business Support	StaffUnit Offering	LIST	Y
+wil	WIL Business Support	StaffUnit Offering	LISTALL	Y
+wil	WIL Business Support	StaffUnit Offering	PRINT	Y
+wil	WIL Business Support	StaffUnit Offering	SEARCH	Y
+wil	WIL Business Support	Student	DETAIL	Y
+wil	WIL Business Support	Student	LIST	Y
+wil	WIL Business Support	Student	LISTALL	Y
+wil	WIL Business Support	Student	PRINT	Y
+wil	WIL Business Support	Student	SEARCH	Y
+wil	WIL Business Support	StudentAddress	DETAIL	Y
+wil	WIL Business Support	StudentAddress	LIST	Y
+wil	WIL Business Support	StudentAddress	LISTALL	Y
+wil	WIL Business Support	StudentAddress	SEARCH	Y
+wil	WIL Business Support	StudentCourseOffering	DETAIL	Y
+wil	WIL Business Support	StudentCourseOffering	LIST	Y
+wil	WIL Business Support	StudentCourseOffering	LISTALL	Y
+wil	WIL Business Support	StudentCourseOffering	SEARCH	Y
+wil	WIL Business Support	StudentUnit Offering	DETAIL	Y
+wil	WIL Business Support	StudentUnit Offering	LIST	Y
+wil	WIL Business Support	StudentUnit Offering	LISTALL	Y
+wil	WIL Business Support	StudentUnit Offering	SEARCH	Y
+wil	WIL Business Support	Unit	DETAIL	Y
+wil	WIL Business Support	Unit	EDIT	Y
+wil	WIL Business Support	Unit	LIST	Y
+wil	WIL Business Support	Unit	LISTALL	Y
+wil	WIL Business Support	Unit	PRINT	Y
+wil	WIL Business Support	Unit	SEARCH	Y
+wil	WIL Business Support	Unit Offering	DETAIL	Y
+wil	WIL Business Support	Unit Offering	EDIT	Y
+wil	WIL Business Support	Unit Offering	LIST	Y
+wil	WIL Business Support	Unit Offering	LISTALL	Y
+wil	WIL Business Support	Unit Offering	PRINT	Y
+wil	WIL Business Support	Unit Offering	SEARCH	Y
+wil	WIL Business Support	Unit Offering Group	DETAIL	Y
+wil	WIL Business Support	Unit Offering Group	LIST	Y
+wil	WIL Business Support	Unit Offering Group	LISTALL	Y
+wil	WIL Business Support	Unit Offering Group	PRINT	Y
+wil	WIL Business Support	Unit Offering Group	SEARCH	Y
+wil	WIL Business Support	Unit Offering Group Unit Offering	DETAIL	Y
+wil	WIL Business Support	Unit Offering Group Unit Offering	LIST	Y
+wil	WIL Business Support	Unit Offering Group Unit Offering	LISTALL	Y
+wil	WIL Business Support	Unit Offering Group Unit Offering	PRINT	Y
+wil	WIL Business Support	Unit Offering Group Unit Offering	SEARCH	Y
+wil	WIL Business Support	Unit Version Discipline	ADD	Y
+wil	WIL Business Support	Unit Version Discipline	DELETE	Y
+wil	WIL Business Support	Unit Version Discipline	DETAIL	Y
+wil	WIL Business Support	Unit Version Discipline	EDIT	Y
+wil	WIL Business Support	Unit Version Discipline	LIST	Y
+wil	WIL Business Support	Unit Version Discipline	LISTALL	Y
+wil	WIL Business Support	Unit Version Discipline	PRINT	Y
+wil	WIL Business Support	Unit Version Discipline	SEARCH	Y
+wil	WIL Business Support	UnitDiscipline	ADD	Y
+wil	WIL Business Support	UnitDiscipline	DELETE	Y
+wil	WIL Business Support	UnitDiscipline	DETAIL	Y
+wil	WIL Business Support	UnitDiscipline	EDIT	Y
+wil	WIL Business Support	UnitDiscipline	LIST	Y
+wil	WIL Business Support	UnitDiscipline	LISTALL	Y
+wil	WIL Business Support	UnitDiscipline	PRINT	Y
+wil	WIL Business Support	UnitDiscipline	SEARCH	Y
+wil	WIL Business Support	UnitVersion	DETAIL	Y
+wil	WIL Business Support	UnitVersion	EDIT	Y
+wil	WIL Business Support	UnitVersion	LIST	Y
+wil	WIL Business Support	UnitVersion	LISTALL	Y
+wil	WIL Business Support	UnitVersion	PRINT	Y
+wil	WIL Business Support	UnitVersion	SEARCH	Y
+wil	WIL Champion	Address	ADD	Y
+wil	WIL Champion	Address	DELETE	Y
+wil	WIL Champion	Address	EDIT	Y
+wil	WIL Champion	Agency	ADD	Y
+wil	WIL Champion	Agency	DELETE	Y
+wil	WIL Champion	Agency	EDIT	Y
+wil	WIL Champion	Agency	LISTALL	Y
+wil	WIL Champion	Agency Category	ADD	Y
+wil	WIL Champion	Agency Category	DELETE	Y
+wil	WIL Champion	Agency Category	EDIT	Y
+wil	WIL Champion	AgencyAddress	ADD	Y
+wil	WIL Champion	AgencyAddress	DELETE	Y
+wil	WIL Champion	AgencyAddress	EDIT	Y
+wil	WIL Champion	AgencyDiscipline	ADD	Y
+wil	WIL Champion	AgencyDiscipline	DETAIL	Y
+wil	WIL Champion	AgencyDiscipline	EDIT	Y
+wil	WIL Champion	AgencyPersonnel	ADD	Y
+wil	WIL Champion	AgencyPersonnel	DELETE	Y
+wil	WIL Champion	AgencyPersonnel	EDIT	Y
+wil	WIL Champion	Category	ADD	Y
+wil	WIL Champion	Category	DELETE	Y
+wil	WIL Champion	Category	DETAIL	Y
+wil	WIL Champion	Category	EDIT	Y
+wil	WIL Champion	Category	LIST	Y
+wil	WIL Champion	Category	SEARCH	Y
+wil	WIL Champion	Query	ADD	Y
+wil	WIL Champion	Query	DETAIL	Y
+wil	WIL Champion	Query	EDIT	Y
+wil	WIL Champion	Query	LIST	Y
+wil	WIL Champion	Query	SEARCH	Y
+wil	WIL Champion	Rule	ADD	Y
+wil	WIL Champion	Rule	EDIT	Y
+wil	WIL Champion	Ruleset	ADD	Y
+wil	WIL Champion	Ruleset	DETAIL	Y
+wil	WIL Champion	Ruleset	EDIT	Y
+wil	WIL Champion	Ruleset	LIST	Y
+wil	WIL Champion	Ruleset	LISTALL	Y
+wil	WIL Champion	Ruleset	SEARCH	Y
+wil	WIL Champion	Staff	DETAIL	Y
+wil	WIL Champion	Staff	LIST	Y
+wil	WIL Champion	Staff	SEARCH	Y
+wil	WIL Champion	StaffDisciplineCampus	ADD	Y
+wil	WIL Champion	StaffDisciplineCampus	DELETE	Y
+wil	WIL Champion	StaffDisciplineCampus	DETAIL	Y
+wil	WIL Champion	StaffDisciplineCampus	EDIT	Y
+wil	WIL Champion	StaffDisciplineCampus	LIST	Y
+wil	WIL Champion	StaffDisciplineCampus	PRINT	Y
+wil	WIL Champion	StaffDisciplineCampus	SEARCH	Y
+wil	WIL Champion	StaffUnit Offering	ADD	Y
+wil	WIL Champion	StaffUnit Offering	DELETE	Y
+wil	WIL Champion	StaffUnit Offering	DETAIL	Y
+wil	WIL Champion	StaffUnit Offering	EDIT	Y
+wil	WIL Champion	StaffUnit Offering	LIST	Y
+wil	WIL Champion	StaffUnit Offering	PRINT	Y
+wil	WIL Champion	StaffUnit Offering	SEARCH	Y
+wil	WIL Practitioner	Address	DETAIL	Y
+wil	WIL Practitioner	Address	LIST	Y
+wil	WIL Practitioner	Address	PRINT	Y
+wil	WIL Practitioner	Address	SEARCH	Y
+wil	WIL Practitioner	Agency	DETAIL	Y
+wil	WIL Practitioner	Agency	LIST	Y
+wil	WIL Practitioner	Agency	LISTALL	Y
+wil	WIL Practitioner	Agency	PRINT	Y
+wil	WIL Practitioner	Agency	SEARCH	Y
+wil	WIL Practitioner	Agency Category	DETAIL	Y
+wil	WIL Practitioner	Agency Category	LIST	Y
+wil	WIL Practitioner	Agency Docs	ADD	Y
+wil	WIL Practitioner	Agency Docs	DELETE	Y
+wil	WIL Practitioner	Agency Docs	DETAIL	Y
+wil	WIL Practitioner	Agency Docs	EDIT	Y
+wil	WIL Practitioner	Agency Docs	LIST	Y
+wil	WIL Practitioner	Agency Docs	PRINT	Y
+wil	WIL Practitioner	Agency Docs	SEARCH	Y
+wil	WIL Practitioner	Agency Notes	ADD	Y
+wil	WIL Practitioner	Agency Notes	DELETE	Y
+wil	WIL Practitioner	Agency Notes	DETAIL	Y
+wil	WIL Practitioner	Agency Notes	EDIT	Y
+wil	WIL Practitioner	Agency Notes	LIST	Y
+wil	WIL Practitioner	Agency Notes	PRINT	Y
+wil	WIL Practitioner	Agency Notes	SEARCH	Y
+wil	WIL Practitioner	Agency Personnel Docs	ADD	Y
+wil	WIL Practitioner	Agency Personnel Docs	DETAIL	Y
+wil	WIL Practitioner	Agency Personnel Docs	EDIT	Y
+wil	WIL Practitioner	Agency Personnel Docs	LIST	Y
+wil	WIL Practitioner	Agency Personnel Docs	SEARCH	Y
+wil	WIL Practitioner	Agency Personnel Notes	ADD	Y
+wil	WIL Practitioner	Agency Personnel Notes	DETAIL	Y
+wil	WIL Practitioner	Agency Personnel Notes	EDIT	Y
+wil	WIL Practitioner	Agency Personnel Notes	LIST	Y
+wil	WIL Practitioner	Agency Personnel Notes	SEARCH	Y
+wil	WIL Practitioner	Agency Preference	ADD	Y
+wil	WIL Practitioner	Agency Preference	DETAIL	Y
+wil	WIL Practitioner	Agency Preference	EDIT	Y
+wil	WIL Practitioner	Agency Preference	LIST	Y
+wil	WIL Practitioner	Agency Preference	SEARCH	Y
+wil	WIL Practitioner	AgencyAddress	DETAIL	Y
+wil	WIL Practitioner	AgencyAddress	LIST	Y
+wil	WIL Practitioner	AgencyAddress	PRINT	Y
+wil	WIL Practitioner	AgencyAddress	SEARCH	Y
+wil	WIL Practitioner	AgencyDiscipline	ADD	Y
+wil	WIL Practitioner	AgencyDiscipline	DELETE	Y
+wil	WIL Practitioner	AgencyDiscipline	DETAIL	Y
+wil	WIL Practitioner	AgencyDiscipline	EDIT	Y
+wil	WIL Practitioner	AgencyDiscipline	LIST	Y
+wil	WIL Practitioner	AgencyDiscipline	SEARCH	Y
+wil	WIL Practitioner	AgencyLevel	DETAIL	Y
+wil	WIL Practitioner	AgencyLevel	LIST	Y
+wil	WIL Practitioner	AgencyPersonnel	ADD	Y
+wil	WIL Practitioner	AgencyPersonnel	DETAIL	Y
+wil	WIL Practitioner	AgencyPersonnel	EDIT	Y
+wil	WIL Practitioner	AgencyPersonnel	LIST	Y
+wil	WIL Practitioner	AgencyPersonnel	PRINT	Y
+wil	WIL Practitioner	AgencyPersonnel	SEARCH	Y
+wil	WIL Practitioner	AgencyPersonnelDiscipline	ADD	Y
+wil	WIL Practitioner	AgencyPersonnelDiscipline	DELETE	Y
+wil	WIL Practitioner	AgencyPersonnelDiscipline	DETAIL	Y
+wil	WIL Practitioner	AgencyPersonnelDiscipline	EDIT	Y
+wil	WIL Practitioner	AgencyPersonnelDiscipline	LIST	Y
+wil	WIL Practitioner	AgencyPersonnelDiscipline	LISTALL	Y
+wil	WIL Practitioner	AgencyPersonnelDiscipline	PRINT	Y
+wil	WIL Practitioner	AgencyPersonnelDiscipline	SEARCH	Y
+wil	WIL Practitioner	Course	DETAIL	Y
+wil	WIL Practitioner	Course	LIST	Y
+wil	WIL Practitioner	Course	PRINT	Y
+wil	WIL Practitioner	Course	SEARCH	Y
+wil	WIL Practitioner	CourseVersion	DETAIL	Y
+wil	WIL Practitioner	CourseVersion	LIST	Y
+wil	WIL Practitioner	CourseVersion	PRINT	Y
+wil	WIL Practitioner	CourseVersion	SEARCH	Y
+wil	WIL Practitioner	DocumentTemplate	DETAIL	Y
+wil	WIL Practitioner	DocumentTemplate	EDIT	Y
+wil	WIL Practitioner	DocumentTemplate	LIST	Y
+wil	WIL Practitioner	DocumentTemplate	PRINT	Y
+wil	WIL Practitioner	DocumentTemplate	SEARCH	Y
+wil	WIL Practitioner	Email Templates	ADD	Y
+wil	WIL Practitioner	Email Templates	DETAIL	Y
+wil	WIL Practitioner	Email Templates	EDIT	Y
+wil	WIL Practitioner	Email Templates	PRINT	Y
+wil	WIL Practitioner	Email Templates	SEARCH	Y
+wil	WIL Practitioner	Group	ADD	Y
+wil	WIL Practitioner	Group	DETAIL	Y
+wil	WIL Practitioner	Group	SEARCH	Y
+wil	WIL Practitioner	Incompatibility	ADD	Y
+wil	WIL Practitioner	Incompatibility	DELETE	Y
+wil	WIL Practitioner	Incompatibility	DETAIL	Y
+wil	WIL Practitioner	Incompatibility	EDIT	Y
+wil	WIL Practitioner	Incompatibility	LIST	Y
+wil	WIL Practitioner	Incompatibility	SEARCH	Y
+wil	WIL Practitioner	Opportunities	ADD	Y
+wil	WIL Practitioner	Opportunities	DELETE	Y
+wil	WIL Practitioner	Opportunities	DETAIL	Y
+wil	WIL Practitioner	Opportunities	EDIT	Y
+wil	WIL Practitioner	Opportunities	LIST	Y
+wil	WIL Practitioner	Opportunities	LISTALL	Y
+wil	WIL Practitioner	Opportunities	PRINT	Y
+wil	WIL Practitioner	Opportunities	SEARCH	Y
+wil	WIL Practitioner	Opportunity Application	ADD	Y
+wil	WIL Practitioner	Opportunity Application	DELETE	Y
+wil	WIL Practitioner	Opportunity Application	DETAIL	Y
+wil	WIL Practitioner	Opportunity Application	EDIT	Y
+wil	WIL Practitioner	Opportunity Application	LIST	Y
+wil	WIL Practitioner	Opportunity Application	LISTALL	Y
+wil	WIL Practitioner	Opportunity Application	PRINT	Y
+wil	WIL Practitioner	Opportunity Application	SEARCH	Y
+wil	WIL Practitioner	Opportunity Type	ADD	Y
+wil	WIL Practitioner	Opportunity Type	DELETE	Y
+wil	WIL Practitioner	Opportunity Type	DETAIL	Y
+wil	WIL Practitioner	Opportunity Type	EDIT	Y
+wil	WIL Practitioner	Opportunity Type	LIST	Y
+wil	WIL Practitioner	Opportunity Type	LISTALL	Y
+wil	WIL Practitioner	Opportunity Type	PRINT	Y
+wil	WIL Practitioner	Opportunity Type	SEARCH	Y
+wil	WIL Practitioner	Placement	ADD	Y
+wil	WIL Practitioner	Placement	DELETE	Y
+wil	WIL Practitioner	Placement	DETAIL	Y
+wil	WIL Practitioner	Placement	EDIT	Y
+wil	WIL Practitioner	Placement	LIST	Y
+wil	WIL Practitioner	Placement	PRINT	Y
+wil	WIL Practitioner	Placement	SEARCH	Y
+wil	WIL Practitioner	Placement Block Group	ADD	Y
+wil	WIL Practitioner	Placement Block Group	DELETE	Y
+wil	WIL Practitioner	Placement Block Group	DETAIL	Y
+wil	WIL Practitioner	Placement Block Group	EDIT	Y
+wil	WIL Practitioner	Placement Block Group	LIST	Y
+wil	WIL Practitioner	Placement Block Group	PRINT	Y
+wil	WIL Practitioner	Placement Block Group	SEARCH	Y
+wil	WIL Practitioner	Placement Block Group Unit Offering	ADD	Y
+wil	WIL Practitioner	Placement Block Group Unit Offering	DELETE	Y
+wil	WIL Practitioner	Placement Block Group Unit Offering	DETAIL	Y
+wil	WIL Practitioner	Placement Block Group Unit Offering	EDIT	Y
+wil	WIL Practitioner	Placement Block Group Unit Offering	LIST	Y
+wil	WIL Practitioner	Placement Block Group Unit Offering	PRINT	Y
+wil	WIL Practitioner	Placement Block Group Unit Offering	SEARCH	Y
+wil	WIL Practitioner	Placement Bulk Update	ADD	Y
+wil	WIL Practitioner	Placement Bulk Update	DELETE	Y
+wil	WIL Practitioner	Placement Bulk Update	DETAIL	Y
+wil	WIL Practitioner	Placement Bulk Update	EDIT	Y
+wil	WIL Practitioner	Placement Bulk Update	LIST	Y
+wil	WIL Practitioner	Placement Bulk Update	LISTALL	Y
+wil	WIL Practitioner	Placement Bulk Update	PRINT	Y
+wil	WIL Practitioner	Placement Bulk Update	SEARCH	Y
+wil	WIL Practitioner	Placement Docs	ADD	Y
+wil	WIL Practitioner	Placement Docs	DELETE	Y
+wil	WIL Practitioner	Placement Docs	DETAIL	Y
+wil	WIL Practitioner	Placement Docs	EDIT	Y
+wil	WIL Practitioner	Placement Docs	LIST	Y
+wil	WIL Practitioner	Placement Docs	PRINT	Y
+wil	WIL Practitioner	Placement Docs	SEARCH	Y
+wil	WIL Practitioner	Placement Incompatibility	ADD	Y
+wil	WIL Practitioner	Placement Incompatibility	DELETE	Y
+wil	WIL Practitioner	Placement Incompatibility	DETAIL	Y
+wil	WIL Practitioner	Placement Incompatibility	EDIT	Y
+wil	WIL Practitioner	Placement Incompatibility	LIST	Y
+wil	WIL Practitioner	Placement Incompatibility	PRINT	Y
+wil	WIL Practitioner	Placement Incompatibility	SEARCH	Y
+wil	WIL Practitioner	Placement Manager	ADD	Y
+wil	WIL Practitioner	Placement Manager	DETAIL	Y
+wil	WIL Practitioner	Placement Manager	EDIT	Y
+wil	WIL Practitioner	Placement Manager	LIST	Y
+wil	WIL Practitioner	Placement Manager	PRINT	Y
+wil	WIL Practitioner	Placement Manager	SEARCH	Y
+wil	WIL Practitioner	Placement Notes	ADD	Y
+wil	WIL Practitioner	Placement Notes	DELETE	Y
+wil	WIL Practitioner	Placement Notes	DETAIL	Y
+wil	WIL Practitioner	Placement Notes	EDIT	Y
+wil	WIL Practitioner	Placement Notes	LIST	Y
+wil	WIL Practitioner	Placement Notes	PRINT	Y
+wil	WIL Practitioner	Placement Notes	SEARCH	Y
+wil	WIL Practitioner	PlacementBlock	ADD	Y
+wil	WIL Practitioner	PlacementBlock	DELETE	Y
+wil	WIL Practitioner	PlacementBlock	DETAIL	Y
+wil	WIL Practitioner	PlacementBlock	EDIT	Y
+wil	WIL Practitioner	PlacementBlock	LIST	Y
+wil	WIL Practitioner	PlacementBlock	PRINT	Y
+wil	WIL Practitioner	PlacementBlock	SEARCH	Y
+wil	WIL Practitioner	PlacementHistory	DETAIL	Y
+wil	WIL Practitioner	PlacementHistory	LIST	Y
+wil	WIL Practitioner	PlacementStatus	DETAIL	Y
+wil	WIL Practitioner	PlacementStatus	EDIT	Y
+wil	WIL Practitioner	PlacementSupervisor	ADD	Y
+wil	WIL Practitioner	PlacementSupervisor	DELETE	Y
+wil	WIL Practitioner	PlacementSupervisor	DETAIL	Y
+wil	WIL Practitioner	PlacementSupervisor	EDIT	Y
+wil	WIL Practitioner	PlacementSupervisor	LIST	Y
+wil	WIL Practitioner	Preferences	DETAIL	Y
+wil	WIL Practitioner	Preferences	LIST	Y
+wil	WIL Practitioner	Process	ADD	Y
+wil	WIL Practitioner	Process	DELETE	Y
+wil	WIL Practitioner	Process	DETAIL	Y
+wil	WIL Practitioner	Process	EDIT	Y
+wil	WIL Practitioner	Process	LIST	Y
+wil	WIL Practitioner	Process	PRINT	Y
+wil	WIL Practitioner	Process	SEARCH	Y
+wil	WIL Practitioner	Qualification	ADD	Y
+wil	WIL Practitioner	Qualification	DETAIL	Y
+wil	WIL Practitioner	Qualification	EDIT	Y
+wil	WIL Practitioner	Qualification	LIST	Y
+wil	WIL Practitioner	Qualification	SEARCH	Y
+wil	WIL Practitioner	Query	DETAIL	Y
+wil	WIL Practitioner	Query	LIST	Y
+wil	WIL Practitioner	Query	SEARCH	Y
+wil	WIL Practitioner	Request	ADD	Y
+wil	WIL Practitioner	Request	DETAIL	Y
+wil	WIL Practitioner	Request	EDIT	Y
+wil	WIL Practitioner	Request	LIST	Y
+wil	WIL Practitioner	Request	PRINT	Y
+wil	WIL Practitioner	Request	SEARCH	Y
+wil	WIL Practitioner	Request Default	ADD	Y
+wil	WIL Practitioner	Request Default	DELETE	Y
+wil	WIL Practitioner	Request Default	DETAIL	Y
+wil	WIL Practitioner	Request Default	EDIT	Y
+wil	WIL Practitioner	Request Default	LIST	Y
+wil	WIL Practitioner	Request Default	PRINT	Y
+wil	WIL Practitioner	Request Default	SEARCH	Y
+wil	WIL Practitioner	Request Docs	ADD	Y
+wil	WIL Practitioner	Request Docs	DELETE	Y
+wil	WIL Practitioner	Request Docs	DETAIL	Y
+wil	WIL Practitioner	Request Docs	EDIT	Y
+wil	WIL Practitioner	Request Docs	LIST	Y
+wil	WIL Practitioner	Request Docs	PRINT	Y
+wil	WIL Practitioner	Request Docs	SEARCH	Y
+wil	WIL Practitioner	Request Manager	ADD	Y
+wil	WIL Practitioner	Request Manager	DETAIL	Y
+wil	WIL Practitioner	Request Manager	EDIT	Y
+wil	WIL Practitioner	Request Manager	LIST	Y
+wil	WIL Practitioner	Request Manager	PRINT	Y
+wil	WIL Practitioner	Request Manager	SEARCH	Y
+wil	WIL Practitioner	Request Notes	ADD	Y
+wil	WIL Practitioner	Request Notes	DELETE	Y
+wil	WIL Practitioner	Request Notes	DETAIL	Y
+wil	WIL Practitioner	Request Notes	EDIT	Y
+wil	WIL Practitioner	Request Notes	LIST	Y
+wil	WIL Practitioner	Request Notes	PRINT	Y
+wil	WIL Practitioner	Request Notes	SEARCH	Y
+wil	WIL Practitioner	Rule	DETAIL	Y
+wil	WIL Practitioner	Rule	LIST	Y
+wil	WIL Practitioner	Rule	SEARCH	Y
+wil	WIL Practitioner	Ruleset	DETAIL	Y
+wil	WIL Practitioner	Ruleset	EDIT	Y
+wil	WIL Practitioner	Ruleset	LIST	Y
+wil	WIL Practitioner	Ruleset	SEARCH	Y
+wil	WIL Practitioner	SelfPlacement	ADD	Y
+wil	WIL Practitioner	SelfPlacement	DETAIL	Y
+wil	WIL Practitioner	SelfPlacement	EDIT	Y
+wil	WIL Practitioner	SelfPlacement	LIST	Y
+wil	WIL Practitioner	SelfPlacement	PRINT	Y
+wil	WIL Practitioner	SelfPlacement	SEARCH	Y
+wil	WIL Practitioner	Self-Selectable Placement	ADD	Y
+wil	WIL Practitioner	Self-Selectable Placement	DELETE	Y
+wil	WIL Practitioner	Self-Selectable Placement	DETAIL	Y
+wil	WIL Practitioner	Self-Selectable Placement	EDIT	Y
+wil	WIL Practitioner	Self-Selectable Placement	LIST	Y
+wil	WIL Practitioner	Self-Selectable Placement	PRINT	Y
+wil	WIL Practitioner	Self-Selectable Placement	SEARCH	Y
+wil	WIL Practitioner	Staff	DETAIL	Y
+wil	WIL Practitioner	Staff	SEARCH	Y
+wil	WIL Practitioner	StaffDisciplineCampus	DETAIL	Y
+wil	WIL Practitioner	StaffDisciplineCampus	LIST	Y
+wil	WIL Practitioner	StaffUnit Offering	ADD	Y
+wil	WIL Practitioner	StaffUnit Offering	DELETE	Y
+wil	WIL Practitioner	StaffUnit Offering	DETAIL	Y
+wil	WIL Practitioner	StaffUnit Offering	EDIT	Y
+wil	WIL Practitioner	StaffUnit Offering	LIST	Y
+wil	WIL Practitioner	Student	DETAIL	Y
+wil	WIL Practitioner	Student	LIST	Y
+wil	WIL Practitioner	Student	PRINT	Y
+wil	WIL Practitioner	Student	SEARCH	Y
+wil	WIL Practitioner	Student Agency Preferences	DETAIL	Y
+wil	WIL Practitioner	Student Agency Preferences	LIST	Y
+wil	WIL Practitioner	Student Docs	ADD	Y
+wil	WIL Practitioner	Student Docs	DELETE	Y
+wil	WIL Practitioner	Student Docs	DETAIL	Y
+wil	WIL Practitioner	Student Docs	EDIT	Y
+wil	WIL Practitioner	Student Docs	LIST	Y
+wil	WIL Practitioner	Student Docs	PRINT	Y
+wil	WIL Practitioner	Student Docs	SEARCH	Y
+wil	WIL Practitioner	Student Method	DETAIL	Y
+wil	WIL Practitioner	Student Method	LIST	Y
+wil	WIL Practitioner	Student Method	SEARCH	Y
+wil	WIL Practitioner	Student Notes	ADD	Y
+wil	WIL Practitioner	Student Notes	DELETE	Y
+wil	WIL Practitioner	Student Notes	DETAIL	Y
+wil	WIL Practitioner	Student Notes	EDIT	Y
+wil	WIL Practitioner	Student Notes	LIST	Y
+wil	WIL Practitioner	Student Notes	PRINT	Y
+wil	WIL Practitioner	Student Notes	SEARCH	Y
+wil	WIL Practitioner	StudentAddress	DETAIL	Y
+wil	WIL Practitioner	StudentAddress	LIST	Y
+wil	WIL Practitioner	StudentCourseOffering	DETAIL	Y
+wil	WIL Practitioner	StudentCourseOffering	LIST	Y
+wil	WIL Practitioner	StudentCourseOffering	SEARCH	Y
+wil	WIL Practitioner	StudentUnit Offering	DETAIL	Y
+wil	WIL Practitioner	StudentUnit Offering	LIST	Y
+wil	WIL Practitioner	StudentUnit Offering	SEARCH	Y
+wil	WIL Practitioner	Timesheet	ADD	Y
+wil	WIL Practitioner	Timesheet	DELETE	Y
+wil	WIL Practitioner	Timesheet	DETAIL	Y
+wil	WIL Practitioner	Timesheet	EDIT	Y
+wil	WIL Practitioner	Timesheet	LIST	Y
+wil	WIL Practitioner	Timesheet	PRINT	Y
+wil	WIL Practitioner	Timesheet	SEARCH	Y
+wil	WIL Practitioner	Timesheet Placement 	ADD	Y
+wil	WIL Practitioner	Timesheet Placement 	DELETE	Y
+wil	WIL Practitioner	Timesheet Placement 	DETAIL	Y
+wil	WIL Practitioner	Timesheet Placement 	EDIT	Y
+wil	WIL Practitioner	Timesheet Placement 	LIST	Y
+wil	WIL Practitioner	Timesheet Placement 	PRINT	Y
+wil	WIL Practitioner	Timesheet Placement 	SEARCH	Y
+wil	WIL Practitioner	Timesheet Placement Confirm	ADD	Y
+wil	WIL Practitioner	Timesheet Placement Confirm	DELETE	Y
+wil	WIL Practitioner	Timesheet Placement Confirm	DETAIL	Y
+wil	WIL Practitioner	Timesheet Placement Confirm	EDIT	Y
+wil	WIL Practitioner	Timesheet Placement Confirm	LIST	Y
+wil	WIL Practitioner	Timesheet Placement Confirm	PRINT	Y
+wil	WIL Practitioner	Timesheet Placement Confirm	SEARCH	Y
+wil	WIL Practitioner	Timesheet Type	DETAIL	Y
+wil	WIL Practitioner	Timesheet Type	EDIT	Y
+wil	WIL Practitioner	Unit	DETAIL	Y
+wil	WIL Practitioner	Unit	LIST	Y
+wil	WIL Practitioner	Unit	PRINT	Y
+wil	WIL Practitioner	Unit	SEARCH	Y
+wil	WIL Practitioner	Unit Offering	DETAIL	Y
+wil	WIL Practitioner	Unit Offering	EDIT	Y
+wil	WIL Practitioner	Unit Offering	LIST	Y
+wil	WIL Practitioner	Unit Offering	SEARCH	Y
+wil	WIL Practitioner	Unit Offering Group	ADD	Y
+wil	WIL Practitioner	Unit Offering Group	DELETE	Y
+wil	WIL Practitioner	Unit Offering Group	DETAIL	Y
+wil	WIL Practitioner	Unit Offering Group	EDIT	Y
+wil	WIL Practitioner	Unit Offering Group	LIST	Y
+wil	WIL Practitioner	Unit Offering Group	PRINT	Y
+wil	WIL Practitioner	Unit Offering Group	SEARCH	Y
+wil	WIL Practitioner	Unit Offering Group Unit Offering	ADD	Y
+wil	WIL Practitioner	Unit Offering Group Unit Offering	DELETE	Y
+wil	WIL Practitioner	Unit Offering Group Unit Offering	DETAIL	Y
+wil	WIL Practitioner	Unit Offering Group Unit Offering	EDIT	Y
+wil	WIL Practitioner	Unit Offering Group Unit Offering	LIST	Y
+wil	WIL Practitioner	Unit Offering Group Unit Offering	PRINT	Y
+wil	WIL Practitioner	Unit Offering Group Unit Offering	SEARCH	Y
+wil	WIL Practitioner	UnitVersion	DETAIL	Y
+wil	WIL Practitioner	UnitVersion	EDIT	Y
+wil	WIL Practitioner	UnitVersion	LIST	Y
+wil	WIL Practitioner	UnitVersion	PRINT	Y
+wil	WIL Practitioner	UnitVersion	SEARCH	Y
+wil	WIL Read Only	Address	DETAIL	Y
+wil	WIL Read Only	Address	LIST	Y
+wil	WIL Read Only	Address	SEARCH	Y
+wil	WIL Read Only	Agency	DETAIL	Y
+wil	WIL Read Only	Agency	LIST	Y
+wil	WIL Read Only	Agency	SEARCH	Y
+wil	WIL Read Only	Agency Category	DETAIL	Y
+wil	WIL Read Only	Agency Category	LIST	Y
+wil	WIL Read Only	Agency Category	SEARCH	Y
+wil	WIL Read Only	AgencyAddress	DETAIL	Y
+wil	WIL Read Only	AgencyAddress	LIST	Y
+wil	WIL Read Only	AgencyAddress	SEARCH	Y
+wil	WIL Read Only	AgencyDiscipline	DETAIL	Y
+wil	WIL Read Only	AgencyDiscipline	LIST	Y
+wil	WIL Read Only	AgencyDiscipline	SEARCH	Y
+wil	WIL Read Only	AgencyPersonnel	DETAIL	Y
+wil	WIL Read Only	AgencyPersonnel	LIST	Y
+wil	WIL Read Only	AgencyPersonnel	SEARCH	Y
+wil	WIL Read Only	Personnel	DETAIL	Y
+wil	WIL Read Only	Personnel	LIST	Y
+wil	WIL Read Only	Personnel	SEARCH	Y
+wil	WIL Read Only	Placement	DETAIL	Y
+wil	WIL Read Only	Placement	LIST	Y
+wil	WIL Read Only	Placement	SEARCH	Y
+wil	WIL Read Only	PlacementSupervisor	DETAIL	Y
+wil	WIL Read Only	PlacementSupervisor	LIST	Y
+wil	WIL Read Only	PlacementSupervisor	SEARCH	Y
+wil	WIL Read Only	Staff	DETAIL	Y
+wil	WIL Read Only	Staff	LIST	Y
+wil	WIL Read Only	Staff	SEARCH	Y
+wil	WIL Read Only	StaffDisciplineCampus	DETAIL	Y
+wil	WIL Read Only	StaffDisciplineCampus	LIST	Y
+wil	WIL Read Only	StaffDisciplineCampus	SEARCH	Y
+wil	WIL Read Only	StaffUnit Offering	DETAIL	Y
+wil	WIL Read Only	StaffUnit Offering	LIST	Y
+wil	WIL Read Only	StaffUnit Offering	SEARCH	Y
+wil	WIL Read Only	Student	DETAIL	Y
+wil	WIL Read Only	Student	LIST	Y
+wil	WIL Read Only	Student	SEARCH	Y
+wil	XA Student GPA			
