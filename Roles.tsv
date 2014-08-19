@@ -11,7 +11,6 @@ wil	(Discipline Setup)	EntityAttribute	EDIT	Y
 wil	(Discipline Setup)	EntityAttribute	LIST	Y
 wil	(Discipline Setup)	EntityAttribute	LISTALL	Y
 wil	(Discipline Setup)	EntityAttribute	PRINT	Y
-wil	(Discipline Setup)	EntityAttribute	SEARCH	Y
 wil	(Discipline Setup)	Staff	DETAIL	Y
 wil	(Discipline Setup)	Staff	LIST	Y
 wil	(Discipline Setup)	Staff	LISTALL	Y
@@ -114,6 +113,14 @@ wil	+ Student Bulk Operations	Student Bulk Update	PRINT	Y
 wil	+ Student Bulk Operations	Student Bulk Update	SEARCH	Y
 wil	+ Student Bulk Operations	StudentUnit Offering	ADD	Y
 wil	+ Student Bulk Operations	StudentUnit Offering	EDIT	Y
+wil	Operational Support	Allocation Round	ADD	Y
+wil	Operational Support	Allocation Round	DELETE	Y
+wil	Operational Support	Allocation Round	DETAIL	Y
+wil	Operational Support	Allocation Round	EDIT	Y
+wil	Operational Support	Allocation Round	LIST	Y
+wil	Operational Support	Allocation Round	LISTALL	Y
+wil	Operational Support	Allocation Round	PRINT	Y
+wil	Operational Support	Allocation Round	SEARCH	Y
 wil	Operational Support	AppSetting	ADD	Y
 wil	Operational Support	AppSetting	DELETE	Y
 wil	Operational Support	AppSetting	DETAIL	Y
@@ -194,6 +201,8 @@ wil	Operational Support	System Setting	LIST	Y
 wil	Operational Support	System Setting	LISTALL	Y
 wil	Operational Support	System Setting	PRINT	Y
 wil	Operational Support	System Setting	SEARCH	Y
+wil	Staff	Staff	DETAIL	Y
+wil	Staff	StaffDisciplineCampus	LIST	Y
 wil	Student	Address	DETAIL	Y
 wil	Student	Address	LIST	Y
 wil	Student	Address	PRINT	Y
@@ -203,6 +212,8 @@ wil	Student	AddressType	LIST	Y
 wil	Student	AddressType	PRINT	Y
 wil	Student	AddressType	SEARCH	Y
 wil	Student	Agency	DETAIL	Y
+wil	Student	Agency	PRINT	Y
+wil	Student	Agency	SEARCH	Y
 wil	Student	AgencyAddress	DETAIL	Y
 wil	Student	AgencyAddress	LIST	Y
 wil	Student	AgencyAddress	PRINT	Y
@@ -413,6 +424,7 @@ wil	WIL Business Support	Category	LIST	Y
 wil	WIL Business Support	Category	LISTALL	Y
 wil	WIL Business Support	Category	PRINT	Y
 wil	WIL Business Support	Category	SEARCH	Y
+wil	WIL Business Support	Course	DELETE	Y
 wil	WIL Business Support	Course	DETAIL	Y
 wil	WIL Business Support	Course	EDIT	Y
 wil	WIL Business Support	Course	LIST	Y
@@ -1133,6 +1145,8 @@ wil	WIL Read Only	PlacementSupervisor	DETAIL	Y
 wil	WIL Read Only	PlacementSupervisor	LIST	Y
 wil	WIL Read Only	PlacementSupervisor	SEARCH	Y
 wil	WIL Read Only	Staff	DETAIL	Y
+wil	WIL Read Only	Staff	LIST	Y
+wil	WIL Read Only	Staff	SEARCH	Y
 wil	WIL Read Only	StaffDisciplineCampus	DETAIL	Y
 wil	WIL Read Only	StaffDisciplineCampus	LIST	Y
 wil	WIL Read Only	StaffDisciplineCampus	SEARCH	Y
